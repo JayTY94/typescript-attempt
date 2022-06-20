@@ -1,0 +1,40 @@
+https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/enhanced-session-mode
+
+...
+
+Check session type 
+
+You can check to see what type of connection you have using the Enhanced Session mode icon at the top of the Virtual Machine Connect Tool (VMConnect). This button also lets you toggle between basic session and enhanced session mode.
+
+Configure VM for Remote Desktop
+
+Enhanced Session Mode requires Remote Desktop to be enabled in the VM. Search for "Remote Desktop Settings" in the Settings app or Start menu. Turn "Enable Remote Desktop" on.
+
+...
+
+Now, sign out of the VM or reboot before closing the Virtual Machine Connect window.
+
+Share drives and devices 
+
+Enhanced Session Mode's device sharing capabilities are hidden inside this inconspicuous connection window that pops up when you connect to a virtual machine:
+
+By default, virtual machines using enhanced session mode will share clipboard and printers. They are also configured by default to pass audio from the virtual machine back to your computer's speakers.
+
+To share devices with your virtual machine or to change those default Settings
+
+  1. Show more options 
+
+...
+
+Share audio devices (speakers and microphones)
+
+By default, virtual machines using enhanced session mode pass audio through so you can hear audio from the virtual machine. The virtual machine will use the audio device currrently selected on the host machine.
+
+To change those settings or to add microphone passthrough (so you can record audio in virtual machine): 
+
+Select the "Settings... " menu for configurin remote audio settings.
+
+Now configure audio and microphone settings.
+
+...
+

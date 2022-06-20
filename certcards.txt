@@ -212,16 +212,187 @@ Describes the values that are returned whenever you view your stack's properties
 
 
 29
-AWS SysOps Admin
+Accuity
+Virtual Machine Connection (VMConnect) is a tool you can use to connect to a virtual machine to install or interact with the guest operating system in a virtual machine. Some of the tasks you can perform by using VMConnect include the following:
 
 
 
 
 30
-AWS SysOps Admin
-
+Accuity 
+Enhanced Sesison Mode in Hyper-V/VMConnect allows the VM to use local resources like printers, speakers, mic, monitors, etc.
 
 
 
 
 Process finished with exit code 0
+EMPTY
+1
+UiPath 
+Structured documents generally focus on collecting information in a precise format, guiding the person who is filling them with precise areas where each piece of data needs to be entered.  These come in a fixed form and are generally called forms.  
+
+Examples of structured documents: Surveys, questionnaires, Tax forms. These contain exclusively key-value pairs and tables. 
+
+
+
+
+2
+UiPath 
+Semi-structured documents are documents that do not follow a strict format the way structured forms do and are not bound to specified data fields.  These don't have a fixed form but follow a common enough format.  They may contain paragraphs as well, but data is mainly to be found in key-value pairs. 
+
+Examples of semi-structured documents: Invoices, Receipts, Purchase Orders, Healthcare lab reports. 
+
+
+3
+UiPath 
+Unstructured documents are documents in which the information isn't organized according to a clear, structured model. These files are all easily comprehensible by human beings, yet much more difficult for a robot.
+
+Examples of unstructured documents: Contracts, Annual Reports. Some may contain key-value pairs and tables, but much of the data is in unstructured form inside the text.
+
+
+4
+Clean Code, Uncle Bob
+An r-value is a temporary value that does not persist beyond the expression that uses it.
+
+The notion of l-values and r-values was introduced by Combined Programming Language (CPL). 
+
+
+
+5
+Clean Code, Uncle Bob
+Procedural Code makes it easy to add new functions, but hard to add new classes. The inverse is true for Object Oriented code.
+
+
+
+6
+Clean Code, Uncle Bob
+The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling. 
+
+Each unit should have only limited knowledge about other units: only units "closely" related to the current unit.
+Each unit should only talk to its friends; don't talk to strangers.
+Only talk to your immediate friends.
+
+
+
+7
+Clean Code, Uncle Bob
+CTEXT control defines a centered-text control. The control is a simple rectangle displaying the given text centered in the rectangle. The text is formatted before it is displayed. Words that would extend past the end of a line are automatically wrapped to the beginning of the next line. Words that are longer than the width of the control are truncated.
+
+
+8
+Clean Code, Uncle Bob
+Your /scratch folder (scratchDir) is meant to be a space for temporary files, even large ones, and is ideal for jobs that do a lot of file accesses (reading, writing, etc.) and/or consume a lot of disk space. You can modify your programs so that the first step is to copy the files to /scratch before processing them.
+
+
+9
+UiPath 
+Similar in name, not similar in capabilities, OCR is a method that helps in the Digitize step of the Document Understanding process. 
+Document Understanding is a process enabled by UiPath's Intelligent OCR package, making full document processing possible. 
+
+
+
+
+10
+Clean Code, Uncle Bob
+
+
+
+11
+Clean Code, Uncle Bob
+
+
+
+12
+Clean Code, Uncle Bob
+
+
+
+13
+Clean Code, Uncle Bob
+
+
+
+14
+Clean Code, Uncle Bob
+
+
+
+15
+Clean Code, Uncle Bob
+
+
+
+16
+Clean Code, Uncle Bob
+
+
+
+17
+Clean Code, Uncle Bob
+
+
+
+18
+Clean Code, Uncle Bob
+
+
+
+19
+Clean Code, Uncle Bob
+
+
+
+20
+Clean Code, Uncle Bob
+
+
+
+21
+Clean Code, Uncle Bob
+
+
+
+22
+Clean Code, Uncle Bob
+
+
+
+23
+Clean Code, Uncle Bob
+
+
+
+24
+Clean Code, Uncle Bob
+
+
+
+25
+Clean Code, Uncle Bob
+
+
+
+26
+Clean Code, Uncle Bob
+
+
+
+27
+Clean Code, Uncle Bob
+
+
+
+28
+Clean Code, Uncle Bob
+
+
+
+29
+Clean Code, Uncle Bob
+
+
+
+30
+Clean Code, Uncle Bob
+
+
