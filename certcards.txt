@@ -429,7 +429,9 @@ Cross-cutting concerns can be directly responsible for tangling, or system inter
 
 
 29
-Clean Code, Uncle Bob
+UiPath Document Understanding 
+The Taxonomy is automatically created when you first open the Taxonomy Manager. It is saved in the project folder, under Document Processing. It takes the form of a JSON file and it's important to remember that you can have only one taxonomy file per project.
+
 
 
 
