@@ -9,7 +9,7 @@ The Git integration command Pull will get the latest version from the remote rep
 
 
 
-2
+2d
 UiPath
 The Git integration command Undo will revert the changes done after the last commit.
 
