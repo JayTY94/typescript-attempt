@@ -293,98 +293,139 @@ Document Understanding is a process enabled by UiPath's Intelligent OCR package,
 
 
 10
-Clean Code, Uncle Bob
-
+UiPath
+Taxonomy
+In this pre-processing step, you can add multiple document types and the fields you are interested in extracting.  For example, you can work with Invoices, wanting to extract the vendor and the total amount, and with medical forms, wanting to extract insured ID number and patient name.
 
 
 11
-Clean Code, Uncle Bob
-
+UiPath 
+Digitization
+For non-digital (scanned) documents, in this step, you need to apply the OCR engine of your choice. The outputs of this step are the Document Object Model and a string variable containing all the document text and are passed down to the next steps.
 
 
 12
-Clean Code, Uncle Bob
-
+UiPath 
+Classification
+After digitization, the document is classified. If you are working with multiple documents types in the same project, to extract data properly you need to know what type of document you're working with. The important thing is that you can use multiple classifiers in the same scope, you can configure the classifiers and, later in the framework, train them.
 
 
 13
-Clean Code, Uncle Bob
-
+UiPath 
+Extraction
+Extraction is getting just the data you are interested in. For example, extracting specific data from a 5-page document is quite troublesome if you want to do it with string manipulation. In this framework, you can use different extractors, for the different document structures, in the same scope application. 
 
 
 14
-Clean Code, Uncle Bob
-
+UiPath 
+Validation
+The extracted data can be validated by a human user through the Validation Station. A best practice is to build logic around the decision of adding or not a human validation step, with rules depending on the specific use case to be implemented
 
 
 15
-Clean Code, Uncle Bob
+UiPath 
+Export
+Once you have your validated information, you can use it as it is, or save it in a DataTable format that can be converted very easy into an Excel file.
+
 
 
 
 16
-Clean Code, Uncle Bob
-
+Uipath 
+Training Classifiers and Extractors
+Classification and Extraction are as efficient as the classifiers and extractors used are. If a document wasn’t classified properly, it means it was unknown to the active classifiers. The same way goes for incorrect data extraction
 
 
 17
-Clean Code, Uncle Bob
-
+UiPath 
+Order for Document Understanding:
+1. Taxonomy
+2. Digitization 
+3. Classification 
+4. Extraction 
+5. Validation 
+6. Export
+7. Train 
 
 
 18
 Clean Code, Uncle Bob
-
+The Data Transfer Object Design Pattern is one of the enterprise application architecture patterns that calls for the use of objects that aggregate and encapsulate data for transfer. A Data Transfer Object is, essentially, like a data structure. It should not contain any business logic but should contain serialization and deserialization mechanisms.
 
 
 19
 Clean Code, Uncle Bob
-
+In object-oriented programming, the open–closed principle states "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification";[1] that is, such an entity can allow its behaviour to be extended without modifying its source code.
 
 
 20
 Clean Code, Uncle Bob
+Learning Tests:
+When developing with a new API, write a test that verifies your expectation of how that API will behave.
 
 
 
 21
 Clean Code, Uncle Bob
+The essential idea is to break down writing a scenario (or test) into three sections:
+
+The given part describes the state of the world before you begin the behavior you're specifying in this scenario. You can think of it as the pre-conditions to the test.
+The when section is that behavior that you're specifying.
+Finally the then section describes the changes you expect due to the specified behavior.
+
 
 
 
 22
 Clean Code, Uncle Bob
-
+FIRST Tests: 
+  Fast 
+  Independent 
+  Repeatable 
+  Self-Validating 
+  Timely
 
 
 23
 Clean Code, Uncle Bob
+Following the standard Java convention, a class should begin with a list of variables. Public statick constants, if any, should come first. Then private static variables, followed by private instance vvariables. There is seldom a good reason to have a public variable.
 
 
 
 24
 Clean Code, Uncle Bob
+The Single Responsibility Principle (SRP) states that a class or module should have one and only one reason to change. This principle gives us both a definition or responsibility, and guidelines for class size. Classes should have one responsibility--one reason to change. 
 
+I think he means to handle more specific cases in subclasses.
 
 
 25
 Clean Code, Uncle Bob
-
+Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation. This testing methodology is done during the development process by the software developers and sometimes QA staff.
 
 
 26
 Clean Code, Uncle Bob
-
+Definition of the Dependency Inversion Principle
+The general idea of this principle is as simple as it is important: High-level modules, which provide complex logic, should be easily reusable and unaffected by changes in low-level modules, which provide utility features. To achieve that, you need to introduce an abstraction that decouples the high-level and low-level modules from each other.
 
 
 27
 Clean Code, Uncle Bob
+elide
+verb
+  omit (a sound or syllable) when speaking.
+  "English speakers often elide the vowel completely"
 
+  join together; merge.
+  "whole periods of time are elided into a few seconds of screen time"
 
 
 28
 Clean Code, Uncle Bob
+Cross-cutting concerns are parts of a program that rely on or must affect many other parts of the system. They form the basis for the development of aspects.[1] Such cross-cutting concerns do not fit cleanly into object-oriented programming or procedural programming.[2]
 
+Cross-cutting concerns can be directly responsible for tangling, or system inter-dependencies, within a program. 
 
 
 29
