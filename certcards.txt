@@ -436,6 +436,199 @@ The Taxonomy is automatically created when you first open the Taxonomy Manager. 
 
 
 30
-Clean Code, Uncle Bob
+UiPath Document Understanding
+one of the two outcomes of digitization is a Document Object Model. This contains basic information regarding the processed document such as name, content type, text length, and information about each page.  It is passed down to the next activities through the use of a document variable.
 
 
+
+
+
+EMPTY
+1
+UiPath Document Understanding
+The other outcome of the digitization process is all the text from the document, stored in a string variable.
+
+
+
+
+
+2
+UiPath Document Understanding
+Classification is done through the Classify Document Scope and it's performed by classifiers. 
+
+Basically, the document text and object model resulted in the digitization steps are sent to the Classifiers, which report what types they recognize within the incoming file. 
+
+
+
+
+
+3
+UiPath Document Understanding
+
+
+
+
+4
+UiPath Document Understanding
+
+
+
+
+5
+UiPath Document Understanding
+
+
+
+
+6
+UiPath Document Understanding
+
+
+
+
+7
+UiPath Document Understanding
+
+
+
+
+8
+UiPath Document Understanding
+
+
+
+
+9
+UiPath Document Understanding
+
+
+
+
+10
+UiPath Document Understanding
+
+
+
+
+11
+UiPath Document Understanding
+
+
+
+
+12
+UiPath Document Understanding
+
+
+
+
+13
+UiPath Document Understanding
+
+
+
+
+14
+UiPath Document Understanding
+
+
+
+
+15
+UiPath Document Understanding
+
+
+
+
+16
+UiPath Document Understanding
+
+
+
+
+17
+UiPath Document Understanding
+
+
+
+
+18
+UiPath Document Understanding
+
+
+
+
+19
+UiPath Document Understanding
+
+
+
+
+20
+UiPath Document Understanding
+
+
+
+
+21
+UiPath Document Understanding
+
+
+
+
+22
+UiPath Document Understanding
+
+
+
+
+23
+UiPath Document Understanding
+
+
+
+
+24
+UiPath Document Understanding
+
+
+
+
+25
+UiPath Document Understanding
+
+
+
+
+26
+UiPath Document Understanding
+
+
+
+
+27
+UiPath Document Understanding
+
+
+
+
+28
+UiPath Document Understanding
+
+
+
+
+29
+UiPath Document Understanding
+
+
+
+
+30
+UiPath Document Understanding
+
+
+
+
+END
+06/23/2022 08:35:52
