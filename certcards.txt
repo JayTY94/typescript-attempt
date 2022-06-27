@@ -1,6 +1,117 @@
 
 
 
+Process finished with exit code 0
+C:\Users\jayoshimi\PycharmProjects\pythonProject\venv\Scripts\python.exe "C:/Users/jayoshimi/PycharmProjects/pythonProject/cards document.py"
+1
+UiPath
+The Git integration command Pull will get the latest version from the remote repository
+
+
+
+2d
+UiPath
+The Git integration command Undo will revert the changes done after the last commit.
+
+
+
+
+3
+UiPath
+When working with the Show Changes option, it's good to know that it works at the Workflow file level.
+
+
+
+4
+UiPath
+What differences between versions of the workflow files can you see in the Show Changes and Solve conflicts windows?
+
+Deleted activities
+Modified activity properties
+Added activities
+
+
+
+5
+UiPath
+We want to integrate the updtes pushed to the remote master branch into a feature branch. What do we need to do?
+
+While working in the feature branch, select Manage branches > select the master branch and select Merge.
+
+
+
+6
+UiPath
+How can you overwrite teh last commit to a Git repository in UiPath Studio?
+
+By selecting Amend Commit in the Commit Changes window
+
+
+
+7
+UiPath
+Branches allow a team to develop and test various features in parallel.
+
+
+
+
+8
+UiPath
+To see the difference between your version of a project and the last committed version, select Show Changes in the Project context menu.
+
+
+
+
+9
+UiPath
+The Solve Conflicts window will be displayed when changes have been made to the branch of the project you're working on since you pulled from that branch.
+
+
+
+
+10
+UiPath
+In the Solve Conflicts window, we can select bewtween keeping the remote or the local version of hte workflow.
+
+
+
+11
+UiPath
+You've been assigned to work on a new automation project. You need to get the project template which is already stored in a remote Git repository. Which option do you need to use in the Studio Team tab?
+
+Clone Repository
+
+
+
+12
+UiPath
+You've just created a new project in UiPath Studio. You want to create a local repository and copy the project to it. Which option in UiPath Studio allows you to do both?
+
+Git Init.
+
+
+
+13
+Hemic
+Eating your own dog food, drinking your own champagne, eating your own caviar – some sound more appetizing than others. Whichever phrase you choose, this is tech industry shorthand for the use of one’s own products. More specifically, it’s when a company uses its own products to find and resolve bugs
+
+
+
+
+14
+Hemic
+I'm going to be working with Mike and Jasmine on their s3 bucket thing
+
+
+
+
+15
+Hemic
+intruder.io is likely going to be our easy button for pen testing.
+
+
+
+
 16
 Hemic
 I should ask for meeting agendas and also offer them. It helps in technical situations where you need to know who you need to know who to invite.
@@ -101,16 +212,423 @@ Describes the values that are returned whenever you view your stack's properties
 
 
 29
-AWS SysOps Admin
+Accuity
+Virtual Machine Connection (VMConnect) is a tool you can use to connect to a virtual machine to install or interact with the guest operating system in a virtual machine. Some of the tasks you can perform by using VMConnect include the following:
 
 
 
 
 30
-AWS SysOps Admin
-
+Accuity
+Enhanced Sesison Mode in Hyper-V/VMConnect allows the VM to use local resources like printers, speakers, mic, monitors, etc.
 
 
 
 
 Process finished with exit code 0
+EMPTY
+1
+UiPath
+Structured documents generally focus on collecting information in a precise format, guiding the person who is filling them with precise areas where each piece of data needs to be entered.  These come in a fixed form and are generally called forms.
+
+Examples of structured documents: Surveys, questionnaires, Tax forms. These contain exclusively key-value pairs and tables.
+
+
+
+
+2
+UiPath
+Semi-structured documents are documents that do not follow a strict format the way structured forms do and are not bound to specified data fields.  These don't have a fixed form but follow a common enough format.  They may contain paragraphs as well, but data is mainly to be found in key-value pairs.
+
+Examples of semi-structured documents: Invoices, Receipts, Purchase Orders, Healthcare lab reports.
+
+
+3
+UiPath
+Unstructured documents are documents in which the information isn't organized according to a clear, structured model. These files are all easily comprehensible by human beings, yet much more difficult for a robot.
+
+Examples of unstructured documents: Contracts, Annual Reports. Some may contain key-value pairs and tables, but much of the data is in unstructured form inside the text.
+
+
+4
+Clean Code, Uncle Bob
+An r-value is a temporary value that does not persist beyond the expression that uses it.
+
+The notion of l-values and r-values was introduced by Combined Programming Language (CPL).
+
+
+
+5
+Clean Code, Uncle Bob
+Procedural Code makes it easy to add new functions, but hard to add new classes. The inverse is true for Object Oriented code.
+
+
+
+6
+Clean Code, Uncle Bob
+The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.
+
+Each unit should have only limited knowledge about other units: only units "closely" related to the current unit.
+Each unit should only talk to its friends; don't talk to strangers.
+Only talk to your immediate friends.
+
+
+
+7
+Clean Code, Uncle Bob
+CTEXT control defines a centered-text control. The control is a simple rectangle displaying the given text centered in the rectangle. The text is formatted before it is displayed. Words that would extend past the end of a line are automatically wrapped to the beginning of the next line. Words that are longer than the width of the control are truncated.
+
+
+8
+Clean Code, Uncle Bob
+Your /scratch folder (scratchDir) is meant to be a space for temporary files, even large ones, and is ideal for jobs that do a lot of file accesses (reading, writing, etc.) and/or consume a lot of disk space. You can modify your programs so that the first step is to copy the files to /scratch before processing them.
+
+
+9
+UiPath
+Similar in name, not similar in capabilities, OCR is a method that helps in the Digitize step of the Document Understanding process.
+Document Understanding is a process enabled by UiPath's Intelligent OCR package, making full document processing possible.
+
+
+
+
+10
+UiPath
+Taxonomy
+In this pre-processing step, you can add multiple document types and the fields you are interested in extracting.  For example, you can work with Invoices, wanting to extract the vendor and the total amount, and with medical forms, wanting to extract insured ID number and patient name.
+
+
+11
+UiPath
+Digitization
+For non-digital (scanned) documents, in this step, you need to apply the OCR engine of your choice. The outputs of this step are the Document Object Model and a string variable containing all the document text and are passed down to the next steps.
+
+
+12
+UiPath
+Classification
+After digitization, the document is classified. If you are working with multiple documents types in the same project, to extract data properly you need to know what type of document you're working with. The important thing is that you can use multiple classifiers in the same scope, you can configure the classifiers and, later in the framework, train them.
+
+
+13
+UiPath
+Extraction
+Extraction is getting just the data you are interested in. For example, extracting specific data from a 5-page document is quite troublesome if you want to do it with string manipulation. In this framework, you can use different extractors, for the different document structures, in the same scope application.
+
+
+14
+UiPath
+Validation
+The extracted data can be validated by a human user through the Validation Station. A best practice is to build logic around the decision of adding or not a human validation step, with rules depending on the specific use case to be implemented
+
+
+15
+UiPath
+Export
+Once you have your validated information, you can use it as it is, or save it in a DataTable format that can be converted very easy into an Excel file.
+
+
+
+
+16
+Uipath
+Training Classifiers and Extractors
+Classification and Extraction are as efficient as the classifiers and extractors used are. If a document wasn’t classified properly, it means it was unknown to the active classifiers. The same way goes for incorrect data extraction
+
+
+17
+UiPath
+Order for Document Understanding:
+1. Taxonomy
+2. Digitization
+3. Classification
+4. Extraction
+5. Validation
+6. Export
+7. Train
+
+
+18
+Clean Code, Uncle Bob
+The Data Transfer Object Design Pattern is one of the enterprise application architecture patterns that calls for the use of objects that aggregate and encapsulate data for transfer. A Data Transfer Object is, essentially, like a data structure. It should not contain any business logic but should contain serialization and deserialization mechanisms.
+
+
+19
+Clean Code, Uncle Bob
+In object-oriented programming, the open–closed principle states "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification";[1] that is, such an entity can allow its behaviour to be extended without modifying its source code.
+
+
+20
+Clean Code, Uncle Bob
+Learning Tests:
+When developing with a new API, write a test that verifies your expectation of how that API will behave.
+
+
+
+21
+Clean Code, Uncle Bob
+The essential idea is to break down writing a scenario (or test) into three sections:
+
+The given part describes the state of the world before you begin the behavior you're specifying in this scenario. You can think of it as the pre-conditions to the test.
+The when section is that behavior that you're specifying.
+Finally the then section describes the changes you expect due to the specified behavior.
+
+
+
+
+22
+Clean Code, Uncle Bob
+FIRST Tests:
+  Fast
+  Independent
+  Repeatable
+  Self-Validating
+  Timely
+
+
+23
+Clean Code, Uncle Bob
+Following the standard Java convention, a class should begin with a list of variables. Public statick constants, if any, should come first. Then private static variables, followed by private instance vvariables. There is seldom a good reason to have a public variable.
+
+
+
+24
+Clean Code, Uncle Bob
+The Single Responsibility Principle (SRP) states that a class or module should have one and only one reason to change. This principle gives us both a definition or responsibility, and guidelines for class size. Classes should have one responsibility--one reason to change.
+
+I think he means to handle more specific cases in subclasses.
+
+
+25
+Clean Code, Uncle Bob
+Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation. This testing methodology is done during the development process by the software developers and sometimes QA staff.
+
+
+26
+Clean Code, Uncle Bob
+Definition of the Dependency Inversion Principle
+The general idea of this principle is as simple as it is important: High-level modules, which provide complex logic, should be easily reusable and unaffected by changes in low-level modules, which provide utility features. To achieve that, you need to introduce an abstraction that decouples the high-level and low-level modules from each other.
+
+
+27
+Clean Code, Uncle Bob
+elide
+verb
+  omit (a sound or syllable) when speaking.
+  "English speakers often elide the vowel completely"
+
+  join together; merge.
+  "whole periods of time are elided into a few seconds of screen time"
+
+
+28
+Clean Code, Uncle Bob
+Cross-cutting concerns are parts of a program that rely on or must affect many other parts of the system. They form the basis for the development of aspects.[1] Such cross-cutting concerns do not fit cleanly into object-oriented programming or procedural programming.[2]
+
+Cross-cutting concerns can be directly responsible for tangling, or system inter-dependencies, within a program.
+
+
+29
+UiPath Document Understanding
+The Taxonomy is automatically created when you first open the Taxonomy Manager. It is saved in the project folder, under Document Processing. It takes the form of a JSON file and it's important to remember that you can have only one taxonomy file per project.
+
+
+
+
+30
+UiPath Document Understanding
+one of the two outcomes of digitization is a Document Object Model. This contains basic information regarding the processed document such as name, content type, text length, and information about each page.  It is passed down to the next activities through the use of a document variable.
+
+
+
+
+
+EMPTY
+1
+UiPath Document Understanding
+The other outcome of the digitization process is all the text from the document, stored in a string variable.
+
+
+
+
+
+2
+UiPath Document Understanding
+Classification is done through the Classify Document Scope and it's performed by classifiers.
+
+Basically, the document text and object model resulted in the digitization steps are sent to the Classifiers, which report what types they recognize within the incoming file.
+
+
+
+
+
+3
+UiPath Document Understanding
+
+
+
+
+4
+UiPath Document Understanding
+
+
+
+
+5
+UiPath Document Understanding
+
+
+
+
+6
+UiPath Document Understanding
+
+
+
+
+7
+UiPath Document Understanding
+
+
+
+
+8
+UiPath Document Understanding
+
+
+
+
+9
+UiPath Document Understanding
+
+
+
+
+10
+UiPath Document Understanding
+
+
+
+
+11
+UiPath Document Understanding
+
+
+
+
+12
+UiPath Document Understanding
+
+
+
+
+13
+UiPath Document Understanding
+
+
+
+
+14
+UiPath Document Understanding
+
+
+
+
+15
+UiPath Document Understanding
+
+
+
+
+16
+UiPath Document Understanding
+
+
+
+
+17
+UiPath Document Understanding
+
+
+
+
+18
+UiPath Document Understanding
+
+
+
+
+19
+UiPath Document Understanding
+
+
+
+
+20
+UiPath Document Understanding
+
+
+
+
+21
+UiPath Document Understanding
+
+
+
+
+22
+UiPath Document Understanding
+
+
+
+
+23
+UiPath Document Understanding
+
+
+
+
+24
+UiPath Document Understanding
+
+
+
+
+25
+UiPath Document Understanding
+
+
+
+
+26
+UiPath Document Understanding
+
+
+
+
+27
+UiPath Document Understanding
+
+
+
+
+28
+UiPath Document Understanding
+
+
+
+
+29
+UiPath Document Understanding
+
+
+
+
+30
+UiPath Document Understanding
+
+
+
+
+END
+06/23/2022 08:35:52
