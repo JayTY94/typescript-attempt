@@ -62,4 +62,39 @@ Projects : Set up projects to be completed for clients and track the progress of
 
 Contact Management : View contact information for clients and maintain client notes. 
 
-Administration : Set up and maintain firm 
+Administration : Set up and maintain firm lists such as client files, employee files, service codes, and firm information. Update the system with the latest invoicing and time entry transactions.
+
+Reports : Run reports on client, employee, service code, project, and scheduling information.
+
+Report Writer : Creates reports for your firm.
+
+Dashboard : View summarized and detailed information for the firm, employees, clients, and projects.
+
+...
+
+Using Help 
+
+If you need help on any option in ProSystem fx Practice management, press F1 or user the Help Menu. Help gives you detailed information about the tasks and options in ProSystem fx Practice Management. In Help, you can select a topic, search for a topic associated with a phrase, find information about a word or phrase, move back through topics you've viewed, and print topics.
+
+To use Help 
+
+  1. Pres F1 to display help associated with the current window.
+  2. Use the scroll bar to display more text in the help window.
+  3. Jumps are displayed in blue with a solid underline. Click jump to a related topic.
+  4. Click the Related Topics button to view a list of topics related to the current topic.
+  5. Click Help Topics to display tabs for Contents, INdex, and Search.
+  6. In Contents, double-click books to open them and view the topics inside.
+  7. To exit help, click the [X] button in the upper-right corner.
+
+Tips 
+  To print a single topic from Contents, click the topic and click print.
+  To print a group of topics from Contents, click a book to print all help topics within the book.
+
+...
+
+New Firm Checklist 
+
+When you first set up your firm in ProSystem fx Practice Managemetn, follow these steps to make sure your setup is complete. For information on adding Canadian requirements to ProSystem fx Practice Management, see Setting up a Canadian Firm.
+
+Log on 
+
