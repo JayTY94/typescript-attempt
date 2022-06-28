@@ -354,55 +354,84 @@ Basically, the document text and object model resulted in the digitization steps
 
 3
 UiPath Document Understanding
+What happens if a document is not classified correctly...
 
-
+  1. If training step is implemented, the classifier will get more accurate over time.
 
 
 4
 UiPath Document Understanding
+What happens if a document is not classified correctly...
 
+  2. The robot tries to extract values for the fields defined in the Taxonomy for classification made
 
 
 
 5
 UiPath Document Understanding
+What happens if a document is not classified correctly...
 
+  3. You can correct the classification in the Validation Station.
 
 
 
 6
 UiPath Document Understanding
+Why do you need to map the fields in hte Extractor configuration when using the MS Extractor? 
 
+  Some extractors have their own Taxonomy, which is why you need to map the fields - this is the case for the ML Extractor.
 
 
 
 7
 UiPath Document Understanding
+Take this scenario: you need to extract data from medical records, but all the documents come in a single PDF file.  Based on a list of classification results, you loop through each and perform data extraction.  
 
-
+What arguments do you add in the data extraction scope? Select all that apply.
+  Taxaonomy
+  Document path 
+  Document Object Model 
+  Document Text 
+  Validated Classification Result
 
 
 8
 UiPath Document Understanding
+Select all of the extractors you would use to extract data from a semi-structured document.
 
+  The Regex extractor
+  The Machine Learning Extractor 
+  NOT
+  The Form Extractor 
+  The Intelligent Form Extractor
 
 
 
 9
 UiPath Document Understanding
+Select all the actions that you can perform inside the Validation Station
+  Change extracted value 
+  Add an additional value 
+  Add rows and cell values to a Table 
+  Correct classification results
+
 
 
 
 
 10
 UiPath Document Understanding
-
+What are the mandatory steps for processing a document with the intelligent OCR activities.
+  Digitize Document 
+  Create the Taxonomy 
+  Loading the Taxonomy 
+  Data Extraction with at least one Extractor 
 
 
 
 11
 UiPath Document Understanding
-
+[true] You can extract data from rotated or skewed documents.
 
 
 
