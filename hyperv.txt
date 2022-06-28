@@ -38,3 +38,28 @@ Now configure audio and microphone settings.
 
 ...
 
+https://support.cch.com/updates/practicemanagement/pdf/guides_tab/pm_guide.pdf
+
+...
+
+Welcome to ProSystem fx Practice Management 
+
+About ProSystem fx Practice Management 
+
+Welcome to ProSystem fx Practice Management, the most powerful interactive time and billing software on the market. ProSystem fx Practice Management combines a full range of time and billing options with the ease of Windows' graphical interface.
+
+Use ProSystem fx Practice Management to keep track of employee time, bill your clients with customized invoices, track client projects, and generate statistical reports for a vast array of information.
+
+ProSystem fx Pratice Management includes these modules:
+
+Time Entry : Enter employee time and expensies 
+
+Billing : Bill client, WIP, calculated fixed fee bills, and print customized invoices.
+
+Accounts Receivable : Enter payments, credits, and debits, and print client statements and dunning letters. 
+
+Projects : Set up projects to be completed for clients and track the progress of a project. An additional module, Project Tracking, allows you to set the status of a return, and extend due dates. Project Tracking can be selected from the Features menu of each module.
+
+Contact Management : View contact information for clients and maintain client notes. 
+
+Administration : Set up and maintain firm 
