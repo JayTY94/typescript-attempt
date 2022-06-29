@@ -324,13 +324,14 @@ UiPath Document Understanding
 
 12
 UiPath Document Understanding
+The Configure Classifiers Wizard accessed via the Train Classifiers Scope allows you to choose which classifiers are trained for each document type.
 
 
 
 
 13
 UiPath Document Understanding
-
+A DataTable is an in-memory representation of a single database table which has collection of rows and columns where as a DataSet is an in-memory representation of a database-like structure which has a collection of DataTables.
 
 
 
