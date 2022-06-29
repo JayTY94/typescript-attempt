@@ -2,119 +2,6 @@
 
 
 
-16
-Hemic
-I should ask for meeting agendas and also offer them. It helps in technical situations where you need to know who you need to know who to invite.
-
-
-
-
-17
-Hemic
-An SMTP relay is an email relay service that basically works in two steps:
-
-It receives the outgoing mail from the sender (that is, your amazing Groundhog Day’s email campaign).
-It delivers it to the recipient’s local post office, another SMTP server.
-
-C:\Users\jayoshimi\PycharmProjects\pythonProject\venv\Scripts\python.exe "C:/Users/jayoshimi/PycharmProjects/pythonProject/cards document.py"
-18
-AWS SysOps Admin
-AWS CloudFormation Templates include several major sections. The Resources section is the only required section.
-
-
-
-19
-AWS SysOps Admin
-CloudFormation Template secion: Format version (optional)
-  The AWS CloudFormation template version that the template conforms to. The template format version isn't hte same as the API or VSDL version. The template format version can change independently of the API and WSDL versions.
-
-
-
-20
-AWS SysOps Admin
-CloudFormation Template section: Description (optional)
-  A text string that describes the template. This seciotn must always follow the templat format version section.
-
-
-
-
-21
-AWS SysOps Admin
-CloudFormation Template section: Metadata (optional)
-Objects that provide additional information about the template.
-
-
-
-22
-AWS SysOps Admin
-CloudFormation Template section: Parameters (optional)
-Values to pass to your temmplate (when you create or update the stack). You can refer to parameters from the Resources or Ouputs section of the template.
-
-
-
-23
-AWS SysOps Admin
-CloudFormation Template Section: Rules (optional)
-  Validates a parameter or a combination of parameters passed to a template during a stack creation or stack update
-
-
-
-
-24
-AWS SysOps Admin
-CloudFormation Template Section: Mappings (optional)
-
-A mapping of keys and associated values that you can use to speicy conditional parameter values, similar to a lookup table. YOu can match a key to a corresponding value by using the Fn::FindInMap intrinsic function in the Resources and Outputs sections.
-
-
-
-25
-AWS SysOps Admin
-CloudFormation Template section: Conditions (optional)
-
-Conditions that control whether certain resources are creaetd or whether certain resource properties are assigned a value during stack creation or update. For example, you could conditionally create a resource that depends on whether the stack is for a prduciton or test environment.
-
-
-
-26
-AWS SysOps Admin
-CloudFormation Template section: Transform (optional)
-
-For serverless applications (also referered to as Lambda-based applications), specifies the version of the AWS Serverless Application Model (AWS SAM) to use. When you specify a transform, you can use AWS SAM syntax to declare resources in your template. The model defines the syntax that you can use and how it's processed.
-
-
-
-27
-AWS SysOps Admin
-CloudFormation Template section: Resources (required)
-
-Specifies the stack resources and their properties, such as Amazon Elastic Cloud Compute instances or Amazon Simple Store Services buckets. You can refer to the resources in the Resources and Outputs sections of the template.
-
-
-
-28
-AWS SysOps Admin
-CloudFormation Template section: Outputs (optional)
-
-Describes the values that are returned whenever you view your stack's properties. For example, you can declare an output for an S3 bucket name and then call the aws cloudformation describe-stacks AWS CLI command to view the name.
-
-
-
-
-29
-Accuity
-Virtual Machine Connection (VMConnect) is a tool you can use to connect to a virtual machine to install or interact with the guest operating system in a virtual machine. Some of the tasks you can perform by using VMConnect include the following:
-
-
-
-
-30
-Accuity
-Enhanced Sesison Mode in Hyper-V/VMConnect allows the VM to use local resources like printers, speakers, mic, monitors, etc.
-
-
-
-
 Process finished with exit code 0
 EMPTY
 1
@@ -377,7 +264,7 @@ What happens if a document is not classified correctly...
 
 6
 UiPath Document Understanding
-Why do you need to map the fields in hte Extractor configuration when using the MS Extractor? 
+Why do you need to map the fields in hte Extractor configuration when using the MS Extractor?
 
   Some extractors have their own Taxonomy, which is why you need to map the fields - this is the case for the ML Extractor.
 
@@ -385,13 +272,13 @@ Why do you need to map the fields in hte Extractor configuration when using the 
 
 7
 UiPath Document Understanding
-Take this scenario: you need to extract data from medical records, but all the documents come in a single PDF file.  Based on a list of classification results, you loop through each and perform data extraction.  
+Take this scenario: you need to extract data from medical records, but all the documents come in a single PDF file.  Based on a list of classification results, you loop through each and perform data extraction.
 
 What arguments do you add in the data extraction scope? Select all that apply.
   Taxaonomy
-  Document path 
-  Document Object Model 
-  Document Text 
+  Document path
+  Document Object Model
+  Document Text
   Validated Classification Result
 
 
@@ -400,9 +287,9 @@ UiPath Document Understanding
 Select all of the extractors you would use to extract data from a semi-structured document.
 
   The Regex extractor
-  The Machine Learning Extractor 
+  The Machine Learning Extractor
   NOT
-  The Form Extractor 
+  The Form Extractor
   The Intelligent Form Extractor
 
 
@@ -410,9 +297,9 @@ Select all of the extractors you would use to extract data from a semi-structure
 9
 UiPath Document Understanding
 Select all the actions that you can perform inside the Validation Station
-  Change extracted value 
-  Add an additional value 
-  Add rows and cell values to a Table 
+  Change extracted value
+  Add an additional value
+  Add rows and cell values to a Table
   Correct classification results
 
 
@@ -422,10 +309,10 @@ Select all the actions that you can perform inside the Validation Station
 10
 UiPath Document Understanding
 What are the mandatory steps for processing a document with the intelligent OCR activities.
-  Digitize Document 
-  Create the Taxonomy 
-  Loading the Taxonomy 
-  Data Extraction with at least one Extractor 
+  Digitize Document
+  Create the Taxonomy
+  Loading the Taxonomy
+  Data Extraction with at least one Extractor
 
 
 
