@@ -356,43 +356,51 @@ You can also enable human validation through Long-Running Workflows, optimizing 
 
 
 17
-UiPath Document Understanding
-
+Asana 
+Inbox is a filtered news feed of updates, but only for the work you're following. You can also respond to things right from inbox to quickly navigate to your work.
 
 
 
 18
-UiPath Document Understanding
-
+Asana 
+Organizations are based on your company's shared email domain and connect everybody within your company that uses Asana.
 
 
 
 19
-UiPath Document Understanding
-
+Asana 
+Teams are functional groups in an Organization that likely correspond to general teams, like marketing or sales, or functional groups like "NYC Office".
 
 
 
 20
-UiPath Document Understanding
+Asana 
+Projects are stored in teams (and Portfolios) to track all actionable steps, information, and communications towards achieving a goal, initiative, or objective.
 
 
 
 
 21
-UiPath Document Understanding
+Asana 
+Tasks are stored in projects and make it clear who's responsible for what by when. Tasks store all files, messages, and instructions related to it so they're easy to find in one place.
 
 
 
 
 22
-UiPath Document Understanding
+Asana
+Portfolios store groups of projects. You can use them to see all the projects and status updates towards an initiative or objective in one place.
 
 
 
 
 23
-UiPath Document Understanding
+Asana 
+Tasks matched by project, task, or subtask 
+ 
+Editorial Calendar => Create a project
+Publish weekly blog post => Create a task 
+Gather customer qutoes for blog => Create a subtask 
 
 
 
