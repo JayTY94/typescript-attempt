@@ -2,78 +2,6 @@
 
 
 
-Process finished with exit code 0
-EMPTY
-1
-UiPath
-Structured documents generally focus on collecting information in a precise format, guiding the person who is filling them with precise areas where each piece of data needs to be entered.  These come in a fixed form and are generally called forms.
-
-Examples of structured documents: Surveys, questionnaires, Tax forms. These contain exclusively key-value pairs and tables.
-
-
-
-
-2
-UiPath
-Semi-structured documents are documents that do not follow a strict format the way structured forms do and are not bound to specified data fields.  These don't have a fixed form but follow a common enough format.  They may contain paragraphs as well, but data is mainly to be found in key-value pairs.
-
-Examples of semi-structured documents: Invoices, Receipts, Purchase Orders, Healthcare lab reports.
-
-
-3
-UiPath
-Unstructured documents are documents in which the information isn't organized according to a clear, structured model. These files are all easily comprehensible by human beings, yet much more difficult for a robot.
-
-Examples of unstructured documents: Contracts, Annual Reports. Some may contain key-value pairs and tables, but much of the data is in unstructured form inside the text.
-
-
-4
-Clean Code, Uncle Bob
-An r-value is a temporary value that does not persist beyond the expression that uses it.
-
-The notion of l-values and r-values was introduced by Combined Programming Language (CPL).
-
-
-
-5
-Clean Code, Uncle Bob
-Procedural Code makes it easy to add new functions, but hard to add new classes. The inverse is true for Object Oriented code.
-
-
-
-6
-Clean Code, Uncle Bob
-The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling.
-
-Each unit should have only limited knowledge about other units: only units "closely" related to the current unit.
-Each unit should only talk to its friends; don't talk to strangers.
-Only talk to your immediate friends.
-
-
-
-7
-Clean Code, Uncle Bob
-CTEXT control defines a centered-text control. The control is a simple rectangle displaying the given text centered in the rectangle. The text is formatted before it is displayed. Words that would extend past the end of a line are automatically wrapped to the beginning of the next line. Words that are longer than the width of the control are truncated.
-
-
-8
-Clean Code, Uncle Bob
-Your /scratch folder (scratchDir) is meant to be a space for temporary files, even large ones, and is ideal for jobs that do a lot of file accesses (reading, writing, etc.) and/or consume a lot of disk space. You can modify your programs so that the first step is to copy the files to /scratch before processing them.
-
-
-9
-UiPath
-Similar in name, not similar in capabilities, OCR is a method that helps in the Digitize step of the Document Understanding process.
-Document Understanding is a process enabled by UiPath's Intelligent OCR package, making full document processing possible.
-
-
-
-
-10
-UiPath
-Taxonomy
-In this pre-processing step, you can add multiple document types and the fields you are interested in extracting.  For example, you can work with Invoices, wanting to extract the vendor and the total amount, and with medical forms, wanting to extract insured ID number and patient name.
-
 
 11
 UiPath
@@ -330,7 +258,7 @@ The Configure Classifiers Wizard accessed via the Train Classifiers Scope allows
 
 
 13
-.NET 
+.NET
 A DataTable is an in-memory representation of a single database table which has collection of rows and columns where as a DataSet is an in-memory representation of a database-like structure which has a collection of DataTables.
 
 
@@ -356,32 +284,32 @@ You can also enable human validation through Long-Running Workflows, optimizing 
 
 
 17
-Asana 
+Asana
 Inbox is a filtered news feed of updates, but only for the work you're following. You can also respond to things right from inbox to quickly navigate to your work.
 
 
 
 18
-Asana 
+Asana
 Organizations are based on your company's shared email domain and connect everybody within your company that uses Asana.
 
 
 
 19
-Asana 
+Asana
 Teams are functional groups in an Organization that likely correspond to general teams, like marketing or sales, or functional groups like "NYC Office".
 
 
 
 20
-Asana 
+Asana
 Projects are stored in teams (and Portfolios) to track all actionable steps, information, and communications towards achieving a goal, initiative, or objective.
 
 
 
 
 21
-Asana 
+Asana
 Tasks are stored in projects and make it clear who's responsible for what by when. Tasks store all files, messages, and instructions related to it so they're easy to find in one place.
 
 
@@ -395,12 +323,12 @@ Portfolios store groups of projects. You can use them to see all the projects an
 
 
 23
-Asana 
-Tasks matched by project, task, or subtask 
- 
+Asana
+Tasks matched by project, task, or subtask
+
 Editorial Calendar => Create a project
-Publish weekly blog post => Create a task 
-Gather customer qutoes for blog => Create a subtask 
+Publish weekly blog post => Create a task
+Gather customer qutoes for blog => Create a subtask
 
 
 
