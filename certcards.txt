@@ -270,47 +270,231 @@ Gather customer qutoes for blog => Create a subtask
 
 
 
+C:\Users\m4ple\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:/Users/m4ple/PycharmProjects/pythonProject1/crads.py
 24
-UiPath Document Understanding
+Azure Data Fundamentals
 
 
 
 
 25
-UiPath Document Understanding
+Azure Data Fundamentals
 
 
 
 
 26
-UiPath Document Understanding
+Azure Data Fundamentals
 
 
 
 
 27
-UiPath Document Understanding
+Azure Data Fundamentals
 
 
 
 
 28
-UiPath Document Understanding
+Azure Data Fundamentals
 
 
 
 
 29
-UiPath Document Understanding
+Azure Data Fundamentals
 
 
 
 
 30
-UiPath Document Understanding
+Azure Data Fundamentals
 
 
 
 
-END
-06/23/2022 08:35:52
+
+Process finished with exit code 0
+C:\Users\m4ple\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:/Users/m4ple/PycharmProjects/pythonProject1/crads.py
+1
+Azure Data Fundamentals
+
+
+
+
+2
+Azure Data Fundamentals
+
+
+
+
+3
+Azure Data Fundamentals
+
+
+
+
+4
+Azure Data Fundamentals
+
+
+
+
+5
+Azure Data Fundamentals
+
+
+
+
+6
+Azure Data Fundamentals
+
+
+
+
+7
+Azure Data Fundamentals
+
+
+
+
+8
+Azure Data Fundamentals
+
+
+
+
+9
+Azure Data Fundamentals
+
+
+
+
+10
+Azure Data Fundamentals
+
+
+
+
+11
+Azure Data Fundamentals
+
+
+
+
+12
+Azure Data Fundamentals
+
+
+
+
+13
+Azure Data Fundamentals
+
+
+
+
+14
+Azure Data Fundamentals
+
+
+
+
+15
+Azure Data Fundamentals
+
+
+
+
+16
+Azure Data Fundamentals
+
+
+
+
+17
+Azure Data Fundamentals
+
+
+
+
+18
+Azure Data Fundamentals
+
+
+
+
+19
+Azure Data Fundamentals
+
+
+
+
+20
+Azure Data Fundamentals
+
+
+
+
+21
+Azure Data Fundamentals
+
+
+
+
+22
+Azure Data Fundamentals
+
+
+
+
+23
+Azure Data Fundamentals
+
+
+
+
+24
+Azure Data Fundamentals
+
+
+
+
+25
+Azure Data Fundamentals
+
+
+
+
+26
+Azure Data Fundamentals
+
+
+
+
+27
+Azure Data Fundamentals
+
+
+
+
+28
+Azure Data Fundamentals
+
+
+
+
+29
+Azure Data Fundamentals
+
+
+
+
+30
+Azure Data Fundamentals
+
+
+
+
+
+Process finished with exit code 0
