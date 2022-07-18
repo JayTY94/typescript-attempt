@@ -1,86 +1,5 @@
 
 
-20
-Clean Code, Uncle Bob
-Learning Tests:
-When developing with a new API, write a test that verifies your expectation of how that API will behave.
-
-
-
-21
-Clean Code, Uncle Bob
-The essential idea is to break down writing a scenario (or test) into three sections:
-
-The given part describes the state of the world before you begin the behavior you're specifying in this scenario. You can think of it as the pre-conditions to the test.
-The when section is that behavior that you're specifying.
-Finally the then section describes the changes you expect due to the specified behavior.
-
-
-
-
-22
-Clean Code, Uncle Bob
-FIRST Tests:
-  Fast
-  Independent
-  Repeatable
-  Self-Validating
-  Timely
-
-
-23
-Clean Code, Uncle Bob
-Following the standard Java convention, a class should begin with a list of variables. Public statick constants, if any, should come first. Then private static variables, followed by private instance vvariables. There is seldom a good reason to have a public variable.
-
-
-
-24
-Clean Code, Uncle Bob
-The Single Responsibility Principle (SRP) states that a class or module should have one and only one reason to change. This principle gives us both a definition or responsibility, and guidelines for class size. Classes should have one responsibility--one reason to change.
-
-I think he means to handle more specific cases in subclasses.
-
-
-25
-Clean Code, Uncle Bob
-Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation. This testing methodology is done during the development process by the software developers and sometimes QA staff.
-
-
-26
-Clean Code, Uncle Bob
-Definition of the Dependency Inversion Principle
-The general idea of this principle is as simple as it is important: High-level modules, which provide complex logic, should be easily reusable and unaffected by changes in low-level modules, which provide utility features. To achieve that, you need to introduce an abstraction that decouples the high-level and low-level modules from each other.
-
-
-27
-Clean Code, Uncle Bob
-elide
-verb
-  omit (a sound or syllable) when speaking.
-  "English speakers often elide the vowel completely"
-
-  join together; merge.
-  "whole periods of time are elided into a few seconds of screen time"
-
-
-28
-Clean Code, Uncle Bob
-Cross-cutting concerns are parts of a program that rely on or must affect many other parts of the system. They form the basis for the development of aspects.[1] Such cross-cutting concerns do not fit cleanly into object-oriented programming or procedural programming.[2]
-
-Cross-cutting concerns can be directly responsible for tangling, or system inter-dependencies, within a program.
-
-
-29
-UiPath Document Understanding
-The Taxonomy is automatically created when you first open the Taxonomy Manager. It is saved in the project folder, under Document Processing. It takes the form of a JSON file and it's important to remember that you can have only one taxonomy file per project.
-
-
-
-
-30
-UiPath Document Understanding
-one of the two outcomes of digitization is a Document Object Model. This contains basic information regarding the processed document such as name, content type, text length, and information about each page.  It is passed down to the next activities through the use of a document variable.
-
 
 
 
@@ -273,19 +192,20 @@ Gather customer qutoes for blog => Create a subtask
 C:\Users\m4ple\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:/Users/m4ple/PycharmProjects/pythonProject1/crads.py
 24
 Azure Data Fundamentals
-
+Data structures in which this data is organized often represents entities that are important to an organization (such as customers, products, sales orders, and so on).
 
 
 
 25
 Azure Data Fundamentals
+One common format for semi-structured data is JavaScript Object Notation (JSON). The example below shows a pair of JSON documents that represent customer information.
 
 
 
 
 26
 Azure Data Fundamentals
-
+Structured data is data that adheres to a fixed schema, so all of the data has the same fields or properties. Most commonly, the schema for structured data entities is tabular - in other words, the data is represented in one or more tables that consist of rows to represent each instance of a data entity, and columns to represent attributes of the entity.
 
 
 
