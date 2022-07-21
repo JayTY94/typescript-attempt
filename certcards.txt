@@ -7,67 +7,6 @@
 
 
 
-11
-UiPath Document Understanding
-[true] You can extract data from rotated or skewed documents.
-
-
-
-12
-UiPath Document Understanding
-The Configure Classifiers Wizard accessed via the Train Classifiers Scope allows you to choose which classifiers are trained for each document type.
-
-
-
-
-13
-.NET
-A DataTable is an in-memory representation of a single database table which has collection of rows and columns where as a DataSet is an in-memory representation of a database-like structure which has a collection of DataTables.
-
-
-
-14
-UiPath Document Understanding
-The Train Classifiers Scope empowers the closing of the feedback loop to any classification algorithm capable of learning. Drag and drop your classifier trainers within this Scope activity and enable them using the Configure Classifiers wizard to ensure that the information validated by humans through the Classification Station or Validation Station is used by your classifiers to improve their own performance.
-
-
-
-
-
-15
-UiPath Document Understanding
-The Machine Learning Extractor leverages the power of AI and Machine Learning to identify information in structured or semi-structured documents by either using one of  UiPath's public data extraction services or by calling custom trained Machine Learning models that you can build and host in AI Fabric. This activity is part of the UiPath.DocumentUnderstanding.ML.Activities package.
-
-
-
-16
-UiPath Document Understanding
-You can also enable human validation through Long-Running Workflows, optimizing human-robot collaboration. The Create Document Validation Action and the Wait for Document Validation Action and Resume activities enable this scenario.
-
-
-
-17
-Asana
-Inbox is a filtered news feed of updates, but only for the work you're following. You can also respond to things right from inbox to quickly navigate to your work.
-
-
-
-18
-Asana
-Organizations are based on your company's shared email domain and connect everybody within your company that uses Asana.
-
-
-
-19
-Asana
-Teams are functional groups in an Organization that likely correspond to general teams, like marketing or sales, or functional groups like "NYC Office".
-
-
-
-20
-Asana
-Projects are stored in teams (and Portfolios) to track all actionable steps, information, and communications towards achieving a goal, initiative, or objective.
-
 
 
 
