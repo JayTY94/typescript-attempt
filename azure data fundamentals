@@ -1,0 +1,122 @@
+In addition to tables, a relational database can contain other structures that help to optimize data organization, encapsulate programmatic actions, and improve the speed of access. IN this unit, you'll learn about three of these structures in more detail: views, stored procedures, and indexes.
+
+What is a view?
+
+A view is a virtual table based on the results of a SELECT query. You an think of a view as a window on specified rows in one or more underlying tables. For example, you could create a view on the Order and Customer tabels that retrieves order and customer data to provide a single object that makes it easy to determine delivery addresses for orders.
+
+CREATE VIEW Deliveries
+AS
+SELECT o.OrderNo, o.OrderDate,
+  c.FirstName, c.LastName, c.Address, c.City
+from Order AS o JOIN Customer AS c
+ON o.Customer = c.ID;
+You can query the view and filter the data in much the same way as a table. The following query finds details in orders for customers who live in Seattle:
+
+SELECT OrderNo, OrderDate, LastName, Address
+FROM Deliveries
+WHERE City = 'Seattle';
+
+What is a stored procedure?
+
+A stored procedure defines SQL statements that an be run on command. Stored procedures are used to encapsulate programmatic logic in a database for actions that applications need to perform when working with data.
+
+You can define a stored procedure with parameters to create a flexible solution for common actions that might need to be applied to data based on a specific key or criteria. For example, the following stored procedure could be defined to change the name of a product based on the specified product ID.
+
+CRREATE PROCEDURE RenameProduct
+  @ProductID INT,
+  @NewName VARCHAR(20)
+AS
+UPDATE Product
+SET Name = @NewName
+WHERE ID = @ProductID
+
+When a product must be renamed, you can execute the proedure, passing the ID of the product and the new name to be assinged.
+
+EXEC RenameProduct 201, 'Spanner';
+
+What is an index?
+
+An index helps you search for data in a table. Think of an index over a table like an index at the back of a book. A book index contains a sorted set of references, with the pages on which each reference occurs. When you want to find a reference to an item in a book, you look it up through the index. You can use the page numbers in the index to directly to the correct pages in the book. Without an index, you might have to read through the entire book to find the references you're looking for.
+
+WHen you create an index in a database, you specify a column from the table, and the index contains a copy of this data in a sorted order, with pointers to the corresponding rows in the table. When the user runs a query that specifies this column in the WHERE clause, the database management system can use this index to fetch the data more quickly than if it had to scan the entire table row by row.
+
+For example, you could use the following code to create an index on the Name column of the Product table.
+
+CREATE INDEX idx_ProductName
+ON Product(NAME);
+
+The index creates a tree-based structure that the database system's query optimizer can use to quickly find rows in the Product table based on a specified Name.
+
+For a table containing few rows, using hte index is probably not any more efficient than simply reading the entire table and finding the rows requested by the query (in which case the query optimizer will ignore the index). However, when a table has many rows, the indexes can dramatically imporve the performance of queries.
+
+You can create many indexes on a table. So, if you also wanted to find products based on price, creating another Index on the Price column in the Product table might be useful. However, Indexes aren't free. An index consumes storage space, and each time you insert, update, and delte data in a table, teh indexes for that table must be maintained. The additional work can slow down insert, update, and delete operations. You must strike a balance between having indexes that speed up your queries versus the cost of performing other operations.
+
+https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-relational-database-offerings-azure/2-azure-sql
+
+...
+
+
+SQL Server on Azure Virtual Machines
+
+SQL Server on Virtual Machines enables you to use full versions of SQL Server in the Cloud without having to manage any on premises hardware. This is an example of the IaaS approach.
+
+SQL Server running on an Azure virtual machine effectively replicates the database running on real on-premises hardware. Migrating from the system running on-premises to an Azure virtual machine is no different than mocing the databases from one on-premises server to another.
+
+This approach is suitable for migrations and applications requiring access to operating system features that might be unsupported at the PaaS level. SQL virtual machines are lift-and-shift ready for existing applications that require fast migration to the cloud with minimal changes.  YOu can also use SQL Server on Azure VMs to extend existing on-premises applications to the cloud in hybrid deployments.
+
+NOTE
+A hybrid deployment is a system where part of the operation runs on-premises and part in the cloud. Your database might be part of a larger system that runs on-premises, although the database elements might be hosted in the cloud.
+
+You can use SQL Server in a virtual machine to develop and test traditional SQL Server applications. With a virtual machine, you have the full administrative rights over the DBMS and operating system. It's a perfect choice when an organization already has IT resources available to maintain the virtual machines.
+
+These capabilities enable you to:
+
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===============
