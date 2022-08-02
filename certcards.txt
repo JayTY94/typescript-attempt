@@ -219,19 +219,20 @@ Systems with a variable load that need the database server to scale up and down 
 
 8
 Azure Data Fundamentals
-
+Elastic Pool
+This option is similar to Single Database, except that by default multiple databases can share the same resources, such as memory, data storage space, and processing power through multiple-tenancy. The resources are referred to as a pool. This model is useful if you have databases with resource requirements that vary over time, and can help you to reduce costs.
 
 
 
 9
 Azure Data Fundamentals
-
+PostgreSQL is a hybrid relational-object database. You can store data in relational tables, but a PostgreSQL database also enables you to store custom data types, with their own non-relational properties
 
 
 
 10
 Azure Data Fundamentals
-
+PostgreSQL is a hybrid relational-object database. You can store data in relational tables, but a PostgreSQL database also enables you to store custom data types, with their own non-relational properties
 
 
 

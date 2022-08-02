@@ -1,4 +1,4 @@
-In addition to tables, a relational database can contain other structures that help to optimize data organization, encapsulate programmatic actions, and improve the speed of access. IN this unit, you'll learn about three of these structures in more detail: views, stored procedures, and indexes.
+sIn addition to tables, a relational database can contain other structures that help to optimize data organization, encapsulate programmatic actions, and improve the speed of access. IN this unit, you'll learn about three of these structures in more detail: views, stored procedures, and indexes.
 
 What is a view?
 
@@ -73,11 +73,39 @@ These capabilities enable you to:
 
 ...
 
+Business benefits
 
+Azure SQL Database automatically updates and patches the SQL Server software to ensure that you're always running the latest andmost secure version of the service. The scalability features of Azure SQL Database ensure that you can increase the resources available to store and process data without having to perform a costly manual upgrade.
 
+The service provides high avaialability guarantees, to ensure that your databases are avialable at least 99.995% of the time. Azure SQL Database supports point-in-time restore, enabling you to recover a database to the state it was in at any point in the past. Databases can be replicated to different regions to provide more resiliency and disaster recovery.
 
+Advanced threat protection provides advanced security capabilities, such as vulnerability assessments, to help detect and remediate potential security problems with your databases. Threat protection also detects anomalous activities that indicate unusual and potentially harmful attempts to access or exploit your database. It continuously monitors your database for suspicious activity, and recommended action on hwo to investigate and mitigate the threat.
 
+Auditing tracks database events and writes them to an audit log in your Azure storage account. Auditing can help you maintainregulatory complaince, understand database activity, and gain insight into discrepancies and anomalies that might indicate business concerns or suspected security violations.
 
+SQL Database helps secure your data by providing encryption that protects data that is stored in the database (at rest) and while it is being transferred across the network (in motion).
+
+https://docs.microsoft.com/en-us/learn/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source
+
+Describe Azure services for open-source databases
+
+In addition to Azure SQL services, Azure data services are available for other popular relational database systems, including MySQL, MariaDB, and PostgreSQL. The primary reason for these services is to enable organizations that use them in on-premises apps to move to Azure quickly, without making significan changes to their applications.
+
+What are MySQL, MariaDB, and PostgreSQL?
+
+My SQL, MariaDB, and PostgreSQL are relational database management systems that are tailored for different specializations.
+
+MySQL started life as a simple-to-use open-source database management system. It's the leading open source relational database for Linux, Apache, MySQL, and PHP (LAMP) stack apps. It's available in several editions; Community, Standard, and Enterprise. The Community edition is available free-of-charge, and has historically been popular as a database management sytem for web applications, running under Linux. Versions are also available for Windows. Standard edition offers higher performance, and uses a different technology for storing data. Enterprise edition provides a comprehensive set of tools and features, including enhanced securiity, availability, and scalability. The Standard and Enterprise editions are the versions most frequently used by commercial organizations, although these versions of the software aren't free.
+
+MariaDB is a newer database management system, created by the original developers of MySQL. The database engine has since been rewritten and optimized to improve performance. MariaDB offers compatibility with Oracle Database (another popular commercial database management system). One notable feature of MariaDB is built-in support for temporal data. A table can hold several versions of data, enabling an application to query the data as it appeared at some point in time.
+
+PostgreSQL is a hybrid relational-object database. You can store data in relational tables, but a PostgreSQL database also enables you to store custom data types, with their own non-relational properties. The database management system is extensible; you can add code modules to the database, which can be run in queries. Another key feature is the ability to store and manipulate geometric data, such as lines, cercles, and polygons.
+
+PostgreSQL has its own query language called pgsql. This language is a variant of the standard relational query language, SQL, with features that allow you to write stored procedures taht run inside the database.
+
+Azure Database for MySQL
+
+...
 
 
 
