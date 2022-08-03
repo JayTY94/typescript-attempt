@@ -3,49 +3,6 @@
 
 
 
-11
-Azure Data Fundamentals
-Azure Database for MySQL - a simple-to-use open-source database management system that is commonly used in Linux, Apache, MySQL, and PHP (LAMP) stack apps.
-
-
-
-
-
-12
-Azure Data Fundamentals
-Azure Database for MariaDB - a newer database management system, created by the original developers of MySQL. The database engine has since been rewritten and optimized to improve performance. MariaDB offers compatibility with Oracle Database (another popular commercial database management system).
-
-
-
-
-
-13
-Azure Data Fundamentals
-Azure Database for PostgreSQL - a hybrid relational-object database. You can store data in relational tables, but a PostgreSQL database also enables you to store custom data types, with their own non-relational properties.
-
-
-
-
-
-14
-Azure Data Fundamentals
-Data engineers use Azure Storage to host data lakes - blob storage with a hierarchical namespace that enables files to be organized in folders in a distributed file system.
-
-
-
-15
-Azure Data Fundamentals
-Azure Cosmos DB is a global-scale non-relational (NoSQL) database system that supports multiple application programming interfaces (APIs), enabling you to store and manage data as JSON documents, key-value pairs, column-families, and graphs.
-
-
-
-16
-Azure Data Fundamentals
-Azure Data Factory is used by data engineers to build extract, transform, and load (ETL) solutions that populate analytical data stores with data from transactional systems across the organization.
-
-
-
-
 
 17
 Azure Data Fundamentals
