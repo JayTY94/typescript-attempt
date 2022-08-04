@@ -3,42 +3,6 @@
 
 
 
-
-17
-Azure Data Fundamentals
-Azure Synapse Analytics is a comprehensive, unified data analytics solution that provides a single service interface for multiple analytical capabilities, including:
-    Pipelines
-    SQL
-    Apache Spark
-    Azure Synapse Data Explorer
-
-
-
-18
-Azure Data Fundamentals
-Azure Databricks is an Azure-integrated version of the popular Databricks platform, which combines the Apache Spark data processing platform with SQL database semantics and an integrated management interface to enable large-scale data analytics.
-
-
-
-
-
-19
-Azure Data Fundamentals
-Data engineers can incorporate Azure Stream Analytics into data analytics architectures that capture streaming data for ingestion into an analytical data store or for real-time visualization.
-
-
-
-
-
-20
-Azure Data Fundamentals
-Data analysts can use Azure Data Explorer to query and analyze data that includes a timestamp attribute, such as is typically found in log files and Internet-of-things (IoT) telemetry data.
-
-
-
-
-
-
 21
 Azure Data Fundamentals
 Which single service would you use to implement data pipelines, SQL analytics, and Spark analytics?
