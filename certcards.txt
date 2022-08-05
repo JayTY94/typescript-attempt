@@ -2,18 +2,6 @@
 
 
 
-
-21
-Azure Data Fundamentals
-Which single service would you use to implement data pipelines, SQL analytics, and Spark analytics?
-
-Azure Synapse Analytics
-
-NOT Microsoft Power BI
-NOT Azure SQL Database
-
-
-
 22
 Azure Data Fundamentals
 Normalization is a term used by database professionals for a schema design process that minimizes data duplication and enforces data integrity.
