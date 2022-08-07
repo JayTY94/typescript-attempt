@@ -77,6 +77,201 @@ PostgreSQL is a hybrid relational-object database. You can store data in relatio
 
 11
 Azure Data Fundamentals
+Azure Database for MySQL is a Paas implementation of MySQL in the Azure cloud, based on MySQL Community Edition. Automatic backups are provided, with point-in-time restore.
+
+
+
+12
+Azure Data Fundamentals
+With Azure Database for MySQL, server parameters enable you to configure server settings such as lock modes, maximum number of connections, and timeouts.
+
+
+
+13
+Azure Data Fundamentals
+Certain operations aren't available with Azure Database for MySQL. These functions are primarily concerned with security and administration. Azure manages these aspects of the database server itself.
+
+
+
+14
+Azure Data Fundamentals
+Azure Database for MySQL Flexible Server is a fully managed database as a service offering, with predictable performance and dynamic scalability. Flexible server is the recommended deployment option for all new developments or migrations.
+
+
+
+15
+Azure Data Fundamentals
+Azure Database for MySQL Single Server is a fully managed database as a service offering, with predictable performance and dynamic scalability. Single servers are best for existing applications already using single server.
+
+
+
+
+
+16
+Azure Data Fundamentals
+Azure Database for MySQL ensures automatic backups and point-in-time restore for the last 35 days.
+
+
+
+17
+Azure Data Fundamentals
+Some features of on-premises PostgreSQL databases aren't available in Azure Database for PostgreSQL. These features are mostly concerned with the extensions that users can add to a database to perform specialized tasks, such as writing stored procedures in various programming languages (other than pgsql, which is available), and interacting directly with the operating system
+
+
+
+18
+Azure Data Fundamentals
+The single-server deployment option for PostgreSQL provides similar benefits as Azure Database for MySQL. You choose from three pricing tiers: Basic, General Purpose, and Memory Optimized. Each tier supports different numbers of CPUs, memory, and storage sizes; you select one base do on the load you expect to support.
+
+
+
+19
+Azure Data Fundamentals
+Hyperscale (Citus) is a deployment option that scales queries across multiple server nodes to support large database loads. Your database is split across nodes.
+
+
+
+20
+Azure Data Fundamentals
+Azure SQL Managed Instance offers near 100% compatibility with on-prem SQL Server.
+
+
+
+
+
+21
+Azure Data Fundamentals
+Which database service is the simplest option for migrating a LAMP application to Azure?
+
+Azure Database for MySQL
+
+
+
+22
+Azure Data Fundamentals
+Azure Blob Storage is a service that enables you to store massive amounts of unstructured data as binary large objects, or blobs, in the cloud. Blobs are an efficient way to store data files in a format that is optimized for cloud-based storage, and applications can read and write them by using the Azure blob storage API.
+
+
+
+23
+Azure Data Fundamentals
+In an Azure storage account, you store blobs in containers. A container provides a convenient way of grouping related blobs together. You control who can read and write blobs inside a container at the container level.
+
+
+
+24
+Azure Data Fundamentals
+In Azure Storage, Block blobs. A block blob is handled as a set of blocks. Each block can vary in size, up to 100 MB. A block blob can contain up to 50,000 blocks, giving a maximum size of over 4.7 TB. The block is the smallest amount of data that can be read or written as an individual unit. Block blobs are best used to store discrete, large, binary objects that change infrequently.
+
+
+
+
+25
+Azure Data Fundamentals
+In Azure Storage Page blobs. A page blob is organized as a collection of fixed size 512-byte pages. A page blob is optimized to support random read and write operations; you can fetch and store data for a single page if necessary. A page blob can hold up to 8 TB of data. Azure uses page blobs to implement virtual disk storage for virtual machines.
+
+
+
+26
+Azure Data Fundamentals
+In Azure Storage Append blobs. An append blob is a block blob optimized to support append operations. You can only add blocks to the end of an append blob; updating or deleting existing blocks isn't supported. Each block can vary in size, up to 4 MB. The maximum size of an append blob is just over 195 GB.
+
+
+
+27
+Azure Data Fundamentals
+Blob storage provides three access tiers, which help to balance access latency and storage cost:
+
+The Hot tier is the default. You use this tier for blobs that are accessed frequently. The blob data is stored on high-performance media.
+
+
+
+28
+Azure Data Fundamentals
+Blob storage provides three access tiers, which help to balance access latency and storage cost:
+
+The Cool tier has lower performance and incurs reduced storage charges compared to the Hot tier. Use the Cool tier for data that is accessed infrequently. It's common for newly created blobs to be accessed frequently initially, but less so as time passes. In these situations, you can create the blob in the Hot tier, but migrate it to the Cool tier later.
+
+
+
+29
+Azure Data Fundamentals
+Blob storage provides three access tiers, which help to balance access latency and storage cost:
+The Archive tier provides the lowest storage cost, but with increased latency. The Archive tier is intended for historical data that mustn't be lost, but is required only rarely. Blobs in the Archive tier are effectively stored in an offline state.
+
+
+
+30
+Azure Data Fundamentals
+Typical reading latency for the Hot and Cool tiers is a few milliseconds, but for the Archive tier, it can take hours for the data to become available. To retrieve a blob from the Archive tier, you must change the access tier to Hot or Cool. The blob will then be rehydrated. You can read the blob only when the rehydration process is complete.
+
+
+
+
+Process finished with exit code 0
+C:\Users\m4ple\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:/Users/m4ple/PycharmProjects/pythonProject1/crads.py
+1
+Azure Data Fundamentals
+
+
+
+
+2
+Azure Data Fundamentals
+
+
+
+
+3
+Azure Data Fundamentals
+
+
+
+
+4
+Azure Data Fundamentals
+
+
+
+
+5
+Azure Data Fundamentals
+
+
+
+
+6
+Azure Data Fundamentals
+
+
+
+
+7
+Azure Data Fundamentals
+
+
+
+
+8
+Azure Data Fundamentals
+
+
+
+
+9
+Azure Data Fundamentals
+
+
+
+
+10
+Azure Data Fundamentals
+
+
+
+
+11
+Azure Data Fundamentals
 
 
 
