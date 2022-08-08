@@ -3,42 +3,6 @@
 
 
 
-Process finished with exit code 0
-C:\Users\m4ple\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:/Users/m4ple/PycharmProjects/pythonProject1/crads.py
-1
-Azure Data Fundamentals
-You can create many indexes on a table. However, Indexes aren't free. An index consumes storage space, and each time you insert, update, and delte data in a table, teh indexes for that table must be maintained.
-
-
-
-2
-Azure Data Fundamentals
-SQL Server on Azure Virtual Machines (VMs) - A virtual machine running in Azure with an installation of SQL Server. The use of a VM makes this option an infrastructure-as-a-service (IaaS) solution that virtualizes hardware infrastructure for compute, storage, and networking in Azure; making it a great option for "lift and shift" migration of existing on-premises SQL Server installations to the cloud.
-
-
-
-
-3
-Azure Data Fundamentals
-Azure SQL Managed Instance - A platform-as-a-service (PaaS) option that provides near-100% compatibility with on-premises SQL Server instances while abstracting the underlying hardware and operating system. The service includes automated software update management, backups, and other maintenance tasks, reducing the administrative burden of supporting a database server instance.
-
-
-
-
-4
-Azure Data Fundamentals
-Azure SQL Database - A fully managed, highly scalable PaaS database service that is designed for the cloud. This service includes the core database-level capabilities of on-premises SQL Server, and is a good option when you need to create a new application in the cloud.
-
-
-
-
-5
-Azure Data Fundamentals
-Azure SQL Edge - A SQL engine that is optimized for Internet-of-things (IoT) scenarios that need to work with streaming time-series data.
-
-
-
-
 6
 Azure Data Fundamentals
 Managed instances depend on other Azure services such as Azure Storage for backups, Azure Event Hubs for telemetry, Azure Active Directory for authentication, Azure Key Vault for Transparent Data Encryption (TDE) and a couple of Azure platform services that provide security and supportability features. The managed instances make connections to these services.
@@ -212,84 +176,101 @@ Process finished with exit code 0
 C:\Users\m4ple\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:/Users/m4ple/PycharmProjects/pythonProject1/crads.py
 1
 Azure Data Fundamentals
+You can create lifecycle management policies for blobs in a storage account. A lifecycle management policy can automatically move a blob from Hot to Cool, and then to the Archive tier, as it ages and is used less frequently (policy is based on the number of days since modification). A lifecycle management policy can also arrange to delete outdated blobs.
+
 
 
 
 
 2
 Azure Data Fundamentals
-
+To create an Azure Data Lake Store Gen2 files system, you must enable the Hierarchical Namespace option of an Azure Storage account.
 
 
 
 3
 Azure Data Fundamentals
-
+Systems like Hadoop in Azure HDInsight, Azure Databricks, and Azure Synapse Analytics can mount a distributed file system hosted in Azure Data Lake Store Gen2 and use it to process huge volumes of data.
 
 
 
 4
 Azure Data Fundamentals
-
+Azure Files is essentially a way to create cloud-based network shares, such as you typically find in on-premises organizations to make documents and other files available to multiple users.
 
 
 
 5
 Azure Data Fundamentals
-
+You create Azure File storage in a storage account. Azure Files enables you to share up to 100 TB of data in a single storage account. This data can be distributed across any number of file shares in the account.
 
 
 
 6
 Azure Data Fundamentals
-
+Azure File Storage offers two performance tiers. The Standard tier uses hard disk-based hardware in a datacenter, and the Premium tier uses solid-state disks. The Premium tier offers greater throughput, but is charged at a higher rate
 
 
 
 7
 Azure Data Fundamentals
+Azure Files supports two common network file sharing protocols:
 
+Server Message Block (SMB) file sharing is commonly used across multiple operating systems (Windows, Linux, macOS).
+Network File System (NFS) shares are used by some Linux and macOS versions. To create an NFS share, you must use a premium tier storage account and create and configure a virtual network through which access to the share can be controlled.
 
 
 
 8
 Azure Data Fundamentals
-
+Azure Table Storage is a NoSQL storage solution that makes use of tables containing key/value data items. Each item is represented by a row that contains columns for the data fields that need to be stored.
 
 
 
 9
 Azure Data Fundamentals
-
+An Azure Table enables you to store semi-structured data. All rows in a table must have a unique key (composed of a partition key and a row key), and when you modify data in a table, a timestamp column records the date and time the modification was made; but other than that, the columns in each row can vary.
 
 
 
 10
 Azure Data Fundamentals
+When you search for data in an Azure Table, you can include the partition key in the search criteria. This helps to narrow down the volume of data to be examined, and improves performance by reducing the amount of I/O (input and output operations, or reads and writes) needed to locate the data.
+
 
 
 
 
 11
 Azure Data Fundamentals
+In an sandbox, I have manually entered data into the Azure Table using the storage browser interface. In a real scenario, application developers can use the Azure Storage Table API to build applications that read and write values to tables, making it a cost effective and scalable solution for NoSQL storage.
+
 
 
 
 
 12
 Azure Data Fundamentals
-
+What are the elements of an Azure Table Storage key?
+Partition key and row key
+The partition key identifies the partition in which a row is located, and the rows in each partition are stored in row key order.
 
 
 
 13
 Azure Data Fundamentals
-
+What should you do to an existing Azure Storage account in order to support a data lake for Azure Synapse Analytics?
+Upgrade the account to enable hierarchical namespace and create a blob container
+Enabling a hierarchical namespace adds support for Azure Data Lake Storage Gen 2, which can be used by Synapse Analytics.
 
 
 
 14
 Azure Data Fundamentals
+3. Why might you use Azure File storage?
+To enable users at different sites to share files.
+You can create a file share in Azure File storage, upload files to this file share, and grant access to the file share to remote users.
+
 
 
 
