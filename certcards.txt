@@ -1,14 +1,5 @@
 
 
-
-
-
-6
-Azure Data Fundamentals
-Managed instances depend on other Azure services such as Azure Storage for backups, Azure Event Hubs for telemetry, Azure Active Directory for authentication, Azure Key Vault for Transparent Data Encryption (TDE) and a couple of Azure platform services that provide security and supportability features. The managed instances make connections to these services.
-
-
-
 7
 Azure Data Fundamentals
 Azure SQL Database is often used for:
