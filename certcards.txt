@@ -3,14 +3,6 @@
 
 
 
-10
-Azure Data Fundamentals
-3. Why might you use Azure File storage?
-To enable users at different sites to share files.
-You can create a file share in Azure File storage, upload files to this file share, and grant access to the file share to remote users.
-
-
-
 11
 Azure Data Fundamentals
 Azure Database for MySQL is a Paas implementation of MySQL in the Azure cloud, based on MySQL Community Edition. Automatic backups are provided, with point-in-time restore.
