@@ -206,6 +206,99 @@ Now that you have an Azure Storage account, you can create a container for blob 
 
 https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-stores-azure/2-describe-azure-cosmos-db
 
+Describe Azure Cosmos DB
+
+Azure Cosmos DB supports multiple application programming interfaces (APIs) that enable developers to use programming semantics of many kinds of data store to work with data in a CosmosDB database. The internal data structure is abstracted, enabling developers to use CosmosDB to store and query data using APIs with which they're already familiar.
+
+Note 
+An API is an Application Programming Interface. Database management systems (and other software frameworks) provide a set of APIs that developers can use to write programs that need to access data. The APIs vary for different database management systems.
+
+Cosmos DB uses indexes and partitioning to provide fast read and write performance and can scale to massive volumes of data. You can enable multi-region writes, adding the Azure regions of your choice to your Cosmos DB account so that globally distributed users can each work with data in their local replica.
+
+When to use Cosmos DB 
+
+Cosmos DB is a highly scalable database management system. Cosmos DB automatically allocates space in a container for your partitions, and each partition can grow up to 10 GB in size. Indexes are created and maintained automatically. There's virtually no administrative overhead.
+
+Cosmos DB is a foundational service in Azure. Cosmos DB has been used by many of Microsoft's products for mission critical applications at global scale, including Skype, Xbox, Microsoft 365, Azure, and many others. Cosmos DB is highly suitable for the following scenarios: 
+
+  IoT and telematics. These systems typically ingest large amounts of data in frequent bursts of activity. Cosmos DB can accept and store this information quickly. The data can be used by analytics services, such as Azure Machine Learning, Azure HDInsight, and Power BI. Additionally, you can process data in real-time using Azure Functions that are triggered as data arrives in the database.
+
+  Retail and marketing. Microsoft uses Cosmos DB for its own e-commerce platforms that run as part of Windows Store and Xbox Live. It's also used in the retail industry for storing catalog data and for event sourcing in order processing pipelines.
+
+  Gaming. The database tier is a crucial component of gaming applications. Modern games perform graphical processing on mobile/console clients, but they rely on the cloud to deliver customized and personalized content like in-game stats, social media integration, and high-score leaderboards. Games often require single-millisecond latencies for reads and write to provide an engaging in-game experience. A game database needs to be fast and be able to handle massive spikes in request rates during new game launches and feature updates.
+
+  Web and mobile applications. Azure Cosmos DB is commonly used within web and mobile applications, and it is well suited for modeling social interactions, integrating with third-party services, and for building rich personalized experiences. The Cosmos DB SDKs can be used to build rich iOS and Android applications using the popular Xamarin framework.
+
+For additional information about uses for Cosmos DB, read Common Azure Cosmos DB use cases.
+
+https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-stores-azure/3-cosmos-db-apis
+
+Identify Azure Cosmos DB APIs 
+
+Azure Cosmos DB supports multiple APIs, enabling developers to easily migrate data from commonly used NoSQL stores and apply their existing programming skills. When you provision a new Cosmos DB instance, you select the API that you want to use. The choice of API depends on many factors including the type of data to be stored, the need to support existing applications, and the API skills of the developers who will work with the data store.
+
+Core (SQL) API 
+
+The native API in Cosmos DB manages data in JSON document format, and despite being a NoSQL data storage solution, uses SQL syntax to work with the data.
+
+A SQL query for a Cosmos DB database containing customer data might look similar to this:
+
+  SELECT *
+  FROM customers c
+  WHERE c.id = "joe@litware.com"
+
+Theh result of this query consists of one or more JSON documents, as shown here:
+
+  {
+    "id": "joe@litware.com",
+    "name": "Joe Jones",
+    "address": {
+        "street": "1 Main St",
+        "city": "Seattle"
+    }
+  }
+
+MongoDB API
+
+MongoDB is a popular open source database in which data is stored in Binary JSON (BSON) format. The Azure Cosmos DB MongoDB API enables developers to use MongoDB client libraries and code to work with data in Azure Cosmos DB.
+
+MongoDB Query Language (MQL) uses a compact, object-oriented syntax in which developers use objects to call methods. For example, the following query uses the find method to query the producs collection in the db object:
+
+  db.products.find({id: 123})
+
+The results of this query consist of JSON documents, similar to this:
+
+  {
+      "id": 123,
+      "name": "Hammer",
+      "price": 2.99
+  }
+
+Table API
+
+The Table API is used to work with data in key-value tables, similar to Azure Table Storage. The Azure Cosmos DB Table API offers greater scalability and performance than Azure Table Storage.
+
+For example, you might define a table named customers like this:
+
+  PartitionKey	RowKey	Name	Email
+  1	123	Joe Jones	joe@litware.com
+  1	124	Samir Nadoy	samir@northwind.com
+
+You can then use the Cosmos DB Table API through one fo the language-specific SDKs to make calls to your service endpoint to retrieve data from the table. For example, the following request returns the row containing the record for Samir Nadoy in teh tabel above:
+
+  https://endpoint/Customers(PartitionKey='1', RowKey='124')
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

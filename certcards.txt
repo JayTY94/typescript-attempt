@@ -231,7 +231,7 @@ Enabling a hierarchical namespace adds support for Azure Data Lake Storage Gen 2
 
 14
 Azure Data Fundamentals
-
+Cosmos DB uses indexes and partitioning to provide fast read and write performance and can scale to massive volumes of data. You can enable multi-region writes, adding the Azure regions of your choice to your Cosmos DB account so that globally distributed users can each work with data in their local replica.
 
 
 
@@ -239,49 +239,60 @@ Azure Data Fundamentals
 
 15
 Azure Data Fundamentals
-
+Microsoft uses Cosmos DB for its own e-commerce platforms that run as part of Windows Store and Xbox Live. It's also used in the retail industry for storing catalog data and for event sourcing in order processing pipelines.
 
 
 
 16
 Azure Data Fundamentals
-
+Azure Cosmos DB is commonly used within web and mobile applications, and it is well suited for modeling social interactions, integrating with third-party services, and for building rich personalized experiences. The Cosmos DB SDKs can be used to build rich iOS and Android applications using the popular Xamarin framework.
 
 
 
 17
 Azure Data Fundamentals
-
+When you provision a new Cosmos DB instance, you select the API that you want to use. The choice of API depends on many factors including the type of data to be stored, the need to support existing applications, and the API skills of the developers who will work with the data store.
 
 
 
 18
 Azure Data Fundamentals
+The native API in Cosmos DB manages data in JSON document format, and despite being a NoSQL data storage solution, uses SQL syntax to work with the data.
 
 
 
 
 19
 Azure Data Fundamentals
+MongoDB Query Language (MQL) uses a compact, object-oriented syntax in which developers use objects to call methods. For example, the following query uses the find method to query the producs collection in the db object:
 
+  db.products.find({id: 123})
 
 
 
 20
 Azure Data Fundamentals
+The Table API is used to work with data in key-value tables, similar to Azure Table Storage. The Azure Cosmos DB Table API offers greater scalability and performance than Azure Table Storage.
+
 
 
 
 
 21
 Azure Data Fundamentals
+The Cassandra API is compatible with Apache Cassandra, which is a popular open source database that uses a column-family storage structure. Column families are tables, similar to those in a relational database, with the exception that it's not mandatory for every row to have the same columns.
+
 
 
 
 
 22
 Azure Data Fundamentals
+The Gremlin API is used with data in a graph structure; in which entities are defined as vertices that form nodes in connected graph. Nodes are connected by edges that represent relationships, like this:
 
+https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-stores-azure/3-cosmos-db-apis
+
+The example in the image shows two kinds of vertex (employee and department) and edges that connect them (employee "Ben" reports to employee "Sue", and both employees work in the "Hardware" department).
 
 
 
