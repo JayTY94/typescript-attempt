@@ -3,27 +3,20 @@
 
 
 
-11
-Azure Data Fundamentals
-Azure Database for MySQL is a Paas implementation of MySQL in the Azure cloud, based on MySQL Community Edition. Automatic backups are provided, with point-in-time restore.
-
-
-
-12
-Azure Data Fundamentals
-With Azure Database for MySQL, server parameters enable you to configure server settings such as lock modes, maximum number of connections, and timeouts.
-
-
-
 13
 Azure Data Fundamentals
 Certain operations aren't available with Azure Database for MySQL. These functions are primarily concerned with security and administration. Azure manages these aspects of the database server itself.
 
 
 
+
+
 14
 Azure Data Fundamentals
 Azure Database for MySQL Flexible Server is a fully managed database as a service offering, with predictable performance and dynamic scalability. Flexible server is the recommended deployment option for all new developments or migrations.
+
+
+
 
 
 
@@ -38,6 +31,9 @@ Azure Database for MySQL Single Server is a fully managed database as a service 
 16
 Azure Data Fundamentals
 Azure Database for MySQL ensures automatic backups and point-in-time restore for the last 35 days.
+
+
+
 
 
 
