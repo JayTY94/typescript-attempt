@@ -288,7 +288,34 @@ You can then use the Cosmos DB Table API through one fo the language-specific SD
 
   https://endpoint/Customers(PartitionKey='1', RowKey='124')
 
+https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-stores-azure/4-exercise-explore-cosmos-db
 
+Create a Cosmos DB account 
+
+To use Cosmos DB, you must provision an Cosmos DB account in your Azure subscription. In this exercise, you'll provision a Cosmos DB account that uses the core (SQL) API.
+
+  1. IN the Azure portal, select + Create a resource at the top left, and search for Azure Cosmos DB. In the results, select Azure Cosmos DB and select Creat.
+  2. In the Core (SQL) - Recommended tile, select Create.
+  3. Enter the following details, and then select Review + Create:
+
+    Subscription: If you're using a sandbox, select Concierge Subscription. Otherwise, select your Azure subscription.
+    Resource group: If you're using a sandbox, select the existing resource group (which will have a name like learn-xxxx...). Otherwise, create a new resource group with a name of your choice.
+    Account Name: Enter a unique name.
+    Location: Choose any recommended location
+    Capacity mode: Provisioned throughput 
+    Apply Free-Tier Discount: Select Apply if available
+    Limit total account throughput: Unselected 
+
+  4. When the configuration has been validated, select Create.
+  5. Wait for deployment to complete. Then go to the deployed resource.
+
+Create a simple database
+
+Throughout this procedure, close any tips that are displayed in the portal.
+
+  1. On the page for your new Cosmos DB account, in the pane on the left, select Data Explorer.
+  2. In the Data Explorer page, select Launch quick start.
+  3. In the New Container tab, review the
 
 
 
