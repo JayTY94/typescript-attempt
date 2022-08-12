@@ -3,66 +3,6 @@
 
 
 
-13
-Azure Data Fundamentals
-Certain operations aren't available with Azure Database for MySQL. These functions are primarily concerned with security and administration. Azure manages these aspects of the database server itself.
-
-
-
-
-
-14
-Azure Data Fundamentals
-Azure Database for MySQL Flexible Server is a fully managed database as a service offering, with predictable performance and dynamic scalability. Flexible server is the recommended deployment option for all new developments or migrations.
-
-
-
-
-
-
-15
-Azure Data Fundamentals
-Azure Database for MySQL Single Server is a fully managed database as a service offering, with predictable performance and dynamic scalability. Single servers are best for existing applications already using single server.
-
-
-
-
-
-16
-Azure Data Fundamentals
-Azure Database for MySQL ensures automatic backups and point-in-time restore for the last 35 days.
-
-
-
-
-
-
-17
-Azure Data Fundamentals
-Some features of on-premises PostgreSQL databases aren't available in Azure Database for PostgreSQL. These features are mostly concerned with the extensions that users can add to a database to perform specialized tasks, such as writing stored procedures in various programming languages (other than pgsql, which is available), and interacting directly with the operating system
-
-
-
-18
-Azure Data Fundamentals
-The single-server deployment option for PostgreSQL provides similar benefits as Azure Database for MySQL. You choose from three pricing tiers: Basic, General Purpose, and Memory Optimized. Each tier supports different numbers of CPUs, memory, and storage sizes; you select one base do on the load you expect to support.
-
-
-
-19
-Azure Data Fundamentals
-Hyperscale (Citus) is a deployment option that scales queries across multiple server nodes to support large database loads. Your database is split across nodes.
-
-
-
-20
-Azure Data Fundamentals
-Azure SQL Managed Instance offers near 100% compatibility with on-prem SQL Server.
-
-
-
-
-
 21
 Azure Data Fundamentals
 Which database service is the simplest option for migrating a LAMP application to Azure?
