@@ -210,16 +210,16 @@ Describe Azure Cosmos DB
 
 Azure Cosmos DB supports multiple application programming interfaces (APIs) that enable developers to use programming semantics of many kinds of data store to work with data in a CosmosDB database. The internal data structure is abstracted, enabling developers to use CosmosDB to store and query data using APIs with which they're already familiar.
 
-Note 
+Note
 An API is an Application Programming Interface. Database management systems (and other software frameworks) provide a set of APIs that developers can use to write programs that need to access data. The APIs vary for different database management systems.
 
 Cosmos DB uses indexes and partitioning to provide fast read and write performance and can scale to massive volumes of data. You can enable multi-region writes, adding the Azure regions of your choice to your Cosmos DB account so that globally distributed users can each work with data in their local replica.
 
-When to use Cosmos DB 
+When to use Cosmos DB
 
 Cosmos DB is a highly scalable database management system. Cosmos DB automatically allocates space in a container for your partitions, and each partition can grow up to 10 GB in size. Indexes are created and maintained automatically. There's virtually no administrative overhead.
 
-Cosmos DB is a foundational service in Azure. Cosmos DB has been used by many of Microsoft's products for mission critical applications at global scale, including Skype, Xbox, Microsoft 365, Azure, and many others. Cosmos DB is highly suitable for the following scenarios: 
+Cosmos DB is a foundational service in Azure. Cosmos DB has been used by many of Microsoft's products for mission critical applications at global scale, including Skype, Xbox, Microsoft 365, Azure, and many others. Cosmos DB is highly suitable for the following scenarios:
 
   IoT and telematics. These systems typically ingest large amounts of data in frequent bursts of activity. Cosmos DB can accept and store this information quickly. The data can be used by analytics services, such as Azure Machine Learning, Azure HDInsight, and Power BI. Additionally, you can process data in real-time using Azure Functions that are triggered as data arrives in the database.
 
@@ -233,11 +233,11 @@ For additional information about uses for Cosmos DB, read Common Azure Cosmos DB
 
 https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-stores-azure/3-cosmos-db-apis
 
-Identify Azure Cosmos DB APIs 
+Identify Azure Cosmos DB APIs
 
 Azure Cosmos DB supports multiple APIs, enabling developers to easily migrate data from commonly used NoSQL stores and apply their existing programming skills. When you provision a new Cosmos DB instance, you select the API that you want to use. The choice of API depends on many factors including the type of data to be stored, the need to support existing applications, and the API skills of the developers who will work with the data store.
 
-Core (SQL) API 
+Core (SQL) API
 
 The native API in Cosmos DB manages data in JSON document format, and despite being a NoSQL data storage solution, uses SQL syntax to work with the data.
 
@@ -290,7 +290,7 @@ You can then use the Cosmos DB Table API through one fo the language-specific SD
 
 https://docs.microsoft.com/en-us/learn/modules/explore-non-relational-data-stores-azure/4-exercise-explore-cosmos-db
 
-Create a Cosmos DB account 
+Create a Cosmos DB account
 
 To use Cosmos DB, you must provision an Cosmos DB account in your Azure subscription. In this exercise, you'll provision a Cosmos DB account that uses the core (SQL) API.
 
@@ -302,9 +302,9 @@ To use Cosmos DB, you must provision an Cosmos DB account in your Azure subscrip
     Resource group: If you're using a sandbox, select the existing resource group (which will have a name like learn-xxxx...). Otherwise, create a new resource group with a name of your choice.
     Account Name: Enter a unique name.
     Location: Choose any recommended location
-    Capacity mode: Provisioned throughput 
+    Capacity mode: Provisioned throughput
     Apply Free-Tier Discount: Select Apply if available
-    Limit total account throughput: Unselected 
+    Limit total account throughput: Unselected
 
   4. When the configuration has been validated, select Create.
   5. Wait for deployment to complete. Then go to the deployed resource.
@@ -317,7 +317,7 @@ Throughout this procedure, close any tips that are displayed in the portal.
   2. In the Data Explorer page, select Launch quick start.
   3. In the New Container tab, review the
 
-
+https://docs.microsoft.com/en-us/learn/modules/examine-components-of-modern-data-warehouse/2-describe-warehousing
 
 
 
