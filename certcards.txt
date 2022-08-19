@@ -1,41 +1,5 @@
 
 
-
-6
-Azure Data Fundamentals
-Azure File Storage offers two performance tiers. The Standard tier uses hard disk-based hardware in a datacenter, and the Premium tier uses solid-state disks. The Premium tier offers greater throughput, but is charged at a higher rate
-
-
-
-7
-Azure Data Fundamentals
-Azure Files supports two common network file sharing protocols:
-
-Server Message Block (SMB) file sharing is commonly used across multiple operating systems (Windows, Linux, macOS).
-Network File System (NFS) shares are used by some Linux and macOS versions. To create an NFS share, you must use a premium tier storage account and create and configure a virtual network through which access to the share can be controlled.
-
-
-
-8
-Azure Data Fundamentals
-Azure Table Storage is a NoSQL storage solution that makes use of tables containing key/value data items. Each item is represented by a row that contains columns for the data fields that need to be stored.
-
-
-
-9
-Azure Data Fundamentals
-An Azure Table enables you to store semi-structured data. All rows in a table must have a unique key (composed of a partition key and a row key), and when you modify data in a table, a timestamp column records the date and time the modification was made; but other than that, the columns in each row can vary.
-
-
-
-10
-Azure Data Fundamentals
-When you search for data in an Azure Table, you can include the partition key in the search criteria. This helps to narrow down the volume of data to be examined, and improves performance by reducing the amount of I/O (input and output operations, or reads and writes) needed to locate the data.
-
-
-
-
-
 11
 Azure Data Fundamentals
 In an sandbox, I have manually entered data into the Azure Table using the storage browser interface. In a real scenario, application developers can use the Azure Storage Table API to build applications that read and write values to tables, making it a cost effective and scalable solution for NoSQL storage.
