@@ -153,17 +153,17 @@ On Azure, large-scale data ingestion is best implemented by creating pipelines t
 Process finished with exit code 0
 1
 Azure Data Fundamentals
-
+Pipelines consist of one or more activities that operate on data. An input dataset provides the source data, and activities can be defined as a data flow that incrementally manipulates the data until an output dataset is produced. Pipelines use linked services to load and process data – enabling you to use the right technology for each step of the workflow
 
 
 2
 Azure Data Fundamentals
-
+A fact and dimension table schema is called a star schema; though it's often extended into a snowflake schema by adding additional tables related to the dimension tables to represent dimensional hierarchies (for example, product might be related to product categories)
 
 
 3
 Azure Data Fundamentals
-
+Technologies like Spark or Hadoop are often used to process queries on the stored files and return data for reporting and analytics. These systems often apply a schema-on-read approach to define tabular schemas on semi-structured data files at the point where the data is read for analysis, without applying constraints when it's stored
 
 
 4
