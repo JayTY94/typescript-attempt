@@ -319,6 +319,52 @@ Throughout this procedure, close any tips that are displayed in the portal.
 
 https://docs.microsoft.com/en-us/learn/modules/examine-components-of-modern-data-warehouse/2-describe-warehousing
 
+...
+
+2. Analytical data store - data stores for large scale analytics include relational data warehouses, file-system based data lakes, and hybrid architectures that combine features of data warehouses and data lakes (sometimes called data lakehouses or lake databases). We'll discuss these in more depth later.
+
+3. Analytical data model - while data analysts and data scientists can work with the data directly in the analytical data store, it's common to create one or more data models that pre-aggregate the data to make it easier to produce reports, dashboards, and interactive visualizations. Often these data models are described as cubes, in which numeric data values are aggregated across one or more dimesniosn (for example, to determine total sales by product an dregion). The model encapsulates the relationships between data values and dimensional entities to support "drill-up/drill-down" analysis.
+
+4. Data visualization - Data analysts consume data from analytical models, and directly from analytical stores to create reports, dashboards, and other visualizations. Additionally, users in an organization who may not be technology professionals might perform self-service data analysis and reporting. The visualizations from the data show trends, comparisons, and key performance indicators (KPIs) for a business or other organization, and can take the form of printed reports, graphs and charts in documents or PowerPoint presentations, web-based dashboards, and interactive environments in which users can explore data visually.
+
+https://docs.microsoft.com/en-us/learn/modules/examine-components-of-modern-data-warehouse/3-data-ingestion-pipelines
+
+Explore data ingestion pipelines 
+
+Now that you understand a little about the architecture of a large-scale data warehousing solution, and some of the distributed processing technologies that can be used to handle large volumes of data, it's time to explore how data is ingested into an analytical data store from one or more sources.
+
+On Azure, large-scale data ingestion is best implemented by creating pipelines that orchestrate ETL processes. You can create and run pipelines using Azure Data Factory, or you can use the same pipeline engine in Azure Synapse Analytics if you want to manage all of the components of your data warehousing solution in a unified workspace.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -129,7 +129,165 @@ Big Data processing solutions, are used with large volumes of data in multiple f
 
 28
 Azure Data Fundamentals
+Analytical data model - while data analysts and data scientists can work with the data directly in the analytical data store, it's common to create one or more data models that pre-aggregate the data to make it easier to produce reports, dashboards, and interactive visualizations. Often these data models are described as cubes, in which numeric data values are aggregated across one or more dimesniosn (for example, to determine total sales by product an dregion).
 
+
+
+29
+Azure Data Fundamentals
+Data Warehousing Architecture
+  1. Data ingestion and processing 
+  2. Analytical data store
+  3. Analytical data model
+  4. Data visualization
+
+
+
+30
+Azure Data Fundamentals
+On Azure, large-scale data ingestion is best implemented by creating pipelines that orchestrate ETL processes. You can create and run pipelines using Azure Data Factory, or you can use the same pipeline engine in Azure Synapse Analytics
+
+
+
+
+Process finished with exit code 0
+1
+Azure Data Fundamentals
+
+
+
+2
+Azure Data Fundamentals
+
+
+
+3
+Azure Data Fundamentals
+
+
+
+4
+Azure Data Fundamentals
+
+
+
+5
+Azure Data Fundamentals
+
+
+
+6
+Azure Data Fundamentals
+
+
+
+7
+Azure Data Fundamentals
+
+
+
+8
+Azure Data Fundamentals
+
+
+
+9
+Azure Data Fundamentals
+
+
+
+10
+Azure Data Fundamentals
+
+
+
+11
+Azure Data Fundamentals
+
+
+
+12
+Azure Data Fundamentals
+
+
+
+13
+Azure Data Fundamentals
+
+
+
+14
+Azure Data Fundamentals
+
+
+
+15
+Azure Data Fundamentals
+
+
+
+16
+Azure Data Fundamentals
+
+
+
+17
+Azure Data Fundamentals
+
+
+
+18
+Azure Data Fundamentals
+
+
+
+19
+Azure Data Fundamentals
+
+
+
+20
+Azure Data Fundamentals
+
+
+
+21
+Azure Data Fundamentals
+
+
+
+22
+Azure Data Fundamentals
+
+
+
+23
+Azure Data Fundamentals
+
+
+
+24
+Azure Data Fundamentals
+
+
+
+25
+Azure Data Fundamentals
+
+
+
+26
+Azure Data Fundamentals
+
+
+
+27
+Azure Data Fundamentals
+
+
+
+28
+Azure Data Fundamentals
 
 
 
@@ -138,12 +296,7 @@ Azure Data Fundamentals
 
 
 
-
 30
 Azure Data Fundamentals
 
 
-
-
-
-Process finished with exit code 0
