@@ -1,43 +1,4 @@
 
-
-11
-Azure Data Fundamentals
-In an sandbox, I have manually entered data into the Azure Table using the storage browser interface. In a real scenario, application developers can use the Azure Storage Table API to build applications that read and write values to tables, making it a cost effective and scalable solution for NoSQL storage.
-
-
-
-
-
-12
-Azure Data Fundamentals
-What are the elements of an Azure Table Storage key?
-Partition key and row key
-The partition key identifies the partition in which a row is located, and the rows in each partition are stored in row key order.
-
-
-
-13
-Azure Data Fundamentals
-What should you do to an existing Azure Storage account in order to support a data lake for Azure Synapse Analytics?
-Upgrade the account to enable hierarchical namespace and create a blob container
-Enabling a hierarchical namespace adds support for Azure Data Lake Storage Gen 2, which can be used by Synapse Analytics.
-
-
-
-14
-Azure Data Fundamentals
-Cosmos DB uses indexes and partitioning to provide fast read and write performance and can scale to massive volumes of data. You can enable multi-region writes, adding the Azure regions of your choice to your Cosmos DB account so that globally distributed users can each work with data in their local replica.
-
-
-
-
-
-15
-Azure Data Fundamentals
-Microsoft uses Cosmos DB for its own e-commerce platforms that run as part of Windows Store and Xbox Live. It's also used in the retail industry for storing catalog data and for event sourcing in order processing pipelines.
-
-
-
 16
 Azure Data Fundamentals
 Azure Cosmos DB is commonly used within web and mobile applications, and it is well suited for modeling social interactions, integrating with third-party services, and for building rich personalized experiences. The Cosmos DB SDKs can be used to build rich iOS and Android applications using the popular Xamarin framework.
@@ -136,7 +97,7 @@ Analytical data model - while data analysts and data scientists can work with th
 29
 Azure Data Fundamentals
 Data Warehousing Architecture
-  1. Data ingestion and processing 
+  1. Data ingestion and processing
   2. Analytical data store
   3. Analytical data model
   4. Data visualization
@@ -168,6 +129,8 @@ Technologies like Spark or Hadoop are often used to process queries on the store
 
 4
 Azure Data Fundamentals
+Databricks provides an interactive user interface through which the system can be managed and data can be explored in interactive notebooks.
+
 
 
 
@@ -298,5 +261,3 @@ Azure Data Fundamentals
 
 30
 Azure Data Fundamentals
-
-
