@@ -187,32 +187,50 @@ When you download the source for libpri, DAHDI, and Asterisk you'll typically en
 
 16
 Azure Data Fundamentals
+At its simplest, a high-level architecture for stream processing looks like this:
+  1. An event generates some data
+  2. The generated data is captured in a streaming source for processing
+  3. The event is processed, often by a perpetual query.
+  4. The results of the stream processsing operation are written to an output (or sink).
 
 
 
 17
 Azure Data Fundamentals
+Microsoft Azure supports multiple technologies that you can use to implement real-time analytics of streaming data, including:
 
+Azure Stream Analytics: A platform-as-a-service (PaaS) solution that you can use to define streaming jobs that ingest data from a streaming source, apply a perpetual query, and write the results to an output.
 
 
 18
 Azure Data Fundamentals
+Microsoft Azure supports multiple technologies that you can use to implement real-time analytics of streaming data, including:
 
+Azure Data Explorer: A high-performance database and analytics service that is optimized for ingesting and querying batch or streaming data with a time-series element, and which can be used as a standalone Azure service or as an Azure Synapse Data Explorer runtime in an Azure Synapse Analytics workspace.
 
 
 19
 Azure Data Fundamentals
+The following services are commonly used to ingest data for stream processing on Azure:
 
+  Azure Event Hubs: A data ingestion services that you can use to manage queues of event data, ensuring that each event is processed in order, exactly once.
 
 
 20
 Azure Data Fundamentals
+The following services are commonly used to ingest data for stream processing on Azure:
 
+  Apache Kafka: An open-source data ingestion solution that is commonly used together with Apache Spark. You can use Azure HDInsight to create a Kafka cluster.
 
 
 21
 Azure Data Fundamentals
+The output from stream processing is often sent to the following services:
 
+Azure Event Hubs
+Azure Data Lake Store Gen 2 or Azure blob storage
+Azure SQL Database or Azure Synapse Analytics, or Azure Databricks
+Microsoft Power BI
 
 
 22

@@ -479,6 +479,34 @@ Apart from the way in which batch processing an streaming processing handle data
 
 https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-stream-processing/3-explore-common-elements
 
+Explore common elements of stream processing architecture 
+
+There are many technologies that you can use to implement a stream processing solution, but while specific implementation details may bvary, there are common elements to most streaming architectures.
+
+A general architecture for stream processing 
+
+  1. An event generates some data. This mgiht be a signal being emitted by a sensor, a social media message being posted, a log file entry being written, or any other occurrence that results in some digital data.
+
+  2. The generated data is captured in a streaming source for processing. In simple cases, the source may be a folder in a cloud data store or a table in a database. In more robust streaming solutions, the source may be a "queue" that encapsulates logic to ensure that event data id processed in order and that each event is processed only once.
+
+  3. The event data is processed, often by a perpetual query that operates on the event data to select data for specific types of events, project data values, or aggregate data values over temporal (time-based) periods (or windows) - for example, by counting the number of sensor emissions per minute.
+
+  4. The results of the stream processing operation are written to an output (or sink), which may be a file, a database table, a real-time visual dashboard, or another queue for further rpocessing by a subsequent downstream query.
+
+...
+
+Sources for stream processing 
+
+The following services are commonly used to ingest data for stream processing on Azure:
+
+  Azure Event Hubs: A data ingestion services that you can use to manage queues of event data, ensuring that each event is processed in order, exactly once.
+
+  Azure IoT Hub: A data ingestion service that is similar to Azure Event Hubs, but which is optimized for managing data from Internet-of-things (IoT) devices.
+
+  Azure Data Lake Store Gen 2: A highly scalable storage service that is often used in batch processing scenarios, but which can also be used as a source of streaming data.
+
+  Apache Kafka: An open-source data ingestion solution that is commonly used together with Apache Spark. You can use Azure HDInsight to create a Kafka cluster.
+
 
 
 
