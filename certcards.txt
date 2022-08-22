@@ -125,37 +125,52 @@ Data processing is simply the conversion of raw data to meaningful information t
 
 7
 Azure Data Fundamentals
+Advantages of batch processing include:
 
+  Large volumes of data  can be processed at a convenient time.
+  It can be scheduled to run at a time when computers or systems might otherwise be idle, such as overnight or during off-peak hours.
 
 
 8
 Azure Data Fundamentals
+Disadvantages of batch processing include:
 
+  The time delay between ingesting data and getting the results.
+
+  All of a batch job's input data must be ready before a batch can be processed. This means data must be carefully checked. Problems with data, errors, and program crashes that occur during batch jobs bring the whole process to a halt.
 
 
 9
 Azure Data Fundamentals
-
+In stream processing, each new piece of data is processed when it arrives. Unlike batch processing, there's no waiting until the next batch processing interval - data is processed as individual units in real-time rather than being processed a batch at a time.
 
 
 10
 Azure Data Fundamentals
+Batch processing can process all the data in the dataset. Stream processing typically only has access to the most recent data received, or within a rolling time window (the last 30 seconds, for example).
+
 
 
 
 11
 Azure Data Fundamentals
+Batch processing is suitable for handling large datasets efficiently. Stream processing is intended for individual records or micro batches consisting of few records.
+
 
 
 
 12
 Azure Data Fundamentals
+Latency is the time taken for the data to be received and processed. The latency for batch processing is typically a few hours. Stream processing typically occurs immediately, with latency in the order of seconds or milliseconds.
+
 
 
 
 13
 Azure Data Fundamentals
+You typically use batch processing to perform complex analytics. Stream processing is used for simple response functions, aggregates, or calculations such as rolling averages.
 
+s
 
 
 14
