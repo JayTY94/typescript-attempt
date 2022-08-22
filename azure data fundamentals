@@ -507,10 +507,51 @@ The following services are commonly used to ingest data for stream processing on
 
   Apache Kafka: An open-source data ingestion solution that is commonly used together with Apache Spark. You can use Azure HDInsight to create a Kafka cluster.
 
+https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-stream-processing/4-stream-analytics
 
+Explore Azure Stream Analytics
 
+Azure Stream Analytics is a service for complex event processing and analysis of streaming data. Stream analytics is used to:
 
+  Ingest data from an input, such as Azure event hub, Azure IoT Hub, or Azure Storage blob container
+  Process the data by using a query to select, project, and aggregate data visuals
+  Write the results of an output, such as Azure Data Lake Gen 2, Azure SQL Database, Azure Synapse Analytics, Azure Functions, Azure event hub, Microsoft Power BI, and others.
 
+Once started, a Stream Analytics query will run perpetually, processing new data as it arrives in the input and storing results in the output.
+
+Azure Stream Analytics is a great technology choice when you need to continually capture data from a streaming source, filter or aggregate it, and send the results to a data store or downstream process for analysis and reporting.
+
+https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-stream-processing/5-exercise-stream-analytics
+
+Exercise: Analyze streaming data 
+
+Now it's your opportunity to explore Azure Stream Analytics in a sample solution that aggregates streaming data from a simulated IoT device.
+
+This exercise can be completed using a free Microsoft Learn sandbox subscription, which provides an Azure subscription and a Cloud Shell environment integrated into this page. The sandbox subscription will be created when you clickd the button above and automatically deleted when you complete this module.
+
+...
+
+Create Azure resources 
+
+1. In the Azure Cloud Shell, enter the following command to download the files you'll need for this exercise.
+
+  git clone https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals dp-900
+
+2. Wait for the command to complete, and then enter the following command to change teh current directory to the folder containing the files for this exercise
+
+  cd dp-900/streaming 
+
+3. Enter the following command to run a script that creates the Azure resources you will need in this exercise.
+
+  bash setup.sh 
+
+Wait as the script runs and performs the following actions:
+  
+  a. Installs the Azure CLI extensions needed to create resources (you can ignore any warnings about experimental extensions)
+  b. Identifies the Azure resource group provided for this exercise, which will have a name similar to learn-xxxxxxxxxxxxxx...
+  c. Creates an Azure IoT Hub resource, which will be used to receive a stream of data from a simulated device.
+  d. Creates an Azure Storage Account, which will be used to store processed data.
+  e. Creates an Azure Stream Analytics job, which will process the incoming device data in real-time, and write the results to the storage account.
 
 
 
