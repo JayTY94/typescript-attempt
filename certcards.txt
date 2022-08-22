@@ -170,17 +170,19 @@ Latency is the time taken for the data to be received and processed. The latency
 Azure Data Fundamentals
 You typically use batch processing to perform complex analytics. Stream processing is used for simple response functions, aggregates, or calculations such as rolling averages.
 
-s
+
 
 
 14
-Azure Data Fundamentals
+General
+In computing, tar is a computer software utility for collecting many files into one archive file, often referred to as a tarball, for distribution or backup purposes. The name is derived from "tape archive", as it was originally developed to write data to sequential I/O devices with no file system of their own. 
+
 
 
 
 15
-Azure Data Fundamentals
-
+General
+When you download the source for libpri, DAHDI, and Asterisk you'll typically end up with files with a .tar.gz or .tgz file extension. These files are affectionately known as tarballs. The name comes from the tar Unix utility, which stands for tape archive. A tarball is a collection of other files combined into a single file for easy copying, and then often compressed with a utility such as GZip.
 
 
 16
