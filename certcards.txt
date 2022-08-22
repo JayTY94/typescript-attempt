@@ -1,29 +1,4 @@
 
-16
-Azure Data Fundamentals
-Azure Cosmos DB is commonly used within web and mobile applications, and it is well suited for modeling social interactions, integrating with third-party services, and for building rich personalized experiences. The Cosmos DB SDKs can be used to build rich iOS and Android applications using the popular Xamarin framework.
-
-
-
-17
-Azure Data Fundamentals
-When you provision a new Cosmos DB instance, you select the API that you want to use. The choice of API depends on many factors including the type of data to be stored, the need to support existing applications, and the API skills of the developers who will work with the data store.
-
-
-
-18
-Azure Data Fundamentals
-The native API in Cosmos DB manages data in JSON document format, and despite being a NoSQL data storage solution, uses SQL syntax to work with the data.
-
-
-
-
-19
-Azure Data Fundamentals
-MongoDB Query Language (MQL) uses a compact, object-oriented syntax in which developers use objects to call methods. For example, the following query uses the find method to query the producs collection in the db object:
-
-  db.products.find({id: 123})
-
 
 
 20
@@ -136,12 +111,16 @@ Databricks provides an interactive user interface through which the system can b
 
 5
 Azure Data Fundamentals
+Data processing is simply the conversion of raw data to meaningful information through a process. there are two general ways to process data:
 
+  Batch processing, in which data records are collected and stored before being processed together in a single operation.
 
 
 6
 Azure Data Fundamentals
+Data processing is simply the conversion of raw data to meaningful information through a process. there are two general ways to process data:
 
+  Stream processing, in which a source of data is constantly monitored and processed in real time as new data events occur.
 
 
 7

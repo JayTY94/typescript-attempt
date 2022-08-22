@@ -430,17 +430,54 @@ One of the key tasks you can perform with Azure Synapse Analytics is to define p
 
 https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-stream-processing/2-batch-stream
 
+Understand batch and stream processing
 
+Data processing is simply the conversion of raw data to meaningful information through a process. there are two general ways to process data:
 
+  Batch processing, in which data records are collected and stored before being processed together in a single operation.
 
+  Stream processing, in which a source of data is constantly monitored and processed in real time as new data events occur.
 
+Understand batch processing
 
+In batch processing, newly arrived data elements are collected and stored, and the whole group is processed together as a batch. Exactly when each group is processed can be determined in a number of ways. For example, you can process data based on a scheduled time interaval (for example, every hour), or it can be triggered when a certain amount of data has arrived, or as the result of some other event.
 
+For example, suppose you want to analyze road traffic by counting the number of cars on a stretch of road. A batch processing approach to this would require you collect cars in a parking lot, and then count them in a single operation while they're at rest.
 
+If the road is busy, with a large number of cars driving along at frequent intervals, this approach may be impractical; and note that you don't get any results until you have parked a batch of cars and counted them.
 
+A real world example of batch processing is the way that credit card companies handle billing. The customer doesn't receive a bill for each separate credit card purchase but one monthly bill for all of that month's purchases.
 
+Advantages of batch processing include:
 
+  Large volumes of data  can be processed at a convenient time.
+  It can be scheduled to run at a time when computers or systems might otherwise be idle, such as overnight or during off-peak hours.
 
+Disadvantages of batch processing include:
+
+  The time delay between ingesting data and getting the results.
+
+  All of a batch job's input data must be ready before a batch can be processed. This means data must be carefully checked. Problems with data, errors, and program crashes that occur during batch jobs bring the whole process to a halt. The input data must be carefully checked before the job can be run again. Even minor data errors can prevent a batch job from running.
+
+Understand stream processing
+
+In stream processing, each new piece of data is processed when it arrives. Unlike batch processing, there's no waiting until the next batch processing interval - data is processed as individual units in real-time rather than being processed a batch at a time.
+
+...
+
+Understand differences between batch and streaming data
+
+Apart from the way in which batch processing an streaming processing handle data, there are other differences:
+
+  Data scope: Batch processing can process all the data in the dataset. Stream processing typically only has access to the most recent data received, or within a rolling time window (the last 30 seconds, for example).
+
+  Data size: Batch processing is suitable for handling large data sets efficiently. Stream processing is intended for individual records or micro batches of a few records.
+
+  Performance: Latency is the time taken for the data to be received and processed. The latency for batch processing is typically a few hours. Stream processing typically occurs immediately, with latency in the order of seconds or milliseconds.
+
+  Analysis: You typically use batch processing to perform complex analytics. Stream processing is used for simple response functions, aggregates, or calculations as rolling averages.
+
+https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-stream-processing/3-explore-common-elements
 
 
 
