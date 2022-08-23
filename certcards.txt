@@ -1,10 +1,6 @@
 
 
 
-20
-Azure Data Fundamentals
-The Table API is used to work with data in key-value tables, similar to Azure Table Storage. The Azure Cosmos DB Table API offers greater scalability and performance than Azure Table Storage.
-
 
 
 
