@@ -246,33 +246,260 @@ If your stream process requirements are complex or resource-intensive, you can c
 
 24
 REFramework Project with Tabular Data
-
+Configuration steps:
+  1. Ensure prerequisites are covered
+  2. Create a new project and fill in the Config file
+  3. CHange the TransactionItem datatype
+  4. Configure the workflows used to open, close, and kill apps
+  5. Edit the GetTransactionsData and Process workflows
 
 
 25
 REFramework Project with Tabular Data
-
+When whiteboarding your process workflows, what information should you take into account?
+  Workflow name
+  Pre-condition
+  Description
+  Post-action
+  Arguments
+  State(s)
 
 
 26
 REFramework Project with Tabular Data
+When working with tabular data, where would you set the MaxRetryNumber?
+In the Constants sheet of the Config file
+
+NOT In the Settings sheet of the Config file
+
+
 
 
 
 27
 REFramework Project with Tabular Data
+By default, which states are affected by the TransactionItem datatype change?
 
+  Get Transaction Data
+  Process Transaction
+  NOT Initialization
+  NOT End Process
 
 
 28
 REFramework Project with Tabular Data
+CloseAllApplications.xaml is used to log out and close the target applications
+
+KillAllProcesses.xaml is used to force-close the target applications
+
 
 
 
 29
 REFramework Project with Tabular Data
+If the TransactionData variable is of type DataTable, what type should the in_TransactionItem argument in Process.xaml have?
+  DataRow
+  NOT QueueItem
+  NOT String
+  NOT DataTable
+  
+30
+REFramework Project with Tabular Data
+We are planning to build an execution report functionality which includes the transaction identifier and the transaction status. What workflow would this logic best be included in?
+  
+  SetTransactionStatus.xaml 
+  NOT GetTransactionData.xaml
+  NOT RetryCurrentTransaction.xaml
+
+
+1
+REFramework Project with Tabular Data
+[True]When working with REFramework template, you won't be able to create new test cases
+
+
+2
+REFramework Project with Tabular Data
+You have just set the TransactionItem type to MailMessage. Which of the following types is a valid option for TransactionData?
+List(of MailMessage)
+
+
+
+3
+REFramework Project with Tabular Data
+You want to configure the REFramework template to build a linear process. Which argument do you need to monitor in GetTransactionData.xaml?
+  in_TransactionNumber
+  NOT in_Config
+  NOT out_TransactionItem
+
+4
+REFramework Project with Tabular Data
+What will be the type of TransactionItem if TransactionData is an Array of Strings?
+  String
+  NOT String[]
+
+
+
+5
+REFramework Project with Tabular Data
+What action you need to take if you want to enable the MaxConsecutiveSystemExceptions feature in the REFramework template?
+Set the MaxConsecutiveSystemExceptions constant value to greater than zero
+
+
+
+6
+REFramework Project with Tabular Data
+Which argument in the Process workflow holds the business context information? 
+In_TransactionItem
+
+
+7
+REFramework Project with Tabular Data
+If we intend to use tabular data instead of an Orchestrator queue, which activity do we need to replace in the default REFramework template to retrieve the transaction data? 
+The Get Transaction Item  activity in the Get Transaction Data state.
+
+
+
+
+
+8
+REFramework Project with Tabular Data
+What is the default type of the 'TransactionData' variable?
+DataTable
+NOT Queue Item
+
+
+
+
+9
+REFramework Project with Tabular Data
+The process is based on the REFramework template. Asset "Userdetails" was referenced in the config file, but it wasn't created in Orchestrator. What happens when you run the process?
+
+  It throws an error in the Initialization state.
+
+
+
+
+10
+REFramework Project with Tabular Data
+Is it possible to use tabular or other types of data for the transaction item and Orchestrator assets in the same process?
+
+Yes. You can use Assets independently from Queues. 
+
+
+
+
+11
+REFramework Project with Tabular Data
+From the given options, identify in which SetTransactionStatus workflow file is invoked.
+
+  In the Try block of the process transaction state.
+  Within the Business Rule Exception section in the catch section of process transaction.
+  Within the System Exception section in the catch section of process transaction.
+
+
+
+
+
+
+12
+REFramework Project with Tabular Data
+From the given option, identify the test cases available by default with REFramework template.
+  GeneralTestCase
+  GetTransactionDataTestCase
+  MainTestCase
+  ProcessTestCase
+  InitAllApplicationsTestCase
+  InitAllSettingsTestCase
+
+
+
+
+13
+Azure Data Fundamentals
+
+
+
+14
+Azure Data Fundamentals
+
+
+
+15
+Azure Data Fundamentals
+
+
+
+16
+Azure Data Fundamentals
+
+
+
+17
+Azure Data Fundamentals
+
+
+
+18
+Azure Data Fundamentals
+
+
+
+19
+Azure Data Fundamentals
+
+
+
+20
+Azure Data Fundamentals
+
+
+
+21
+Azure Data Fundamentals
+
+
+
+22
+Azure Data Fundamentals
+
+
+
+23
+Azure Data Fundamentals
+
+
+
+24
+Azure Data Fundamentals
+
+
+
+25
+Azure Data Fundamentals
+
+
+
+26
+Azure Data Fundamentals
+
+
+
+27
+Azure Data Fundamentals
+
+
+
+28
+Azure Data Fundamentals
+
+
+
+29
+Azure Data Fundamentals
 
 
 
 30
-REFramework Project with Tabular Data
+Azure Data Fundamentals
+
+
