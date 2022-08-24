@@ -331,52 +331,66 @@ From the given option, identify the test cases available by default with REFrame
 
 13
 Azure Data Fundamentals
+Spark can be used to run code (usually written in Python, Scala, or Java) in parallel across multiple cluster nodes, enabling it to process very large volumes of data efficiently. Spark can be used for both batch processing and stream processing.
 
 
 
 14
 Azure Data Fundamentals
-
+Spark Structured Stereaming is built on the ubiquitous structure in Spark called a dataframe, which encapsulates a table of data. You use the Spark Structured Streaming API to read data from a real-time data source, such as Kafka hub, a file store, or a network port, into a "boundless" dataframe that is continuallly populated iwth new data from the stream
 
 
 15
 Azure Data Fundamentals
-
+Delta Lake is an open-source storage layer that adds support for transactional consistancy, schema enforcement, and other common data warehousing features to data lake storage.  It also unifies storage for streaming and batch data, and can be used in Spark to define relational tables for both batch and stream processing.
 
 
 16
 Azure Data Fundamentals
-
+Azure Data Explorer is a standalone Azure service for efficiently analyzing data. You can use the service as the output for analyzing large volumes of diverse data from data sources such as websites, applications, IoT devices, and more. 
 
 
 17
 Azure Data Fundamentals
-
+Data Explorer supports batcing and streaming in near real time to optimize data ingestion. The ingested data is stored in tables in a Data Explorer database, wehre automatic indexing enables high-performance queries.
 
 
 18
 Azure Data Fundamentals
-
+To query Data Explorer tables, you can use Kusto Query Language (KQL), a language that is specifically optimized for fast read performance – particularly with telemetry data that includes a timestamp attribute.
 
 
 19
 Azure Data Fundamentals
+You can add clauses to a Kusto query to filter, sort, aggregate, and return (project) specific columns. Each clause is prefixed by a | character. 
 
+  LogEvents
+  | where StartTime > datetime(2021-12-31) 
+  | where EventType == 'Error'
+  | project StartTime, EventType , Message
 
 
 20
 Azure Data Fundamentals
+Which definition of stream processing is correct?
 
+Data is processsed continually as new data records arrive
 
 
 21
 Azure Data Fundamentals
+Which service would you use to continually capture data from an IoT Hub, aggregate it over temporal periods, and store the results in Azure SQL Database?
 
+Azure Stream Analytics
 
 
 22
 Azure Data Fundamentals
+Which language would you use to query real-tie log data in Azure Synapse Data Explorer?
 
+Kusto Query Language (KQL)
+NOT SQL
+NOT Python
 
 
 23

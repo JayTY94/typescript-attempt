@@ -589,6 +589,145 @@ Use the resources to analyze streaming data
 
 https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-stream-processing/6-spark-streaming
 
+Explore Apache Spark on Microsoft Azure 
+
+Apache Spark is a distributed processing framework for large scale data analytics. You can use Spark on Microsoft Azure in the following services: 
+
+  Azure Synapse Analytics
+  Azure Databricks
+  Azure HDInsight 
+
+Spark can be used to run code (usually written in Python, Scala, or Java) in parallel across multiple cluster nodes, enabling it to process very large volumes of data efficiently. Spark can be used for both batch processing and stream processing.
+
+Spark Structured Streaming 
+
+To process streaming data on Spark, you can use the Spark Structured Streaming library, which provides an application programming interface (API) for ingesting, processing, and outputting results from perpetual streams of data.
+
+Spark Structured Stereaming is built on the ubiquitous structure in Spark called a dataframe, which encapsulates a table of data. You use the Spark Structured Streaming API to read data from a real-time data source, such as Kafka hub, a file store, or a network port, into a "boundless" dataframe that is continuallly populated iwth new data from the stream. You then define a query on th edataframe that selects, projects, or aggregates the data - often in temporal windows. The result of the query generates another datafame, which can be persisted for further analysis of further processing.
+
+Spark Stuctured Streaming is a great choice for real-time analytics when you need to incorporate streaming data into a Spark based data lake or analytical data store.
+
+Note 
+For more information about Spark Structured Streaming, see the Spark Structured Streaming programming guide.
+
+Delta Lake
+
+Delta Lake is an open-source storage layer that adds support for transactional consistancy, schema enforcement, and other common data warehousing features to data lake storage.  It also unifies storage for streaming and batch data, and can be used in Spark to define relational tables for both batch and stream processing. WHen used for stream processing, a Delta Lake table can be used as a streaming source forr queries against real-time data, or as a sink in which a stream of data is written.
+
+The Spark runtimes in Azure Synapse Analytics and Azure Databricks includ support for Delta Lake.
+
+Delta Lake combined with Spark Structured Streaming is a good solution when you need to abstract batch and stream processed data in a data lake behind a relational schema for SQL-based querying and analysis.
+
+Note
+For more information about Delta Lake, see What is Delta Lake?
+
+https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-stream-processing/7-exercise-spark-streaming
+
+Exercise: Process streaming dat using Spark.
+
+In this exercise, you'll use Spark Structured Streaming and delta tables in Azure Synapse Analytics to process streaming data.
+
+To complete this exercise, you will need a Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at https://azure.microsoft.com/free. You cannot use a Microsoft Learn sandbox subscription for this exercise.
+
+...
+
+Explore Azure Data Explorer
+
+Azure Data Explorer is a standalone Azure service for efficiently analyzing data. You can use the service as the output for analyzing large volumes of diverse data from data sources such as websites, applications, IoT devices, and more. For example, by outputting Azure Stream Analytics logs to Azure Data Explorer, you can complement Azure Stream Analytics low latency alerts handling with Data Explorers's deep investigation capabilities. The service is also encapsulated as a runtime in Azure Synapse Analytics, where it is referred to as Azure Synapse Data Explorer; enabling you to build and manage analytical soultions that combine SQL, Spark, and Data explorer analytics in a single workspace.
+
+Data is ingested into Data Explorer through one or more connectors built by writing a minimal amount of code. This enables you to quickly ingest data from a wide variety of data sources, including both static and streaming sources. Data Explorer supports batcing and streaming in near real time to optimize data ingestion. The ingested data is stored in tables in a Data Explorer database, wehre automatic indexing enables high-performance queries.
+
+Azure Data Explorer is a great choice of technology when you need to:
+
+  Capture and analyze real-time or batch data that includes a time-series element; such as log telemetry or values emitted by Internet-of-Things (IoT) devices.
+
+  Explore, filter, and aggregate data quickly by using the intuitive and powerful Kusto Query Language (KQL)
+
+...
+
+https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-stream-processing/9-exercise-data-explorer
+
+Create a Data Explorer pool 
+
+  1. In Synapse Studio, select the Manage page.
+  2. Select the Data Explorer pools tab, and then use the + New icon to create a new pool with the following settings:
+
+    Data Explorer pool name: dxpool 
+    Workload: Compute optimized 
+    Size: Extra Small (2 cores)
+  
+  3. Select next: Additional Settings > and enable the Streaming ingestion setting - this enables Data Explorer to ingest new data from a streaming source, such as Azure Event Hubs.
+
+  4. Select Review and createe to create the Data Explorer pool, and then wait for it to be deployed (which may take 15 minutes or longer - the status will change from Creating to Online).
+
+Create a database and ingest data 
+
+  1. In Synapse Studio, select the Data page.
+
+  2. Ensure that the Workspace tab is selected, and if necessary, select the refresh icon at the top-left of the page to refresh the view so that Data Explorer databases is listed.
+
+  3. Expand Data Explorer databases and verify that dxpool is listed.
+
+  4. In the Data pane, use the + icon to create a new Data Explorere Databaase in the dxpool with the name iot-data.
+
+  5. While waiting for the database to be created, download devices.csv from [url], saving it in any folder on your local computer.
+
+  6. In Synapse Studio, wait for the database to be created if necessary, and then in the ... meny for the new iot-data database, select Open in Azure Data Explorer.
+
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
