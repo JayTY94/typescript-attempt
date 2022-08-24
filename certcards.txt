@@ -395,7 +395,7 @@ NOT Python
 
 23
 Azure Data Fundamentals
-
+After you've created data models and reports, you can publish them to the Power BI service; a cloud service in which reports can be published and interacted with by business users. You can also do some basic data modeling and report editing directly in the service using a web browser, but the functionality for this is limited compared to the Power BI Desktop tool.
 
 
 24
