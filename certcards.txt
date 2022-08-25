@@ -1,36 +1,5 @@
 
 
-
-Process finished with exit code 0
-1
-Azure Data Fundamentals
-Pipelines consist of one or more activities that operate on data. An input dataset provides the source data, and activities can be defined as a data flow that incrementally manipulates the data until an output dataset is produced. Pipelines use linked services to load and process data – enabling you to use the right technology for each step of the workflow
-
-
-2
-Azure Data Fundamentals
-A fact and dimension table schema is called a star schema; though it's often extended into a snowflake schema by adding additional tables related to the dimension tables to represent dimensional hierarchies (for example, product might be related to product categories)
-
-
-3
-Azure Data Fundamentals
-Technologies like Spark or Hadoop are often used to process queries on the stored files and return data for reporting and analytics. These systems often apply a schema-on-read approach to define tabular schemas on semi-structured data files at the point where the data is read for analysis, without applying constraints when it's stored
-
-
-4
-Azure Data Fundamentals
-Databricks provides an interactive user interface through which the system can be managed and data can be explored in interactive notebooks.
-
-
-
-
-5
-Azure Data Fundamentals
-Data processing is simply the conversion of raw data to meaningful information through a process. there are two general ways to process data:
-
-  Batch processing, in which data records are collected and stored before being processed together in a single operation.
-
-
 6
 Azure Data Fundamentals
 Data processing is simply the conversion of raw data to meaningful information through a process. there are two general ways to process data:
@@ -400,32 +369,39 @@ After you've created data models and reports, you can publish them to the Power 
 
 24
 Azure Data Fundamentals
-
+Analytical models enable you to structure data to support analysis. Models are based on related tables of data and define the numeric values that you want to analyze or report (known as measures) and the entities by which you want to aggregate them (known as dimensions). 
 
 
 25
 Azure Data Fundamentals
-
+Dimension tables represent the entities by which you want to aggregate numeric measures – for example product or customer. Each entity is represented by a row with a unique key value. The remaining columns represent attributes of an entity – for example, products have names and categories, and customers have addresses and cities.
 
 
 26
 Azure Data Fundamentals
+One final thing worth considering about analytical models is the creation of attribute hierarchies that enable you to quickly drill-up or drill-down to find aggregated values at different levels in a hierarchical dimension.
 
 
 
 27
 Azure Data Fundamentals
+1. Which tool should you use to import data from multiple data sources and create a report?
 
+Power BI Desktop
 
 
 28
 Azure Data Fundamentals
+2. What should you define in your data model to enable drill-up/down analysis?
 
+A hierarchy
 
 
 29
 Azure Data Fundamentals
+3. Which kind of visualization should you use to analyze pass rates for multiple exams over time?
 
+A line chart
 
 
 30

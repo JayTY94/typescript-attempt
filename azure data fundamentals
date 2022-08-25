@@ -678,8 +678,50 @@ Create a database and ingest data
 
 https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-data-visualization/3-data-modeling
 
+Describe core concepts of data modeling 
 
+Analytical models enable you to structure data to support analytics. Models are based on related tables of data and define the numeric values that you want to analyze or report (known as measures) and the entities by which you want to aggregate them (known as dimensions). For example, a model might include a table containing numeric measure for sales (such as revenue or quantity) and dimensions for product, customers, and time. This would enable you to aggregate sales measures across one or more dimensions (for example, to identify total revenue by customer, or total items sold by prodcut per month). Conceptually, the model forms a multidimensional structure, which is commonly referred to as a cube, in which any point where the dimensions intersect represnts an aggregated measure for those dimensions.
 
+Note
+Although we commonly refer to an analytical model as a cube, there can be more (or fewer) than three dimensions - it's just not easy for us to visualize more than three.
+
+Tables and schema 
+
+Dimension tables represent entities by which you want to aggregate numeric measures - for example product or customer. Each entity is represented by a row with a unique key value. The remaining columns represent attributes of an entity - for example, products have names and categories, and customers have addresses and cities. It's common in most analytical models to include a Time 
+
+...
+
+https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-data-visualization/4-data-visualizations
+
+Describe considerations for data visualization
+
+After you've created a model, you can use it to generate data visualizations that can be included in a report.
+
+There are many kinds of data visualization, some commonly used and some more specialized. Power BI includes an extensive set of built-in visualizations, which can be extended with custom third-party visualizations. The rest of this unit discusses some common data visualizations but is by no means a complete list.
+
+Tables and text are often the simplest way to communicate data. Tables are useful when numerous related values must be displayed, and individual text values in cards can be a useful way to show important figures or metrics.
+
+Bar and column charts 
+
+Bar and column charts are a good way to visually compare numeric values for discrete categories.
+
+Line Charts
+
+Line Ccharts can also be used to compare categorized values and are useful when you need to examine trends, often over time.
+
+Pie Charts
+
+Pie charts are often used in business reports to visually compre categorized values as proportions of a total.
+
+Scatter plots 
+
+Scatter plots are useful when you want to compare two numeric measures and identify a relationship or correlation between them.
+
+Maps 
+
+Maps are a great way to visually compare values for different geographic areas or locations.
+
+Interactive reports
 
 
 
