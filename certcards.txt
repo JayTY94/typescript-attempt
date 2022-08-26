@@ -405,6 +405,10 @@ A line chart
 
 
 30
-Azure Data Fundamentals
+General 
+What Is Enterprise Resource Planning (ERP)?
+At its core, ERP is an application that automates business processes and provides insights and internal controls, drawing on a central database that collects inputs from departments including accounting, manufacturing, supply chain management, sales, marketing and human resources (HR).
+
+
 
 
