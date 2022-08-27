@@ -1,39 +1,5 @@
 
 
-6
-Azure Data Fundamentals
-Data processing is simply the conversion of raw data to meaningful information through a process. there are two general ways to process data:
-
-  Stream processing, in which a source of data is constantly monitored and processed in real time as new data events occur.
-
-
-7
-Azure Data Fundamentals
-Advantages of batch processing include:
-
-  Large volumes of data  can be processed at a convenient time.
-  It can be scheduled to run at a time when computers or systems might otherwise be idle, such as overnight or during off-peak hours.
-
-
-8
-Azure Data Fundamentals
-Disadvantages of batch processing include:
-
-  The time delay between ingesting data and getting the results.
-
-  All of a batch job's input data must be ready before a batch can be processed. This means data must be carefully checked. Problems with data, errors, and program crashes that occur during batch jobs bring the whole process to a halt.
-
-
-9
-Azure Data Fundamentals
-In stream processing, each new piece of data is processed when it arrives. Unlike batch processing, there's no waiting until the next batch processing interval - data is processed as individual units in real-time rather than being processed a batch at a time.
-
-
-10
-Azure Data Fundamentals
-Batch processing can process all the data in the dataset. Stream processing typically only has access to the most recent data received, or within a rolling time window (the last 30 seconds, for example).
-
-
 
 
 11
