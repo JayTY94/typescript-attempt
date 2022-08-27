@@ -385,146 +385,183 @@ A memorandum of understanding (MOU) or partnership agreement is a document betwe
 
 
 2
-Azure Data Fundamentals
+UiPath Mail Activities
+In the Mail Activities Package, what are the activities that contain built-in filtering?
+
+  Get Outlook Mail Message
+  Get Exchange Mail Messages
+  Get IMAP Mail Messages
+  NOT get POP Mail Messages
 
 
 
 3
-Azure Data Fundamentals
+UiPath Mail Activities
+While retrieving Emails from Gmail which activity is used.
+
+  Get IMAP Mail Message
 
 
 
 4
-Azure Data Fundamentals
+UiPath Mail Activities
+Emails can be used as the input to or the output from a process
 
 
 
 5
-Azure Data Fundamentals
+UiPath Mail Activities
+Email activities are contained inside the UiPath.Mail.Activities pack.
 
 
 
 6
-Azure Data Fundamentals
+UiPath Mail Activities
+By default, the pack provides specific activities for Exchange, IBM Notes, IMAP, Outlook, POP3, and SMTP.
 
 
 
 7
-Azure Data Fundamentals
+UiPath Mail Activities
+The object type we use for retrieved emails is System.Net.Mail.MailMessage.
 
 
 
 8
-Azure Data Fundamentals
+UiPath Mail Activities
+When building a process which uses email, for most activity groups, some configuration may be required on the email account.
 
 
 
 9
-Azure Data Fundamentals
+UiPath Mail Activities
+The Get IMAP Mail Messages activity lets us filter messages based on different criteria.
 
 
 
 10
-Azure Data Fundamentals
+UiPath Mail Activities
+A great resource to learn more about filtering emails is the Microsoft documentation page.
 
 
 
 11
-Azure Data Fundamentals
+UiPath Mail Activities
+To create an email template, write the message in a new text document and then use a 'Read Text' activity to read it.
 
+To store the template text, we must create a new variable in the 'output to' property field
 
 
 12
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 13
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 14
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 15
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 16
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 17
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 18
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 19
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 20
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 21
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 22
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 23
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 24
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 25
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 26
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 27
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 28
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 29
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
 
 30
-Azure Data Fundamentals
+UiPath Mail Activities
+
 
 
