@@ -1,37 +1,5 @@
 
 
-
-21
-Azure Data Fundamentals
-The output from stream processing is often sent to the following services:
-
-Azure Event Hubs
-Azure Data Lake Store Gen 2 or Azure blob storage
-Azure SQL Database or Azure Synapse Analytics, or Azure Databricks
-Microsoft Power BI
-
-
-22
-Azure Data Fundamentals
-Azure Stream Analytics is a great technology choice when you need to continually capture data from a streaming source, filter or aggregate it, and send the results to a data store or downstream process for analysis and reporting.
-
-
-
-23
-Azure Data Fundamentals
-If your stream process requirements are complex or resource-intensive, you can create a Stream Analysis cluster, which uses the same underlying processing engine as a Stream Analytics job, but in a dedicated tenant (so your processing is not affected by other customers) and with configurable scalability that enables you to define the right balance of throughput and cost for your specific scenario.
-
-
-24
-REFramework Project with Tabular Data
-Configuration steps:
-  1. Ensure prerequisites are covered
-  2. Create a new project and fill in the Config file
-  3. CHange the TransactionItem datatype
-  4. Configure the workflows used to open, close, and kill apps
-  5. Edit the GetTransactionsData and Process workflows
-
-
 25
 REFramework Project with Tabular Data
 When whiteboarding your process workflows, what information should you take into account?
