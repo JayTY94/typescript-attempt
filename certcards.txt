@@ -1,52 +1,5 @@
 
 
-26
-REFramework Project with Tabular Data
-When working with tabular data, where would you set the MaxRetryNumber?
-In the Constants sheet of the Config file
-
-NOT In the Settings sheet of the Config file
-
-
-
-
-
-27
-REFramework Project with Tabular Data
-By default, which states are affected by the TransactionItem datatype change?
-
-  Get Transaction Data
-  Process Transaction
-  NOT Initialization
-  NOT End Process
-
-
-28
-REFramework Project with Tabular Data
-CloseAllApplications.xaml is used to log out and close the target applications
-
-KillAllProcesses.xaml is used to force-close the target applications
-
-
-
-
-29
-REFramework Project with Tabular Data
-If the TransactionData variable is of type DataTable, what type should the in_TransactionItem argument in Process.xaml have?
-  DataRow
-  NOT QueueItem
-  NOT String
-  NOT DataTable
-
-30
-REFramework Project with Tabular Data
-We are planning to build an execution report functionality which includes the transaction identifier and the transaction status. What workflow would this logic best be included in?
-
-  SetTransactionStatus.xaml
-  NOT GetTransactionData.xaml
-  NOT RetryCurrentTransaction.xaml
-
-
 1
 REFramework Project with Tabular Data
 [True]When working with REFramework template, you won't be able to create new test cases
