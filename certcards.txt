@@ -1,78 +1,6 @@
 
 
 
-
-11
-Azure Data Fundamentals
-Batch processing is suitable for handling large datasets efficiently. Stream processing is intended for individual records or micro batches consisting of few records.
-
-
-
-
-12
-Azure Data Fundamentals
-Latency is the time taken for the data to be received and processed. The latency for batch processing is typically a few hours. Stream processing typically occurs immediately, with latency in the order of seconds or milliseconds.
-
-
-
-
-13
-Azure Data Fundamentals
-You typically use batch processing to perform complex analytics. Stream processing is used for simple response functions, aggregates, or calculations such as rolling averages.
-
-
-
-
-14
-General
-In computing, tar is a computer software utility for collecting many files into one archive file, often referred to as a tarball, for distribution or backup purposes. The name is derived from "tape archive", as it was originally developed to write data to sequential I/O devices with no file system of their own. 
-
-
-
-
-15
-General
-When you download the source for libpri, DAHDI, and Asterisk you'll typically end up with files with a .tar.gz or .tgz file extension. These files are affectionately known as tarballs. The name comes from the tar Unix utility, which stands for tape archive. A tarball is a collection of other files combined into a single file for easy copying, and then often compressed with a utility such as GZip.
-
-
-16
-Azure Data Fundamentals
-At its simplest, a high-level architecture for stream processing looks like this:
-  1. An event generates some data
-  2. The generated data is captured in a streaming source for processing
-  3. The event is processed, often by a perpetual query.
-  4. The results of the stream processsing operation are written to an output (or sink).
-
-
-
-17
-Azure Data Fundamentals
-Microsoft Azure supports multiple technologies that you can use to implement real-time analytics of streaming data, including:
-
-Azure Stream Analytics: A platform-as-a-service (PaaS) solution that you can use to define streaming jobs that ingest data from a streaming source, apply a perpetual query, and write the results to an output.
-
-
-18
-Azure Data Fundamentals
-Microsoft Azure supports multiple technologies that you can use to implement real-time analytics of streaming data, including:
-
-Azure Data Explorer: A high-performance database and analytics service that is optimized for ingesting and querying batch or streaming data with a time-series element, and which can be used as a standalone Azure service or as an Azure Synapse Data Explorer runtime in an Azure Synapse Analytics workspace.
-
-
-19
-Azure Data Fundamentals
-The following services are commonly used to ingest data for stream processing on Azure:
-
-  Azure Event Hubs: A data ingestion services that you can use to manage queues of event data, ensuring that each event is processed in order, exactly once.
-
-
-20
-Azure Data Fundamentals
-The following services are commonly used to ingest data for stream processing on Azure:
-
-  Apache Kafka: An open-source data ingestion solution that is commonly used together with Apache Spark. You can use Azure HDInsight to create a Kafka cluster.
-
-
 21
 Azure Data Fundamentals
 The output from stream processing is often sent to the following services:
@@ -152,12 +80,12 @@ If the TransactionData variable is of type DataTable, what type should the in_Tr
   NOT QueueItem
   NOT String
   NOT DataTable
-  
+
 30
 REFramework Project with Tabular Data
 We are planning to build an execution report functionality which includes the transaction identifier and the transaction status. What workflow would this logic best be included in?
-  
-  SetTransactionStatus.xaml 
+
+  SetTransactionStatus.xaml
   NOT GetTransactionData.xaml
   NOT RetryCurrentTransaction.xaml
 
@@ -198,13 +126,13 @@ Set the MaxConsecutiveSystemExceptions constant value to greater than zero
 
 6
 REFramework Project with Tabular Data
-Which argument in the Process workflow holds the business context information? 
+Which argument in the Process workflow holds the business context information?
 In_TransactionItem
 
 
 7
 REFramework Project with Tabular Data
-If we intend to use tabular data instead of an Orchestrator queue, which activity do we need to replace in the default REFramework template to retrieve the transaction data? 
+If we intend to use tabular data instead of an Orchestrator queue, which activity do we need to replace in the default REFramework template to retrieve the transaction data?
 The Get Transaction Item  activity in the Get Transaction Data state.
 
 
@@ -233,7 +161,7 @@ The process is based on the REFramework template. Asset "Userdetails" was refere
 REFramework Project with Tabular Data
 Is it possible to use tabular or other types of data for the transaction item and Orchestrator assets in the same process?
 
-Yes. You can use Assets independently from Queues. 
+Yes. You can use Assets independently from Queues.
 
 
 
@@ -282,7 +210,7 @@ Delta Lake is an open-source storage layer that adds support for transactional c
 
 16
 Azure Data Fundamentals
-Azure Data Explorer is a standalone Azure service for efficiently analyzing data. You can use the service as the output for analyzing large volumes of diverse data from data sources such as websites, applications, IoT devices, and more. 
+Azure Data Explorer is a standalone Azure service for efficiently analyzing data. You can use the service as the output for analyzing large volumes of diverse data from data sources such as websites, applications, IoT devices, and more.
 
 
 17
@@ -297,10 +225,10 @@ To query Data Explorer tables, you can use Kusto Query Language (KQL), a languag
 
 19
 Azure Data Fundamentals
-You can add clauses to a Kusto query to filter, sort, aggregate, and return (project) specific columns. Each clause is prefixed by a | character. 
+You can add clauses to a Kusto query to filter, sort, aggregate, and return (project) specific columns. Each clause is prefixed by a | character.
 
   LogEvents
-  | where StartTime > datetime(2021-12-31) 
+  | where StartTime > datetime(2021-12-31)
   | where EventType == 'Error'
   | project StartTime, EventType , Message
 
@@ -335,7 +263,7 @@ After you've created data models and reports, you can publish them to the Power 
 
 24
 Azure Data Fundamentals
-Analytical models enable you to structure data to support analysis. Models are based on related tables of data and define the numeric values that you want to analyze or report (known as measures) and the entities by which you want to aggregate them (known as dimensions). 
+Analytical models enable you to structure data to support analysis. Models are based on related tables of data and define the numeric values that you want to analyze or report (known as measures) and the entities by which you want to aggregate them (known as dimensions).
 
 
 25
@@ -371,7 +299,7 @@ A line chart
 
 
 30
-General 
+General
 What Is Enterprise Resource Planning (ERP)?
 At its core, ERP is an application that automates business processes and provides insights and internal controls, drawing on a central database that collects inputs from departments including accounting, manufacturing, supply chain management, sales, marketing and human resources (HR).
 
@@ -562,6 +490,3 @@ UiPath Mail Activities
 
 30
 UiPath Mail Activities
-
-
-
