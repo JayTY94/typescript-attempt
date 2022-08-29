@@ -290,113 +290,123 @@ To create an email template, write the message in a new text document and then u
 To store the template text, we must create a new variable in the 'output to' property field
 
 
+
+
 12
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+An extract, transform, and load (ETL) process requires data that is fully processed before loading to the target data store.
 
 
 13
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Transcribing audio files is an example of cognitive analytics
 
 
 14
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+A Clustered index is a type of index in which table records are physically reordered to match the index.	A Non-Clustered index is a special type of index in which logical order of index does not match physical stored order of the rows on disk.
 
 
 15
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Descriptive Analytics tell you what occurred in the past.
 
 
 16
-UiPath Mail Activities
-
+Azure Data Fundamentals
+Relational databases are optimized for writes. They are optimized for consistency and availability. Advantages of relational databases include simplicity, ease of data retrieval, data integrity, and flexibility.
 
 
 
 17
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Batch processing can output data to a file store but not a relational database, nor a NoSQL database.
 
 
 18
-UiPath Mail Activities
+Azure Data Fundamentals
+Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process.
+Where does data processing occur for each stage of the ELT process?
 
-
+Extract: The CRM system
+Load: The Data Warehouse
+Transform: An in-memory data integration tool
 
 
 19
-UiPath Mail Activities
+Azure Data Fundamentals
+Treemaps are charts of colored rectangles, with size representing value. They can be hierarchical, with rectangles nested within the main rectangles.
 
+A key influencer chart displays the major contributors to a selected result or value.
 
 
 
 20
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Azure Storage offers two options for copying your data to a secondary region:
+✑ Geo-redundant storage (GRS)
+✑ Geo-zone-redundant storage (GZRS)
+B: With GRS or GZRS, the data in the secondary region isn't available for read or write access unless there is a failover to the secondary region. For read access to the secondary region, configure your storage account to use read-access geo-redundant storage (RA-GRS) or read-access geo-zone-redundant storage (RA-GZRS).
 
 
 21
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+[True] PaaS database offerings in Azure reuqire less setup and configuration than IaaS database offerings
+[False] PaaS database offerings in Azure provide end users with the ability to control and update the OS version
+[False] All relational and non-relational PaaS database offerings in Azure can be paused to reduce costs.
 
 
 22
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+A key/value store associates each data value with a unique key. Most key/value stores only support simple query, insert, and delete operations. To modify a value (either partially or completely), an application must overwrite the existing data for the entire value. In most implementations, reading or writing a single value is an atomic operation.
 
 
 23
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Azure file shares are deployed into storage accounts, which are top-level objects that represent a shared pool of storage.
+(In nesting order)
+Azure Resource Group
+  Azure Storage Account
+    File Share
+      Folders
+        Files
 
 
 24
-UiPath Mail Activities
+Azure Data Fundamentals
+In Azure Data Factory, a data factory might have one or more pipelines. A pipeline is a logical grouping of activities that performs a unit of work. Together, the activities in a pipeline perform a task. For example, a pipeline can contain a group of activities that ingests data from an Azure blob, and then runs a Hive query on an HDInsight cluster to partition the data.
 
 
 
 
 25
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Create and manage graphs of data transformation logic that you can use to transform any-sized data. You can build-up a reusable library of data transformation routines and execute those processes in a scaled-out manner from your ADF pipelines. Data Factory will execute your logic on a Spark cluster that spins-up and spins-down when you need it.
 
 
 26
-UiPath Mail Activities
+Azure Data Fundamentals
+Activities represent a processing step in a pipeline. For example, you might use a copy activity to copy data from one data store to another data store. Azure Data Factory supports three types of activities: data movement activities, data transformation activities, and control activities.
 
 
 
 
 27
-UiPath Mail Activities
-
+Azure Data Fundamentals
 
 
 
 28
-UiPath Mail Activities
-
+Azure Data Fundamentals
 
 
 
 29
-UiPath Mail Activities
-
+Azure Data Fundamentals
 
 
 
 30
-UiPath Mail Activities
+Azure Data Fundamentals
+
+
