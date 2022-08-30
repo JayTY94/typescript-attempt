@@ -393,6 +393,163 @@ Activities represent a processing step in a pipeline. For example, you might use
 
 27
 Azure Data Fundamentals
+In Azure Data Factory, datasets represent data structures within the data stores, which simply point to or reference the data you want to use in your activities as inputs or outputs.
+
+
+
+
+28
+Azure Data Fundamentals
+Linked services are used for two purposes in Data Factory:
+
+To represent a data store that includes, but isn't limited to, a SQL Server database, Oracle database, file share, or Azure blob storage account. For a list of supported data stores, see the copy activity article.
+
+
+
+
+29
+Azure Data Fundamentals
+Linked services are used for two purposes in Data Factory:
+
+To represent a compute resource that can host the execution of an activity. For example, the HDInsightHive activity runs on an HDInsight Hadoop cluster. For a list of transformation activities and supported compute environments, see the transform data article.
+
+
+30
+Azure Data Fundamentals
+In Azure Data Factory, A pipeline run is an instance of the pipeline execution. Pipeline runs are typically instantiated by passing the arguments to the parameters that are defined in pipelines. The arguments can be passed manually or within the trigger definition.
+
+1
+Azure Data Fundamentals
+
+
+
+2
+Azure Data Fundamentals
+
+
+
+3
+Azure Data Fundamentals
+
+
+
+4
+Azure Data Fundamentals
+
+
+
+5
+Azure Data Fundamentals
+
+
+
+6
+Azure Data Fundamentals
+
+
+
+7
+Azure Data Fundamentals
+
+
+
+8
+Azure Data Fundamentals
+
+
+
+9
+Azure Data Fundamentals
+
+
+
+10
+Azure Data Fundamentals
+
+
+
+11
+Azure Data Fundamentals
+
+
+
+12
+Azure Data Fundamentals
+
+
+
+13
+Azure Data Fundamentals
+
+
+
+14
+Azure Data Fundamentals
+
+
+
+15
+Azure Data Fundamentals
+
+
+
+16
+Azure Data Fundamentals
+
+
+
+17
+Azure Data Fundamentals
+
+
+
+18
+Azure Data Fundamentals
+
+
+
+19
+Azure Data Fundamentals
+
+
+
+20
+Azure Data Fundamentals
+
+
+
+21
+Azure Data Fundamentals
+
+
+
+22
+Azure Data Fundamentals
+
+
+
+23
+Azure Data Fundamentals
+
+
+
+24
+Azure Data Fundamentals
+
+
+
+25
+Azure Data Fundamentals
+
+
+
+26
+Azure Data Fundamentals
+
+
+
+27
+Azure Data Fundamentals
 
 
 
