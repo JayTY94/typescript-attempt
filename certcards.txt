@@ -1,39 +1,5 @@
 
 
-1
-REFramework Project with Tabular Data
-[True]When working with REFramework template, you won't be able to create new test cases
-
-
-2
-REFramework Project with Tabular Data
-You have just set the TransactionItem type to MailMessage. Which of the following types is a valid option for TransactionData?
-List(of MailMessage)
-
-
-
-3
-REFramework Project with Tabular Data
-You want to configure the REFramework template to build a linear process. Which argument do you need to monitor in GetTransactionData.xaml?
-  in_TransactionNumber
-  NOT in_Config
-  NOT out_TransactionItem
-
-4
-REFramework Project with Tabular Data
-What will be the type of TransactionItem if TransactionData is an Array of Strings?
-  String
-  NOT String[]
-
-
-
-5
-REFramework Project with Tabular Data
-What action you need to take if you want to enable the MaxConsecutiveSystemExceptions feature in the REFramework template?
-Set the MaxConsecutiveSystemExceptions constant value to greater than zero
-
-
-
 6
 REFramework Project with Tabular Data
 Which argument in the Process workflow holds the business context information?
