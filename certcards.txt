@@ -1,17 +1,4 @@
 
-16
-Azure Data Fundamentals
-Azure Data Explorer is a standalone Azure service for efficiently analyzing data. You can use the service as the output for analyzing large volumes of diverse data from data sources such as websites, applications, IoT devices, and more.
-
-
-17
-Azure Data Fundamentals
-Data Explorer supports batcing and streaming in near real time to optimize data ingestion. The ingested data is stored in tables in a Data Explorer database, wehre automatic indexing enables high-performance queries.
-
-
-18
-Azure Data Fundamentals
-To query Data Explorer tables, you can use Kusto Query Language (KQL), a language that is specifically optimized for fast read performance – particularly with telemetry data that includes a timestamp attribute.
 
 
 19
