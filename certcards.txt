@@ -1,23 +1,5 @@
 
 
-
-19
-Azure Data Fundamentals
-You can add clauses to a Kusto query to filter, sort, aggregate, and return (project) specific columns. Each clause is prefixed by a | character.
-
-  LogEvents
-  | where StartTime > datetime(2021-12-31)
-  | where EventType == 'Error'
-  | project StartTime, EventType , Message
-
-
-20
-Azure Data Fundamentals
-Which definition of stream processing is correct?
-
-Data is processsed continually as new data records arrive
-
-
 21
 Azure Data Fundamentals
 Which service would you use to continually capture data from an IoT Hub, aggregate it over temporal periods, and store the results in Azure SQL Database?
