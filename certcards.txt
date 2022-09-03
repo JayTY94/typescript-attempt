@@ -1,36 +1,5 @@
 
 
-21
-Azure Data Fundamentals
-Which service would you use to continually capture data from an IoT Hub, aggregate it over temporal periods, and store the results in Azure SQL Database?
-
-Azure Stream Analytics
-
-
-22
-Azure Data Fundamentals
-Which language would you use to query real-tie log data in Azure Synapse Data Explorer?
-
-Kusto Query Language (KQL)
-NOT SQL
-NOT Python
-
-
-23
-Azure Data Fundamentals
-After you've created data models and reports, you can publish them to the Power BI service; a cloud service in which reports can be published and interacted with by business users. You can also do some basic data modeling and report editing directly in the service using a web browser, but the functionality for this is limited compared to the Power BI Desktop tool.
-
-
-24
-Azure Data Fundamentals
-Analytical models enable you to structure data to support analysis. Models are based on related tables of data and define the numeric values that you want to analyze or report (known as measures) and the entities by which you want to aggregate them (known as dimensions).
-
-
-25
-Azure Data Fundamentals
-Dimension tables represent the entities by which you want to aggregate numeric measures – for example product or customer. Each entity is represented by a row with a unique key value. The remaining columns represent attributes of an entity – for example, products have names and categories, and customers have addresses and cities.
-
-
 26
 Azure Data Fundamentals
 One final thing worth considering about analytical models is the creation of attribute hierarchies that enable you to quickly drill-up or drill-down to find aggregated values at different levels in a hierarchical dimension.
