@@ -1,244 +1,5 @@
 
 
-25
-REFramework Project with Tabular Data
-When whiteboarding your process workflows, what information should you take into account?
-  Workflow name
-  Pre-condition
-  Description
-  Post-action
-  Arguments
-  State(s)
-
-
-26
-REFramework Project with Tabular Data
-When working with tabular data, where would you set the MaxRetryNumber?
-In the Constants sheet of the Config file
-
-NOT In the Settings sheet of the Config file
-
-
-
-
-
-27
-REFramework Project with Tabular Data
-By default, which states are affected by the TransactionItem datatype change?
-
-  Get Transaction Data
-  Process Transaction
-  NOT Initialization
-  NOT End Process
-
-
-28
-REFramework Project with Tabular Data
-CloseAllApplications.xaml is used to log out and close the target applications
-
-KillAllProcesses.xaml is used to force-close the target applications
-
-
-
-
-29
-REFramework Project with Tabular Data
-If the TransactionData variable is of type DataTable, what type should the in_TransactionItem argument in Process.xaml have?
-  DataRow
-  NOT QueueItem
-  NOT String
-  NOT DataTable
-
-30
-REFramework Project with Tabular Data
-We are planning to build an execution report functionality which includes the transaction identifier and the transaction status. What workflow would this logic best be included in?
-
-  SetTransactionStatus.xaml
-  NOT GetTransactionData.xaml
-  NOT RetryCurrentTransaction.xaml
-
-
-1
-REFramework Project with Tabular Data
-[True]When working with REFramework template, you won't be able to create new test cases
-
-
-2
-REFramework Project with Tabular Data
-You have just set the TransactionItem type to MailMessage. Which of the following types is a valid option for TransactionData?
-List(of MailMessage)
-
-
-
-3
-REFramework Project with Tabular Data
-You want to configure the REFramework template to build a linear process. Which argument do you need to monitor in GetTransactionData.xaml?
-  in_TransactionNumber
-  NOT in_Config
-  NOT out_TransactionItem
-
-4
-REFramework Project with Tabular Data
-What will be the type of TransactionItem if TransactionData is an Array of Strings?
-  String
-  NOT String[]
-
-
-
-5
-REFramework Project with Tabular Data
-What action you need to take if you want to enable the MaxConsecutiveSystemExceptions feature in the REFramework template?
-Set the MaxConsecutiveSystemExceptions constant value to greater than zero
-
-
-
-6
-REFramework Project with Tabular Data
-Which argument in the Process workflow holds the business context information?
-In_TransactionItem
-
-
-7
-REFramework Project with Tabular Data
-If we intend to use tabular data instead of an Orchestrator queue, which activity do we need to replace in the default REFramework template to retrieve the transaction data?
-The Get Transaction Item  activity in the Get Transaction Data state.
-
-
-
-
-
-8
-REFramework Project with Tabular Data
-What is the default type of the 'TransactionData' variable?
-DataTable
-NOT Queue Item
-
-
-
-
-9
-REFramework Project with Tabular Data
-The process is based on the REFramework template. Asset "Userdetails" was referenced in the config file, but it wasn't created in Orchestrator. What happens when you run the process?
-
-  It throws an error in the Initialization state.
-
-
-
-
-10
-REFramework Project with Tabular Data
-Is it possible to use tabular or other types of data for the transaction item and Orchestrator assets in the same process?
-
-Yes. You can use Assets independently from Queues.
-
-
-
-
-11
-REFramework Project with Tabular Data
-From the given options, identify in which SetTransactionStatus workflow file is invoked.
-
-  In the Try block of the process transaction state.
-  Within the Business Rule Exception section in the catch section of process transaction.
-  Within the System Exception section in the catch section of process transaction.
-
-
-
-
-
-
-12
-REFramework Project with Tabular Data
-From the given option, identify the test cases available by default with REFramework template.
-  GeneralTestCase
-  GetTransactionDataTestCase
-  MainTestCase
-  ProcessTestCase
-  InitAllApplicationsTestCase
-  InitAllSettingsTestCase
-
-
-
-
-13
-Azure Data Fundamentals
-Spark can be used to run code (usually written in Python, Scala, or Java) in parallel across multiple cluster nodes, enabling it to process very large volumes of data efficiently. Spark can be used for both batch processing and stream processing.
-
-
-
-14
-Azure Data Fundamentals
-Spark Structured Stereaming is built on the ubiquitous structure in Spark called a dataframe, which encapsulates a table of data. You use the Spark Structured Streaming API to read data from a real-time data source, such as Kafka hub, a file store, or a network port, into a "boundless" dataframe that is continuallly populated iwth new data from the stream
-
-
-15
-Azure Data Fundamentals
-Delta Lake is an open-source storage layer that adds support for transactional consistancy, schema enforcement, and other common data warehousing features to data lake storage.  It also unifies storage for streaming and batch data, and can be used in Spark to define relational tables for both batch and stream processing.
-
-
-16
-Azure Data Fundamentals
-Azure Data Explorer is a standalone Azure service for efficiently analyzing data. You can use the service as the output for analyzing large volumes of diverse data from data sources such as websites, applications, IoT devices, and more.
-
-
-17
-Azure Data Fundamentals
-Data Explorer supports batcing and streaming in near real time to optimize data ingestion. The ingested data is stored in tables in a Data Explorer database, wehre automatic indexing enables high-performance queries.
-
-
-18
-Azure Data Fundamentals
-To query Data Explorer tables, you can use Kusto Query Language (KQL), a language that is specifically optimized for fast read performance – particularly with telemetry data that includes a timestamp attribute.
-
-
-19
-Azure Data Fundamentals
-You can add clauses to a Kusto query to filter, sort, aggregate, and return (project) specific columns. Each clause is prefixed by a | character.
-
-  LogEvents
-  | where StartTime > datetime(2021-12-31)
-  | where EventType == 'Error'
-  | project StartTime, EventType , Message
-
-
-20
-Azure Data Fundamentals
-Which definition of stream processing is correct?
-
-Data is processsed continually as new data records arrive
-
-
-21
-Azure Data Fundamentals
-Which service would you use to continually capture data from an IoT Hub, aggregate it over temporal periods, and store the results in Azure SQL Database?
-
-Azure Stream Analytics
-
-
-22
-Azure Data Fundamentals
-Which language would you use to query real-tie log data in Azure Synapse Data Explorer?
-
-Kusto Query Language (KQL)
-NOT SQL
-NOT Python
-
-
-23
-Azure Data Fundamentals
-After you've created data models and reports, you can publish them to the Power BI service; a cloud service in which reports can be published and interacted with by business users. You can also do some basic data modeling and report editing directly in the service using a web browser, but the functionality for this is limited compared to the Power BI Desktop tool.
-
-
-24
-Azure Data Fundamentals
-Analytical models enable you to structure data to support analysis. Models are based on related tables of data and define the numeric values that you want to analyze or report (known as measures) and the entities by which you want to aggregate them (known as dimensions).
-
-
-25
-Azure Data Fundamentals
-Dimension tables represent the entities by which you want to aggregate numeric measures – for example product or customer. Each entity is represented by a row with a unique key value. The remaining columns represent attributes of an entity – for example, products have names and categories, and customers have addresses and cities.
-
-
 26
 Azure Data Fundamentals
 One final thing worth considering about analytical models is the creation of attribute hierarchies that enable you to quickly drill-up or drill-down to find aggregated values at different levels in a hierarchical dimension.
@@ -348,113 +109,278 @@ To create an email template, write the message in a new text document and then u
 To store the template text, we must create a new variable in the 'output to' property field
 
 
+
+
 12
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+An extract, transform, and load (ETL) process requires data that is fully processed before loading to the target data store.
 
 
 13
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Transcribing audio files is an example of cognitive analytics
 
 
 14
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+A Clustered index is a type of index in which table records are physically reordered to match the index.	A Non-Clustered index is a special type of index in which logical order of index does not match physical stored order of the rows on disk.
 
 
 15
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Descriptive Analytics tell you what occurred in the past.
 
 
 16
-UiPath Mail Activities
-
+Azure Data Fundamentals
+Relational databases are optimized for writes. They are optimized for consistency and availability. Advantages of relational databases include simplicity, ease of data retrieval, data integrity, and flexibility.
 
 
 
 17
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Batch processing can output data to a file store but not a relational database, nor a NoSQL database.
 
 
 18
-UiPath Mail Activities
+Azure Data Fundamentals
+Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process.
+Where does data processing occur for each stage of the ELT process?
 
-
+Extract: The CRM system
+Load: The Data Warehouse
+Transform: An in-memory data integration tool
 
 
 19
-UiPath Mail Activities
+Azure Data Fundamentals
+Treemaps are charts of colored rectangles, with size representing value. They can be hierarchical, with rectangles nested within the main rectangles.
 
+A key influencer chart displays the major contributors to a selected result or value.
 
 
 
 20
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Azure Storage offers two options for copying your data to a secondary region:
+✑ Geo-redundant storage (GRS)
+✑ Geo-zone-redundant storage (GZRS)
+B: With GRS or GZRS, the data in the secondary region isn't available for read or write access unless there is a failover to the secondary region. For read access to the secondary region, configure your storage account to use read-access geo-redundant storage (RA-GRS) or read-access geo-zone-redundant storage (RA-GZRS).
 
 
 21
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+[True] PaaS database offerings in Azure reuqire less setup and configuration than IaaS database offerings
+[False] PaaS database offerings in Azure provide end users with the ability to control and update the OS version
+[False] All relational and non-relational PaaS database offerings in Azure can be paused to reduce costs.
 
 
 22
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+A key/value store associates each data value with a unique key. Most key/value stores only support simple query, insert, and delete operations. To modify a value (either partially or completely), an application must overwrite the existing data for the entire value. In most implementations, reading or writing a single value is an atomic operation.
 
 
 23
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Azure file shares are deployed into storage accounts, which are top-level objects that represent a shared pool of storage.
+(In nesting order)
+Azure Resource Group
+  Azure Storage Account
+    File Share
+      Folders
+        Files
 
 
 24
-UiPath Mail Activities
+Azure Data Fundamentals
+In Azure Data Factory, a data factory might have one or more pipelines. A pipeline is a logical grouping of activities that performs a unit of work. Together, the activities in a pipeline perform a task. For example, a pipeline can contain a group of activities that ingests data from an Azure blob, and then runs a Hive query on an HDInsight cluster to partition the data.
 
 
 
 
 25
-UiPath Mail Activities
-
-
+Azure Data Fundamentals
+Create and manage graphs of data transformation logic that you can use to transform any-sized data. You can build-up a reusable library of data transformation routines and execute those processes in a scaled-out manner from your ADF pipelines. Data Factory will execute your logic on a Spark cluster that spins-up and spins-down when you need it.
 
 
 26
-UiPath Mail Activities
+Azure Data Fundamentals
+Activities represent a processing step in a pipeline. For example, you might use a copy activity to copy data from one data store to another data store. Azure Data Factory supports three types of activities: data movement activities, data transformation activities, and control activities.
 
 
 
 
 27
-UiPath Mail Activities
+Azure Data Fundamentals
+In Azure Data Factory, datasets represent data structures within the data stores, which simply point to or reference the data you want to use in your activities as inputs or outputs.
 
 
 
 
 28
-UiPath Mail Activities
+Azure Data Fundamentals
+Linked services are used for two purposes in Data Factory:
+
+To represent a data store that includes, but isn't limited to, a SQL Server database, Oracle database, file share, or Azure blob storage account. For a list of supported data stores, see the copy activity article.
 
 
 
 
 29
-UiPath Mail Activities
+Azure Data Fundamentals
+Linked services are used for two purposes in Data Factory:
 
+To represent a compute resource that can host the execution of an activity. For example, the HDInsightHive activity runs on an HDInsight Hadoop cluster. For a list of transformation activities and supported compute environments, see the transform data article.
+
+
+30
+Azure Data Fundamentals
+In Azure Data Factory, A pipeline run is an instance of the pipeline execution. Pipeline runs are typically instantiated by passing the arguments to the parameters that are defined in pipelines. The arguments can be passed manually or within the trigger definition.
+
+1
+Azure Data Fundamentals
+
+
+
+2
+Azure Data Fundamentals
+
+
+
+3
+Azure Data Fundamentals
+
+
+
+4
+Azure Data Fundamentals
+
+
+
+5
+Azure Data Fundamentals
+
+
+
+6
+Azure Data Fundamentals
+
+
+
+7
+Azure Data Fundamentals
+
+
+
+8
+Azure Data Fundamentals
+
+
+
+9
+Azure Data Fundamentals
+
+
+
+10
+Azure Data Fundamentals
+
+
+
+11
+Azure Data Fundamentals
+
+
+
+12
+Azure Data Fundamentals
+
+
+
+13
+Azure Data Fundamentals
+
+
+
+14
+Azure Data Fundamentals
+
+
+
+15
+Azure Data Fundamentals
+
+
+
+16
+Azure Data Fundamentals
+
+
+
+17
+Azure Data Fundamentals
+
+
+
+18
+Azure Data Fundamentals
+
+
+
+19
+Azure Data Fundamentals
+
+
+
+20
+Azure Data Fundamentals
+
+
+
+21
+Azure Data Fundamentals
+
+
+
+22
+Azure Data Fundamentals
+
+
+
+23
+Azure Data Fundamentals
+
+
+
+24
+Azure Data Fundamentals
+
+
+
+25
+Azure Data Fundamentals
+
+
+
+26
+Azure Data Fundamentals
+
+
+
+27
+Azure Data Fundamentals
+
+
+
+28
+Azure Data Fundamentals
+
+
+
+29
+Azure Data Fundamentals
 
 
 
 30
-UiPath Mail Activities
+Azure Data Fundamentals
