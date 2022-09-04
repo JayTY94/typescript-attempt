@@ -1,38 +1,5 @@
 
 
-26
-Azure Data Fundamentals
-One final thing worth considering about analytical models is the creation of attribute hierarchies that enable you to quickly drill-up or drill-down to find aggregated values at different levels in a hierarchical dimension.
-
-
-
-27
-Azure Data Fundamentals
-1. Which tool should you use to import data from multiple data sources and create a report?
-
-Power BI Desktop
-
-
-28
-Azure Data Fundamentals
-2. What should you define in your data model to enable drill-up/down analysis?
-
-A hierarchy
-
-
-29
-Azure Data Fundamentals
-3. Which kind of visualization should you use to analyze pass rates for multiple exams over time?
-
-A line chart
-
-
-30
-General
-What Is Enterprise Resource Planning (ERP)?
-At its core, ERP is an application that automates business processes and provides insights and internal controls, drawing on a central database that collects inputs from departments including accounting, manufacturing, supply chain management, sales, marketing and human resources (HR).
-
-
 
 
 1
