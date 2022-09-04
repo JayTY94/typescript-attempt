@@ -2,43 +2,6 @@
 
 
 
-1
-General
-A memorandum of understanding (MOU) or partnership agreement is a document between two parties that allows each group to outline their expectations of the project and its deliverables.
-
-
-
-2
-UiPath Mail Activities
-In the Mail Activities Package, what are the activities that contain built-in filtering?
-
-  Get Outlook Mail Message
-  Get Exchange Mail Messages
-  Get IMAP Mail Messages
-  NOT get POP Mail Messages
-
-
-
-3
-UiPath Mail Activities
-While retrieving Emails from Gmail which activity is used.
-
-  Get IMAP Mail Message
-
-
-
-4
-UiPath Mail Activities
-Emails can be used as the input to or the output from a process
-
-
-
-5
-UiPath Mail Activities
-Email activities are contained inside the UiPath.Mail.Activities pack.
-
-
-
 6
 UiPath Mail Activities
 By default, the pack provides specific activities for Exchange, IBM Notes, IMAP, Outlook, POP3, and SMTP.
