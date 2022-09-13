@@ -168,149 +168,182 @@ Azure Data Fundamentals
 In Azure Data Factory, A pipeline run is an instance of the pipeline execution. Pipeline runs are typically instantiated by passing the arguments to the parameters that are defined in pipelines. The arguments can be passed manually or within the trigger definition.
 
 1
-Azure Data Fundamentals
-
+General 
+Workato is the RPA alternatvie recommended to us by the potential partner Neostella.
 
 
 2
-Azure Data Fundamentals
+Workato 
+Workato is the only integration platform that was built from the ground up to support a single design interface for developer/IT and citizen integrators, ensuring that citizens and IT have access to the same ease-of-use driven productivity improvements, and at the same time offering citizens the same power and capability available to IT.
+
+
 
 
 
 3
-Azure Data Fundamentals
+Workato
+
 
 
 
 4
-Azure Data Fundamentals
+Workato
+
 
 
 
 5
-Azure Data Fundamentals
+Workato
+
 
 
 
 6
-Azure Data Fundamentals
+Workato
+
 
 
 
 7
-Azure Data Fundamentals
+Workato
+
 
 
 
 8
-Azure Data Fundamentals
+Workato
+
 
 
 
 9
-Azure Data Fundamentals
+Workato
+
 
 
 
 10
-Azure Data Fundamentals
+Workato
+
 
 
 
 11
-Azure Data Fundamentals
+Workato
+
 
 
 
 12
-Azure Data Fundamentals
+Workato
+
 
 
 
 13
-Azure Data Fundamentals
+Workato
+
 
 
 
 14
-Azure Data Fundamentals
+Workato
+
 
 
 
 15
-Azure Data Fundamentals
+Workato
+
 
 
 
 16
-Azure Data Fundamentals
+Workato
+
 
 
 
 17
-Azure Data Fundamentals
+Workato
+
 
 
 
 18
-Azure Data Fundamentals
+Workato
+
 
 
 
 19
-Azure Data Fundamentals
+Workato
+
 
 
 
 20
-Azure Data Fundamentals
+Workato
+
 
 
 
 21
-Azure Data Fundamentals
+Workato
+
 
 
 
 22
-Azure Data Fundamentals
+Workato
+
 
 
 
 23
-Azure Data Fundamentals
+Workato
+
 
 
 
 24
-Azure Data Fundamentals
+Workato
+
 
 
 
 25
-Azure Data Fundamentals
+Workato
+
 
 
 
 26
-Azure Data Fundamentals
+Workato
+
 
 
 
 27
-Azure Data Fundamentals
+Workato
+
 
 
 
 28
-Azure Data Fundamentals
+Workato
+
 
 
 
 29
-Azure Data Fundamentals
+Workato
+
 
 
 
 30
-Azure Data Fundamentals
+Workato
+
+
+
