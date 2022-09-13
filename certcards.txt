@@ -188,31 +188,35 @@ Governance is a key requirement for any platform that allows business users to w
 
 4
 Workato
-
+Workato's platform is extensible to add support for new applications beyond the many that are available pre-built. A powerful and configurable REST data connector allows integration with many systems without writing any code. 
 
 
 
 5
 Workato
-
+Workato also provides a Connector SDK that handles and abstracts multiple aspects of application and data integration for cases where custom development is required. Existing connectors can be extended via the SDK or via adding functions from the REST connector
 
 
 
 6
 Workato
-
+Recipes are automated workflows built by users that can span multiple apps, such as moving new accounts from Salesforce into Zendesk as new organizations. Each recipe comprises of a trigger and one or more actions that are carried out when a trigger event is picked up.
 
 
 
 7
 Workato
+Triggers determine what event to listen to execute the actions described in a recipe.
 
+Trigger events can be set off in apps (Salesforce or JIRA) when a certain event happens (new contact is created or existing ticket updated), when a new line is added in a file, or according to a schedule (fires at a certain time or interval).
 
 
 
 8
 Workato
+Every step, including triggers, brings data into the recipe. For example a new employee in Workday trigger would bring in employee data. This data is made available in the recipe via the datatree.
 
+The individual data fields are called datapills. You can use the datapills in subsequent steps.
 
 
 
