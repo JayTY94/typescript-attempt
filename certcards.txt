@@ -182,7 +182,7 @@ Workato is the only integration platform that was built from the ground up to su
 
 3
 Workato
-
+Governance is a key requirement for any platform that allows business users to work with corporate data. Workato Aegis is a management tool that provides cross-enterprise visibility into users and usage, integration processes, and the applications they connect
 
 
 
