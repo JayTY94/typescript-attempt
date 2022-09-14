@@ -1,34 +1,5 @@
 
 
-11
-UiPath Mail Activities
-To create an email template, write the message in a new text document and then use a 'Read Text' activity to read it.
-
-To store the template text, we must create a new variable in the 'output to' property field
-
-
-
-
-12
-Azure Data Fundamentals
-An extract, transform, and load (ETL) process requires data that is fully processed before loading to the target data store.
-
-
-13
-Azure Data Fundamentals
-Transcribing audio files is an example of cognitive analytics
-
-
-14
-Azure Data Fundamentals
-A Clustered index is a type of index in which table records are physically reordered to match the index.	A Non-Clustered index is a special type of index in which logical order of index does not match physical stored order of the rows on disk.
-
-
-15
-Azure Data Fundamentals
-Descriptive Analytics tell you what occurred in the past.
-
-
 16
 Azure Data Fundamentals
 Relational databases are optimized for writes. They are optimized for consistency and availability. Advantages of relational databases include simplicity, ease of data retrieval, data integrity, and flexibility.
