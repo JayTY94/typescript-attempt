@@ -196,127 +196,134 @@ Todd likes the software solution Celonis for process mining. I need to find out 
 
 
 10
-Workato
+Security+
+Typosquatting is a form of cybercrime that involves hackers registering domains with deliberately misspelled names of well-known websites. Hackers do this to lure unsuspecting visitors to alternative websites, typically for malicious purposes. Visitors may end up at these alternative websites through one of two ways:
 
+By inadvertently mistyping the name of popular websites into their web browser – e.g. gooogle.com instead of google.com.
+Being lured to them as part of a broader phishing attack.
 
 
 
 11
-Workato
-
+Security+
+Pretexting is a certain type of social engineering technique that manipulates victims into divulging information. A pretext is a made-up scenario developed by threat actors for the purpose of stealing a victim’s personal data.
 
 
 
 12
-Workato
-
+Security+
+Vishing (Voice phishing) is a form of phishing performed over the phone. Usually the caller is spoofing the caller ID phone number. They will generally try to get some kind of personal information.
 
 
 
 13
-Workato
-
+Security+
+Smishing (SMS phishing) is done by text message
+  Spoofing of the source phone number is done here as well
+  Can directly ask for personal information
+  Can give links to sites asking for personal information
 
 
 
 14
-Workato
-
+Security+
+Spear phishing the CEO is called "Whaling"
+  Targeted phishing with the possibility of a large catch
+  CFO is also commonly speared
+  Executives have direct access to corporate bank accounts
 
 
 
 15
-Workato
+Security+
 
 
 
 
 16
-Workato
+Security+
 
 
 
 
 17
-Workato
+Security+
 
 
 
 
 18
-Workato
+Security+
 
 
 
 
 19
-Workato
+Security+
 
 
 
 
 20
-Workato
+Security+
 
 
 
 
 21
-Workato
+Security+
 
 
 
 
 22
-Workato
+Security+
 
 
 
 
 23
-Workato
+Security+
 
 
 
 
 24
-Workato
+Security+
 
 
 
 
 25
-Workato
+Security+
 
 
 
 
 26
-Workato
+Security+
 
 
 
 
 27
-Workato
+Security+
 
 
 
 
 28
-Workato
+Security+
 
 
 
 
 29
-Workato
+Security+
 
 
 
 
 30
-Workato
-
-
+Security+
 
