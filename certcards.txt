@@ -1,37 +1,5 @@
 
 
-
-
-6
-UiPath Mail Activities
-By default, the pack provides specific activities for Exchange, IBM Notes, IMAP, Outlook, POP3, and SMTP.
-
-
-
-7
-UiPath Mail Activities
-The object type we use for retrieved emails is System.Net.Mail.MailMessage.
-
-
-
-8
-UiPath Mail Activities
-When building a process which uses email, for most activity groups, some configuration may be required on the email account.
-
-
-
-9
-UiPath Mail Activities
-The Get IMAP Mail Messages activity lets us filter messages based on different criteria.
-
-
-
-10
-UiPath Mail Activities
-A great resource to learn more about filtering emails is the Microsoft documentation page.
-
-
-
 11
 UiPath Mail Activities
 To create an email template, write the message in a new text document and then use a 'Read Text' activity to read it.
@@ -221,7 +189,8 @@ The individual data fields are called datapills. You can use the datapills in su
 
 
 9
-Workato
+General
+Todd likes the software solution Celonis for process mining. I need to find out more about it.
 
 
 
