@@ -1,41 +1,5 @@
 
 
-16
-Azure Data Fundamentals
-Relational databases are optimized for writes. They are optimized for consistency and availability. Advantages of relational databases include simplicity, ease of data retrieval, data integrity, and flexibility.
-
-
-
-17
-Azure Data Fundamentals
-Batch processing can output data to a file store but not a relational database, nor a NoSQL database.
-
-
-18
-Azure Data Fundamentals
-Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process.
-Where does data processing occur for each stage of the ELT process?
-
-Extract: The CRM system
-Load: The Data Warehouse
-Transform: An in-memory data integration tool
-
-
-19
-Azure Data Fundamentals
-Treemaps are charts of colored rectangles, with size representing value. They can be hierarchical, with rectangles nested within the main rectangles.
-
-A key influencer chart displays the major contributors to a selected result or value.
-
-
-
-20
-Azure Data Fundamentals
-Azure Storage offers two options for copying your data to a secondary region:
-✑ Geo-redundant storage (GRS)
-✑ Geo-zone-redundant storage (GZRS)
-B: With GRS or GZRS, the data in the secondary region isn't available for read or write access unless there is a failover to the secondary region. For read access to the secondary region, configure your storage account to use read-access geo-redundant storage (RA-GRS) or read-access geo-zone-redundant storage (RA-GZRS).
-
 
 21
 Azure Data Fundamentals
