@@ -152,43 +152,45 @@ Consulting services, in contrast, may include advice or technical assistance tha
 
 17
 Security+
-
+All of the good attackers are very good at impersonation. This usually starts with a pretext which is simply a lie that sets up the entire scenario for the attack. There is usually an actor, the person trying to pull off the scam, and a story.
 
 
 
 18
 Security+
-
+Once the attacker has the person at easy, they can start extracting information very easily from that person. This is called eliciting information from the end user.
 
 
 
 19
 Security+
-
+Dumpster Diving is the act of gathering information from things that are thrown in the trash. It is generally legal in the US, though local laws differ.
 
 
 
 20
 Security+
-
+Shoulder surfing is using direct observation techniques, such as looking over someone's shoulder, to get information. A simple and effective counter measure is a privacy screen on the user's monitor.
 
 
 
 21
 Security+
-
+A computer hoax is a threat that doesn't actually exist, but it seems like it could be real. They still consume lots of resources in the form of forwarded email messages, printed memorandums, and wasted time.
 
 
 
 22
 Security+
-
+Some Computer hoaxes will take your money, but not always through electronic means; it is common for the scammer to request gift card codes, for example.
 
 
 
 23
 Security+
+wa·ter·ing hole at·tack
 
+a cyberattack targeting a particular organization, in which malware is installed on a website or websites regularly visited by the organization's members in order to infect computers used within the organization itself.
 
 
 
