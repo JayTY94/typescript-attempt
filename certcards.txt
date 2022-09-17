@@ -1,11 +1,6 @@
 
 
 
-25
-Azure Data Fundamentals
-Create and manage graphs of data transformation logic that you can use to transform any-sized data. You can build-up a reusable library of data transformation routines and execute those processes in a scaled-out manner from your ADF pipelines. Data Factory will execute your logic on a Spark cluster that spins-up and spins-down when you need it.
-
-
 26
 Azure Data Fundamentals
 Activities represent a processing step in a pipeline. For example, you might use a copy activity to copy data from one data store to another data store. Azure Data Factory supports three types of activities: data movement activities, data transformation activities, and control activities.
