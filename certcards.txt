@@ -188,7 +188,7 @@ Some Computer hoaxes will take your money, but not always through electronic mea
 
 23
 Security+
-wa·ter·ing hole at·tack
+watering hole at·tack
 
 a cyberattack targeting a particular organization, in which malware is installed on a website or websites regularly visited by the organization's members in order to infect computers used within the organization itself.
 
