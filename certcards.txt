@@ -220,19 +220,19 @@ Another common social engineering attack is an invoice scam. This is when the at
 
 1
 Security+
-
+A social engineering attack that’s a little more unusual but still quite effective is the credential harvesting attack. Credential harvesting is when the attackers are trying to gain access to your usernames and passwords that might be stored on your local computer. We often have these credentials that are stored in our browser or on our operating system, and obviously the attackers would love to have a copy of all of your usernames and all of your passwords.
 
 
 
 2
-Security+
-
+Celonis 
+The Celonis Software is also known as the Celonis Execution Management System (short EMS). The Celonis EMS has Process Mining technology at its core. Just like the field of Process Mining the Celonis EMS has developed from an historical analytical tool towards an action-oriented operational backbone in enterprises. 
 
 
 
 3
-Security+
-
+Celonis 
+The Celonis Software includes the chance to upload data from scratch or build direct connectors to source systems (Event Collection), a Celonis Studio to build analyses and integrate Action Flows and a Machine Learning Workbench to run predictions and even import e.g. Python or R packages. 
 
 
 
