@@ -171,6 +171,199 @@ This will update the pull request, and ADO has let us complete the merge afterwa
 
 25
 Security+
+Spam received over instant messaging or text messaging is referred to as SPIM.
+
+
+
+26
+Security+
+Regardless of the content of the spam message the problem for the system administrator is many and varied.
+
+  Security concerns
+  resource utilization (network bandwidth, time)
+  storage costs
+  spam management system cost
+
+
+
+27
+Security+
+Spam prevention measures include
+
+  Allowed list - only receive messages from trusted senders
+  SMTP standards checking - block anything that doesn't follow RFC standards
+  Reverse DNS (rDNS) - block email where the sender's domain does not match the IP address
+  Tarpitting - intentionally slsow down the server conversation 
+  Recipient filtering - Block all email not addressed to a valid recipient email address
+
+
+
+28
+Security+
+Influence campaigns are large-scale campaigns that seek to shift public opinion. Such campaigns are usually carried out in bad faith and often seek to push a false narrative. These campaigns are often carried out by groups with high levels of capability, up to and including nation-state actors.
+
+
+29
+Security+
+Tailgating is to use an authorized person to gain unauthorized access to a building. Tailgating is an important thing to prevent, because usually that door is the last security piece before gaining access into a sensitive area.
+
+
+
+30
+Security+
+Another common social engineering attack is an invoice scam. This is when the attacker has done the work to figure out who pays the invoices in your organization, and they send an invoice directly to that person with a bill that needs to be paid.
+
+
+
+
+
+
+1
+Security+
+
+
+
+
+2
+Security+
+
+
+
+
+3
+Security+
+
+
+
+
+4
+Security+
+
+
+
+
+5
+Security+
+
+
+
+
+6
+Security+
+
+
+
+
+7
+Security+
+
+
+
+
+8
+Security+
+
+
+
+
+9
+Security+
+
+
+
+
+10
+Security+
+
+
+
+
+11
+Security+
+
+
+
+
+12
+Security+
+
+
+
+
+13
+Security+
+
+
+
+
+14
+Security+
+
+
+
+
+15
+Security+
+
+
+
+
+16
+Security+
+
+
+
+
+17
+Security+
+
+
+
+
+18
+Security+
+
+
+
+
+19
+Security+
+
+
+
+
+20
+Security+
+
+
+
+
+21
+Security+
+
+
+
+
+22
+Security+
+
+
+
+
+23
+Security+
+
+
+
+
+24
+Security+
+
+
+
+
+25
+Security+
 
 
 
@@ -201,4 +394,6 @@ Security+
 
 30
 Security+
+
+
 
