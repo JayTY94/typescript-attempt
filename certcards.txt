@@ -1,39 +1,6 @@
 
 
 
-26
-Azure Data Fundamentals
-Activities represent a processing step in a pipeline. For example, you might use a copy activity to copy data from one data store to another data store. Azure Data Factory supports three types of activities: data movement activities, data transformation activities, and control activities.
-
-
-
-
-27
-Azure Data Fundamentals
-In Azure Data Factory, datasets represent data structures within the data stores, which simply point to or reference the data you want to use in your activities as inputs or outputs.
-
-
-
-
-28
-Azure Data Fundamentals
-Linked services are used for two purposes in Data Factory:
-
-To represent a data store that includes, but isn't limited to, a SQL Server database, Oracle database, file share, or Azure blob storage account. For a list of supported data stores, see the copy activity article.
-
-
-
-
-29
-Azure Data Fundamentals
-Linked services are used for two purposes in Data Factory:
-
-To represent a compute resource that can host the execution of an activity. For example, the HDInsightHive activity runs on an HDInsight Hadoop cluster. For a list of transformation activities and supported compute environments, see the transform data article.
-
-
-30
-Azure Data Fundamentals
-In Azure Data Factory, A pipeline run is an instance of the pipeline execution. Pipeline runs are typically instantiated by passing the arguments to the parameters that are defined in pipelines. The arguments can be passed manually or within the trigger definition.
 
 1
 General 
