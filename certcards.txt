@@ -162,8 +162,10 @@ a cyberattack targeting a particular organization, in which malware is installed
 
 
 24
-Security+
+UiPath 
+When Azure DevOps is showing conflicts in a pull request, we've resolved the conflicts by opening the new feature branch in UiPath Studio, going to branch > Manage Branches > right click main > Rebase > Resolve conflicts > Commit and push.
 
+This will update the pull request, and ADO has let us complete the merge afterwards.
 
 
 
