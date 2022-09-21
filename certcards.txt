@@ -236,164 +236,370 @@ The Celonis Software includes the chance to upload data from scratch or build di
 
 
 
+
+
 4
-Security+
+Celonis
+Why is the Celonis EMS an evolutionary step from process mining?
+
+Because it builds on process mining to improve business execution by orchestrating systems and offering intelligent targeted actions
+
+
 
 
 
 
 5
-Security+
-
+Celonis
+The EMS Integrates data across systems, desktops, documents, and/or event streams
+The EMS X-Rays processes for inefficiencies and recommend improvements
+The EMS Executes on insights automatically and orchestrates existing technologies
 
 
 
 6
-Security+
+Celonis
+In the EMS, 
+  Data Tools are a technology that supports extraction, transformation, and consolidation of data.
+  Intelligence Software are a technology that enables insights to be automatically or manually extracted from data.
+  Action-enabling Technologies enable integration, automation, or orchestration.
+
 
 
 
 
 7
-Security+
+Celonis
+Action Flows - Executes and automates process flows across all your underlying EMS integrated systems
+Execution Applications - Automates corrective routine decisions across systems, or prompts action from stakeholders.
 
 
 
 
 8
-Security+
-
+Celonis
+Celonis Studio - Allows customers, partners, and third-party developers to create Execution Applications
+Planning and simulation - Models and simulates future-state processes to understand the impact of your decisions.
 
 
 
 9
-Security+
-
+Celonis
+Partnering with Celonis in the Delivery area means that you will be delivering EMS technical implementation services and post-implementation business value delivery. You can deliver either one of these services, or both
 
 
 
 10
-Security+
+Celonis
+License model: C4C+
+With C4C+, you digitize your process discovery and execution gap analysis while accelerating time-to-value
 
-
+License user: Partner
+Offering to client by: Partner
+Product scope: Discovery, with upgrade option to Full EMS
 
 
 11
-Security+
+Celonis
+License model: C4C+ Execution
+An annual subscription, providing a specific customer access to your project environment
 
+License user: Partner + Customer
+Offering to client by: Partner
+Product scope: Access provided to customer with Full EMS License
 
 
 
 12
-Security+
+Celonis
+License model: Co-selling
+Jointly engage clients with Celonis to offer combined business value proposition
+
+License user: Customer
+Offering to client by: X Partner 
+Product scope: Full EMS License
 
 
 
 
 13
-Security+
+Celonis
+License model: Reselling
+Extend your product portfolio with Celonis to offer combined business value proposition 
+
+License user: Customer
+Offering to client by: Partner 
+Product scope: Full EMS License
 
 
 
 
 14
-Security+
+Celonis
+License model: Celonis for BPO
+Enrich outsourcing services with Celonis to offer differentiated & high-value services at lower costs
+
+License user: Partner
+Offering to client by: Partner
+Product scope: Full EMS License
 
 
 
 
 15
-Security+
-
+Celonis
+Celonis emphasizes that they can deliver value quickly, and at the same time they like to remind you that their value can scale.
 
 
 
 16
-Security+
-
+Celonis
+Process mining is the process of using event data to improve some kind of process to improve performance and ensure compliance.
 
 
 
 17
-Security+
-
+Celonis
+There are three mandatory fields for an event: 
+  Case identifier,
+  Activity, 
+  Timestamp
 
 
 
 18
-Security+
-
+Celonis
+A sequence of activities for a specific case is called a trace. Traces are used to automatically generate process models with varying levels of detail. Models that are simplified and show only the most common traces are made by filtering data.
 
 
 
 19
-Security+
-
+Celonis
+Event data frequently has all kinds of issues, for example quality. After data is cleaned up, process models are created automatically with process discovery techniques.
 
 
 
 20
-Security+
-
+Celonis
+Once we have the process models we would like to use, we can look at the event data for bottlenecks to improve performance or conformance.
 
 
 
 21
-Security+
-
+Celonis
+Machine learning techniques do not deal with event data well. When combined with process models, it becomes possible to generate insights like where bottlenecks may form in the future.
 
 
 
 22
-Security+
-
+Celonis
+Conformance testing is comparing process model behavior with ideal behavior
 
 
 
 23
-Security+
-
+Celonis
+Comparative process mining is comparing the same process or two different process to find out what we can improve. For example, in a large organizationship with different offices, the processes used in different offices can be compared to look for improvements
 
 
 
 24
-Security+
-
+Celonis
+Predictive process mining is trying to find out what is going to happen to take action
 
 
 
 25
-Security+
+Celonis
 
 
 
 
 26
-Security+
+Celonis
 
 
 
 
 27
-Security+
+Celonis
 
 
 
 
 28
-Security+
+Celonis
 
 
 
 
 29
-Security+
+Celonis
 
 
 
 
 30
-Security+
+Celonis
+
+
+
+
+
+
+
+5
+Celonis
+
+
+
+
+6
+Celonis
+
+
+
+
+7
+Celonis
+
+
+
+
+8
+Celonis
+
+
+
+
+9
+Celonis
+
+
+
+
+10
+Celonis
+
+
+
+
+11
+Celonis
+
+
+
+
+12
+Celonis
+
+
+
+
+13
+Celonis
+
+
+
+
+14
+Celonis
+
+
+
+
+15
+Celonis
+
+
+
+
+16
+Celonis
+
+
+
+
+17
+Celonis
+
+
+
+
+18
+Celonis
+
+
+
+
+19
+Celonis
+
+
+
+
+20
+Celonis
+
+
+
+
+21
+Celonis
+
+
+
+
+22
+Celonis
+
+
+
+
+23
+Celonis
+
+
+
+
+24
+Celonis
+
+
+
+
+25
+Celonis
+
+
+
+
+26
+Celonis
+
+
+
+
+27
+Celonis
+
+
+
+
+28
+Celonis
+
+
+
+
+29
+Celonis
+
+
+
+
+30
+Celonis
 
 
 
