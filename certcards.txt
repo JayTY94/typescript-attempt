@@ -1,41 +1,5 @@
 
 
-6
-Workato
-Recipes are automated workflows built by users that can span multiple apps, such as moving new accounts from Salesforce into Zendesk as new organizations. Each recipe comprises of a trigger and one or more actions that are carried out when a trigger event is picked up.
-
-
-
-7
-Workato
-Triggers determine what event to listen to execute the actions described in a recipe.
-
-Trigger events can be set off in apps (Salesforce or JIRA) when a certain event happens (new contact is created or existing ticket updated), when a new line is added in a file, or according to a schedule (fires at a certain time or interval).
-
-
-
-8
-Workato
-Every step, including triggers, brings data into the recipe. For example a new employee in Workday trigger would bring in employee data. This data is made available in the recipe via the datatree.
-
-The individual data fields are called datapills. You can use the datapills in subsequent steps.
-
-
-
-9
-General
-Todd likes the software solution Celonis for process mining. I need to find out more about it.
-
-
-
-
-10
-Security+
-Typosquatting is a form of cybercrime that involves hackers registering domains with deliberately misspelled names of well-known websites. Hackers do this to lure unsuspecting visitors to alternative websites, typically for malicious purposes. Visitors may end up at these alternative websites through one of two ways:
-
-By inadvertently mistyping the name of popular websites into their web browser – e.g. gooogle.com instead of google.com.
-Being lured to them as part of a broader phishing attack.
-
 
 
 11
