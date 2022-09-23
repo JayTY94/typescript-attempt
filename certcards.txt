@@ -1,41 +1,5 @@
 
 
-
-
-21
-Security+
-A computer hoax is a threat that doesn't actually exist, but it seems like it could be real. They still consume lots of resources in the form of forwarded email messages, printed memorandums, and wasted time.
-
-
-
-22
-Security+
-Some Computer hoaxes will take your money, but not always through electronic means; it is common for the scammer to request gift card codes, for example.
-
-
-
-23
-Security+
-watering hole at·tack
-
-a cyberattack targeting a particular organization, in which malware is installed on a website or websites regularly visited by the organization's members in order to infect computers used within the organization itself.
-
-
-
-24
-UiPath 
-When Azure DevOps is showing conflicts in a pull request, we've resolved the conflicts by opening the new feature branch in UiPath Studio, going to branch > Manage Branches > right click main > Rebase > Resolve conflicts > Commit and push.
-
-This will update the pull request, and ADO has let us complete the merge afterwards.
-
-
-
-25
-Security+
-Spam received over instant messaging or text messaging is referred to as SPIM.
-
-
-
 26
 Security+
 Regardless of the content of the spam message the problem for the system administrator is many and varied.
