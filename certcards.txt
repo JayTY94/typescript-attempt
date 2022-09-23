@@ -272,6 +272,196 @@ Predictive process mining is trying to find out what is going to happen to take 
 
 25
 Celonis
+Purchase to pay refers to the process of b2b purchasing where one company buys for example, equipment or inventory from a supplier. The purchase to pay process looks at the whole purchasing processs from making a purchase requisition and purchase order to paying the invoice.
+
+
+
+26
+Celonis
+A process is a series of linked activities taken in order to achieve a particular goal.
+
+
+
+27
+Celonis
+A process model describes a process and is base don the corresponding event data.
+
+
+
+28
+Celonis
+An Event Log is a list of events realted to the process
+
+
+
+29
+Celonis
+Process activities are actions that initiate or terminate a process, or take place during it.
+
+
+
+30
+Celonis
+The Procurement process covers activities of requesting, purchasing, receiving, and paying for goods and services.
+
+
+
+1
+Celonis
+Directly-Follows Graphs (DFGs) Pros
+  Easy to create and scalable
+  Show paths, frequencies, and times
+  Can be simplified easily using filters
+
+
+
+2
+Celonis
+Directly-Follows Graphs (DFGs) Cons
+  Filtering needs to be done with the utmost care
+  DFGs cannot capture concurrency
+
+
+
+3
+Celonis
+When DFGs are used for a process that has concurrency (processes where there are activities that can be done simultaneously or in any order), they will generate graphs that look like they can loop infinitely. Different tools are recommended for visualizing concurrency.
+
+
+
+4
+Celonis
+In this second chapter you got familiar with Directly-Follows Graphs. This model is a very powerful tool to visualize different steps in the as-is processes to get a whole picture and spot bottlenecks. 
+
+
+
+
+
+5
+Celonis
+In general, 82% of cases tend to be described by 1% of all variants.
+
+
+
+6
+Celonis
+Which of the statements are true for arc-based filtering on DFGs?
+  [False] The final Directly- Follows Graph remains stable to any removal of activites. 
+  [True] Hidden activities influence Directly-Follows frequency. 
+  [True] Numbers do not need to add up after removing arcs.
+
+
+
+7
+Celonis
+
+
+
+
+8
+Celonis
+
+
+
+
+9
+Celonis
+
+
+
+
+10
+Celonis
+
+
+
+
+11
+Celonis
+
+
+
+
+12
+Celonis
+
+
+
+
+13
+Celonis
+
+
+
+
+14
+Celonis
+
+
+
+
+15
+Celonis
+
+
+
+
+16
+Celonis
+
+
+
+
+17
+Celonis
+
+
+
+
+18
+Celonis
+
+
+
+
+19
+Celonis
+
+
+
+
+20
+Celonis
+
+
+
+
+21
+Celonis
+
+
+
+
+22
+Celonis
+
+
+
+
+23
+Celonis
+
+
+
+
+24
+Celonis
+
+
+
+
+25
+Celonis
 
 
 
@@ -302,6 +492,7 @@ Celonis
 
 30
 Celonis
+
 
 
 
