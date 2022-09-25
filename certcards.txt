@@ -3,50 +3,9 @@
 
 
 
-
-
-1
-Security+
-A social engineering attack that’s a little more unusual but still quite effective is the credential harvesting attack. Credential harvesting is when the attackers are trying to gain access to your usernames and passwords that might be stored on your local computer. We often have these credentials that are stored in our browser or on our operating system, and obviously the attackers would love to have a copy of all of your usernames and all of your passwords.
-
-
-
-2
-Celonis 
-The Celonis Software is also known as the Celonis Execution Management System (short EMS). The Celonis EMS has Process Mining technology at its core. Just like the field of Process Mining the Celonis EMS has developed from an historical analytical tool towards an action-oriented operational backbone in enterprises. 
-
-
-
-3
-Celonis 
-The Celonis Software includes the chance to upload data from scratch or build direct connectors to source systems (Event Collection), a Celonis Studio to build analyses and integrate Action Flows and a Machine Learning Workbench to run predictions and even import e.g. Python or R packages. 
-
-
-
-
-
-4
-Celonis
-Why is the Celonis EMS an evolutionary step from process mining?
-
-Because it builds on process mining to improve business execution by orchestrating systems and offering intelligent targeted actions
-
-
-
-
-
-
-5
-Celonis
-The EMS Integrates data across systems, desktops, documents, and/or event streams
-The EMS X-Rays processes for inefficiencies and recommend improvements
-The EMS Executes on insights automatically and orchestrates existing technologies
-
-
-
 6
 Celonis
-In the EMS, 
+In the EMS,
   Data Tools are a technology that supports extraction, transformation, and consolidation of data.
   Intelligence Software are a technology that enables insights to be automatically or manually extracted from data.
   Action-enabling Technologies enable integration, automation, or orchestration.
@@ -103,7 +62,7 @@ License model: Co-selling
 Jointly engage clients with Celonis to offer combined business value proposition
 
 License user: Customer
-Offering to client by: X Partner 
+Offering to client by: X Partner
 Product scope: Full EMS License
 
 
@@ -112,10 +71,10 @@ Product scope: Full EMS License
 13
 Celonis
 License model: Reselling
-Extend your product portfolio with Celonis to offer combined business value proposition 
+Extend your product portfolio with Celonis to offer combined business value proposition
 
 License user: Customer
-Offering to client by: Partner 
+Offering to client by: Partner
 Product scope: Full EMS License
 
 
@@ -147,9 +106,9 @@ Process mining is the process of using event data to improve some kind of proces
 
 17
 Celonis
-There are three mandatory fields for an event: 
+There are three mandatory fields for an event:
   Case identifier,
-  Activity, 
+  Activity,
   Timestamp
 
 
@@ -257,7 +216,7 @@ When DFGs are used for a process that has concurrency (processes where there are
 
 4
 Celonis
-In this second chapter you got familiar with Directly-Follows Graphs. This model is a very powerful tool to visualize different steps in the as-is processes to get a whole picture and spot bottlenecks. 
+In this second chapter you got familiar with Directly-Follows Graphs. This model is a very powerful tool to visualize different steps in the as-is processes to get a whole picture and spot bottlenecks.
 
 
 
@@ -272,15 +231,15 @@ In general, 82% of cases tend to be described by 1% of all variants.
 6
 Celonis
 Which of the statements are true for arc-based filtering on DFGs?
-  [False] The final Directly- Follows Graph remains stable to any removal of activites. 
-  [True] Hidden activities influence Directly-Follows frequency. 
+  [False] The final Directly- Follows Graph remains stable to any removal of activites.
+  [True] Hidden activities influence Directly-Follows frequency.
   [True] Numbers do not need to add up after removing arcs.
 
 
 
 7
 Celonis
-Concurrency means that no matter in what order a process is executed, even simultaneously, the end result will still be the same. 
+Concurrency means that no matter in what order a process is executed, even simultaneously, the end result will still be the same.
 
 
 
@@ -322,7 +281,7 @@ A data pool is the main structural element of the event collection. Data pools c
 
 13
 Celonis
-To analyze data, we must first create a process data model. 
+To analyze data, we must first create a process data model.
   First we have to select the tables that need to be added to the model.
   Then we need to define the activity table
   Then we assign the three core columns
@@ -399,7 +358,7 @@ Divergence - Wrong causal relation, 2 events being related to 2 different object
 
 23
 Celonis
-We distinguish between two features types. Static features do not change throughout a case and always remain the same. Examples could be Customer or Material Number. 
+We distinguish between two features types. Static features do not change throughout a case and always remain the same. Examples could be Customer or Material Number.
 
 
 
@@ -441,7 +400,3 @@ Celonis
 
 30
 Celonis
-
-
-
-
