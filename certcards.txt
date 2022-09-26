@@ -2,49 +2,6 @@
 
 
 
-
-6
-Celonis
-In the EMS,
-  Data Tools are a technology that supports extraction, transformation, and consolidation of data.
-  Intelligence Software are a technology that enables insights to be automatically or manually extracted from data.
-  Action-enabling Technologies enable integration, automation, or orchestration.
-
-
-
-
-
-7
-Celonis
-Action Flows - Executes and automates process flows across all your underlying EMS integrated systems
-Execution Applications - Automates corrective routine decisions across systems, or prompts action from stakeholders.
-
-
-
-
-8
-Celonis
-Celonis Studio - Allows customers, partners, and third-party developers to create Execution Applications
-Planning and simulation - Models and simulates future-state processes to understand the impact of your decisions.
-
-
-
-9
-Celonis
-Partnering with Celonis in the Delivery area means that you will be delivering EMS technical implementation services and post-implementation business value delivery. You can deliver either one of these services, or both
-
-
-
-10
-Celonis
-License model: C4C+
-With C4C+, you digitize your process discovery and execution gap analysis while accelerating time-to-value
-
-License user: Partner
-Offering to client by: Partner
-Product scope: Discovery, with upgrade option to Full EMS
-
-
 11
 Celonis
 License model: C4C+ Execution
