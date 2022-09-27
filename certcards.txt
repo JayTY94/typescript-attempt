@@ -2,59 +2,6 @@
 
 
 
-11
-Celonis
-License model: C4C+ Execution
-An annual subscription, providing a specific customer access to your project environment
-
-License user: Partner + Customer
-Offering to client by: Partner
-Product scope: Access provided to customer with Full EMS License
-
-
-
-12
-Celonis
-License model: Co-selling
-Jointly engage clients with Celonis to offer combined business value proposition
-
-License user: Customer
-Offering to client by: X Partner
-Product scope: Full EMS License
-
-
-
-
-13
-Celonis
-License model: Reselling
-Extend your product portfolio with Celonis to offer combined business value proposition
-
-License user: Customer
-Offering to client by: Partner
-Product scope: Full EMS License
-
-
-
-
-14
-Celonis
-License model: Celonis for BPO
-Enrich outsourcing services with Celonis to offer differentiated & high-value services at lower costs
-
-License user: Partner
-Offering to client by: Partner
-Product scope: Full EMS License
-
-
-
-
-15
-Celonis
-Celonis emphasizes that they can deliver value quickly, and at the same time they like to remind you that their value can scale.
-
-
-
 16
 Celonis
 Process mining is the process of using event data to improve some kind of process to improve performance and ensure compliance.
@@ -333,6 +280,205 @@ When building a training set Static and Dynamic features need to be treated diff
 
 26
 Celonis
+If you're looking for operational friction, focus on the cases that are infrequent and that you don't want to happen.
+
+
+
+27
+Celonis
+Machine Learning can be applied after data is imported, cleaned, analyized, and reorganized into feature sets. This is one of the last things that Celonis can do, and it's unlikely that our customers will get to it.
+
+
+
+28
+Celonis
+Machine Learning in Celonis is demonstrated to help predict with real time data which cases are likely to be delayed so that corrective action can be taken. Again, this is probably beyond the capacity of Hawaii companies to use.
+
+
+
+29
+General 
+The Pareto principle or "80-20 rule" stating that 80% of outcomes are due to 20% of causes was named in honour of Pareto, but the concepts are distinct, and only Pareto distributions with shape value (α) of log45 ≈ 1.16 precisely reflect it. Empirical observation has shown that this 80-20 distribution fits a wide range of cases, including natural phenomena[5] and human activities.[6][7] the principle originally applied to describing the distribution of wealth in a society, fitting the trend that a large portion of wealth is held by a small fraction of the population
+
+
+
+30
+Celonis
+Action Flows allows users to deploy any of around 10k pre-built automations for a number of existing connected services.
+
+
+
+
+1
+Celonis
+What does the Pareto distribution tell us in relation to processes?
+  80% of the cases, is explained by only 20% of variants. 
+  Infrequent variants often correspond to problems in the process. 
+
+
+
+2
+Celonis
+Getting and preparing event data
+  Data quality problems (e.g. timestamps), multiple tables, selecting the case identifier
+
+Process Discovery
+  Directly-Follows-Graphs, Discover concurrency, Spaghetti-diagrams, BPMN, Petri nets
+
+
+
+3
+Celonis
+Conformance Checkiing
+  Compare event data and process model. Highlight, quantify, and diagnose deviations.
+
+Performance Analysis
+  Discover bottlenecks, diagnose performance problems.
+
+
+
+4
+Celonis
+Comparative process mining
+  Compare different locations, periods, etc. to diagnose differences.
+
+Predictive process mining 
+  Foresee outocmes, flow times,et. Predict perforamnce/compliance problems
+
+
+
+5
+Celonis
+Action-oriented process mining 
+  Trigger workflows, support Robotic Process Automation (RPA)
+
+Process improvement
+  Create awareness, Implement changes, information system, organization
+
+
+
+6
+Celonis
+
+
+
+
+7
+Celonis
+
+
+
+
+8
+Celonis
+
+
+
+
+9
+Celonis
+
+
+
+
+10
+Celonis
+
+
+
+
+11
+Celonis
+
+
+
+
+12
+Celonis
+
+
+
+
+13
+Celonis
+
+
+
+
+14
+Celonis
+
+
+
+
+15
+Celonis
+
+
+
+
+16
+Celonis
+
+
+
+
+17
+Celonis
+
+
+
+
+18
+Celonis
+
+
+
+
+19
+Celonis
+
+
+
+
+20
+Celonis
+
+
+
+
+21
+Celonis
+
+
+
+
+22
+Celonis
+
+
+
+
+23
+Celonis
+
+
+
+
+24
+Celonis
+
+
+
+
+25
+Celonis
+
+
+
+
+26
+Celonis
 
 
 
@@ -357,3 +503,6 @@ Celonis
 
 30
 Celonis
+
+
+
