@@ -485,19 +485,28 @@ Data pools are containers for all other elements in Data Integration - Data Conn
 
 4
 Celonis
+Data Pool: 
+  Hosts one or more Data Connections
 
+Data Connection: 
+  Contian one or more Data Jobs
 
 
 
 5
 Celonis
+Data Jobs 
+  Contain "tasks" for extraction, transformation, and Data Model load
 
+Data Model
+  Pull data from all connections in one Data Pool
 
 
 
 6
 Celonis
-
+What is the main difference between connecting Celonis to a closed vs open hosting environment?
+D. For closed environments, the Extractor Server is installed in the hosting environment.
 
 
 
