@@ -496,16 +496,22 @@ Pseudonymized data can be restored to its original state with the addition of in
 
 
 
-
-
 14
 Celonis
-
+Configuration & Status: The Task Mining Client periodically checks the central configuration stored in the EMS Task Mining Service. This configuration determines many factors such as which applications you track, filters you apply, pseudonymization, whether screenshots are captured, and so on.
 
 
 
 15
 Celonis
+You would like to launch a Task Mining project in your company but many colleagues have data privacy concerns. What can you do with Task Mining to ensure full compliance with data privacy policies? Select 4 correct answers
+
+  Customize the user prompt
+  Hash data that should be pseudonymized
+  Configure the data capture to what's needed
+  NOT Regularly back up the data on a local server
+  Set up regular deletion
+
 
 
 
