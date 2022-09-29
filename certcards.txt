@@ -447,7 +447,11 @@ You would like to launch a Task Mining project in your company but many colleagu
 
 
 16
-Celonis
+UiPath
+When setting up an unattended robot, if it is tenant specific, include the tenant in the login url. Also make sure that when you create that robot in the folder, you use the exact hostname.
+
+URL:
+https://cloud.uipath.com/accuity/TEST/
 
 
 
