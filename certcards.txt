@@ -2,41 +2,6 @@
 
 
 
-
-11
-Celonis
-A common problem when cleaning data is the swapped day/month timestamp. The Europeans are very high handed about the fact that the Americans do MM/dd/yyyy and they do dd/MM/yyyy
-
-
-
-12
-Celonis
-A data pool is the main structural element of the event collection. Data pools cluster data connections, data jobs, schedules, and data models.
-
-
-
-13
-Celonis
-To analyze data, we must first create a process data model.
-  First we have to select the tables that need to be added to the model.
-  Then we need to define the activity table
-  Then we assign the three core columns
-  Lastly, models need to be loaded.
-
-
-
-14
-Celonis
-The activity table in celonis is the event table including the case ID, activity, and the timestamp.
-
-
-
-15
-Celonis
-Many additional columns often includ case specific information, for example, the price of the purchase order. This can lead to data replication in the event log. This can be mitigated by saving multiple tables connected by foreign keys.
-
-
-
 16
 Celonis
 Data is always arranged in a process data model that consists of an activity table, a case table, and an unlimited number of aditional tables with relations of the tables defined by the foreign keys.
