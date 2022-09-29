@@ -444,42 +444,56 @@ D. For closed environments, the Extractor Server is installed in the hosting env
 
 7
 Celonis
+Capture stage of Task Mining
 
+Here you capture desktop data like clicks, scrolls, and user actions--complete with time-stamps and other screenshots. This is done using the Task Mining Client and is possible on Windows Desktops. Once captured, data is regularly sent to the EMS.
+
+The Task Mining client runs in the background and only captures allow-listed applications and data.
 
 
 
 8
 Celonis
+Enrich stage of Task Mining
 
+Add Context & Cluster Activities -- Within the EMS,  AI and ML are used to contextualize the data.
+
+This enables the grouping of desktop events by activity--such as "creating a support ticket"
 
 
 
 9
 Celonis
+Match stage of Task Mining
 
+Match to Business Data -- Here, Task Mining Data can optionally be matched to Business Data from transactional systems based on e.g. user and case IDs, activity names, and timestamps. This helps understand the impact of desktop activities on business processes and supports the next step--Execute
 
 
 
 10
 Celonis
+Execute
 
+Execute and Optimize -- In the final step, you leverage Task Mining data to optimize processes, increase your execution capacity, and ultimately boost your business performance using an Execution Management System.
 
 
 
 11
 Celonis
-
+Celonis Task Mining is designed with a focus on data protection principles. These principles and Task Mining capabilities highlighted below are largely based on the EU General Data Protection Regulation (GDPR). Keep in mind, you can of course adjust Task Mining's capabilities to any other data regulation. 
 
 
 
 12
 Celonis
-
+Pseudonymization (or pseudonymisation, the spelling under European guidelines) is one way to comply with the European Union's new General Data Protection Regulation (GDPR) demands for secure data storage of personal information. 
 
 
 
 13
 Celonis
+Pseudonymized data can be restored to its original state with the addition of information which allows individuals to be re-identified. In contrast, anonymization is intended to prevent re-identification of individuals within the dataset.[2]
+
 
 
 
