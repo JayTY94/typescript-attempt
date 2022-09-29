@@ -1,40 +1,5 @@
 
-6
-Celonis
-Which of the statements are true for arc-based filtering on DFGs?
-  [False] The final Directly- Follows Graph remains stable to any removal of activites.
-  [True] Hidden activities influence Directly-Follows frequency.
-  [True] Numbers do not need to add up after removing arcs.
 
-
-
-7
-Celonis
-Concurrency means that no matter in what order a process is executed, even simultaneously, the end result will still be the same.
-
-
-
-
-
-8
-Celonis
-Pitri Nets are not used for visualization in Celonis. However, they underline a lot of discovery techniques and are used in the background.
-
-
-
-9
-Celonis
-Techniques for Conformance Checking
-
-  Alignments
-  Footprint Comparison
-  Token-based replay
-
-
-
-10
-Celonis
-The process of loading and preparing the data in Celonis is called Event Collection
 
 
 
