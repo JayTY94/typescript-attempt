@@ -1,12 +1,5 @@
 
 
-30
-Celonis
-Action Flows allows users to deploy any of around 10k pre-built automations for a number of existing connected services.
-
-
-
-
 1
 Celonis
 What does the Pareto distribution tell us in relation to processes?
