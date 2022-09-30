@@ -1,45 +1,6 @@
 
 
 
-
-16
-Celonis
-Data is always arranged in a process data model that consists of an activity table, a case table, and an unlimited number of aditional tables with relations of the tables defined by the foreign keys.
-
-
-
-17
-Celonis
-What are the challenges when extracting event data?
-  Finding the data - ID the system that will be the source
-  Extracting the data - setting up the pipeline
-  Understand the data - know the schema/foreign key relationships
-
-
-
-18
-Celonis
-What are the challenges when extracting event data?
-  Quality problems - eg MM/DD/yyyy or DD/MM/yyyy
-  Scalability - manually uploading data is too limited
-  Data security and regulations
-
-
-
-19
-Celonis
-An important aspect of that is the existence of common and widely-accepted standards, one of it being the data format for event logs.  XES is an XML-based format, and its name is an acronym for eXtensible Event Stream
-
-
-
-20
-Celonis
-There are multiple problems that we encounter when we try to convert an object-centered event log into a conventional event log
-
-Deficiency - Events disappear from the data set due to missing representation in the flattened event log.
-
-
-
 21
 Celonis
 There are multiple problems that we encounter when we try to convert an object-centered event log into a conventional event log
