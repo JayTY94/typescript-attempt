@@ -1,39 +1,5 @@
 
-
-
-21
-Celonis
-There are multiple problems that we encounter when we try to convert an object-centered event log into a conventional event log
-
-Convergence - Unintentional duplication due to events referring to multiple objects being replicated
-
-
-
-
-22
-Celonis
-There are multiple problems that we encounter when we try to convert an object-centered event log into a conventional event log
-
-Divergence - Wrong causal relation, 2 events being related to 2 different object not selected as the case.
-
-
-
-23
-Celonis
-We distinguish between two features types. Static features do not change throughout a case and always remain the same. Examples could be Customer or Material Number.
-
-
-
-24
-Celonis
-We distinguish between two features types. Dynamic features are features that change over time and need to be updated throughout a case. Examples are counts of how often a certain activity already occurred in the process.
-
-
-
-25
-Celonis
-When building a training set Static and Dynamic features need to be treated differently since they should not have the last state of a case but the state at a given time in the process.
-
+ 
 
 
 26
