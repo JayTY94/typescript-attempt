@@ -2,21 +2,6 @@
  
 
 
-26
-Celonis
-If you're looking for operational friction, focus on the cases that are infrequent and that you don't want to happen.
-
-
-
-27
-Celonis
-Machine Learning can be applied after data is imported, cleaned, analyized, and reorganized into feature sets. This is one of the last things that Celonis can do, and it's unlikely that our customers will get to it.
-
-
-
-28
-Celonis
-Machine Learning in Celonis is demonstrated to help predict with real time data which cases are likely to be delayed so that corrective action can be taken. Again, this is probably beyond the capacity of Hawaii companies to use.
 
 
 
