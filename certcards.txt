@@ -3,21 +3,6 @@
 
 
 
-
-
-29
-General 
-The Pareto principle or "80-20 rule" stating that 80% of outcomes are due to 20% of causes was named in honour of Pareto, but the concepts are distinct, and only Pareto distributions with shape value (α) of log45 ≈ 1.16 precisely reflect it. Empirical observation has shown that this 80-20 distribution fits a wide range of cases, including natural phenomena[5] and human activities.[6][7] the principle originally applied to describing the distribution of wealth in a society, fitting the trend that a large portion of wealth is held by a small fraction of the population
-
-
-
-30
-Celonis
-Action Flows allows users to deploy any of around 10k pre-built automations for a number of existing connected services.
-
-
-
-
 1
 Security +
 Social Engineering Principles
