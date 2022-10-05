@@ -1,42 +1,6 @@
 
  
 
-
-
-2
-Security +
-Social Engineering principles
-  Scarcity
-    The situation will not be this way for long
-    Must make the change before time expires
-  Urgency
-    Works alongside scarcity
-    want you to act quickly, not think
-
-
-
-3
-Security +
-Social Engineering Principles
-  Consensus/Social Proof
-    Convicne based on what's normally expected
-    Your coworker Jill did this for me last week.
-  Familiarity/Liking
-    Someone you know, we have common friends
-
-
-4
-Security +
-Malware authors will also use websites to embed their links and have pop-up messages to entice you to click those links and download the software so that they can then run that malware on your local computer. They might also use these web pages to automatically download software to your computer and then encourage you to run that software using a technique called a drive-by download. 
-
-
-
-5
-Security +
-A virus is malware that can reproduce itself, but one of the unique characteristics of a virus is that it needs you– the end user– to click on or launch that application to start the virus replication process. This is something that differentiates a virus from a worm.
-
-
-
 6
 Security +
 If the virus is never saving itself to the storage drive, then it may be able to evade the antivirus software. Instead of existing as a file that might execute, the fileless virus operates solely in the memory of the computer. Once it’s started, all of the operations happen inside of RAM, and nothing is ever written to the storage drive on your system. 
