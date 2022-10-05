@@ -1,33 +1,4 @@
 
- 
-
-6
-Security +
-If the virus is never saving itself to the storage drive, then it may be able to evade the antivirus software. Instead of existing as a file that might execute, the fileless virus operates solely in the memory of the computer. Once it’s started, all of the operations happen inside of RAM, and nothing is ever written to the storage drive on your system. 
-
-
-
-7
-Security +
-Crypto-malware uses cryptography to be able to encrypt all of your personal information and make it so that none of that information can be decrypted unless you have the proper key. The way that you obtain that key is that you send the attackers money or Bitcoin
-
-
-
-8
-Security +
-One type of software that’s commonly downloaded by this Trojan horse software is a PUP. This is a potentially unwanted program. This may not be malicious software, but it could be undesirable and may cause performance problems on your computer.
-
-
-
-9
-Security +
-A type of software that attackers might install as part of the back door is a Remote Access Trojan, or a RAT. You might also hear this referred to as a Remote Administration Tool. This is a remote access tool that gives a third party access to your computer to have nearly complete control over the operating system.
-
-
-
-10
-Security +
-A common characteristic of a rootkit is, instead of modifying files in your operating system, it’s modifying files in the kernel of the operating system. 
 
 
 
