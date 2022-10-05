@@ -3,19 +3,6 @@
 
 
 
-1
-Security +
-Social Engineering Principles
-  Authority
-    The social engineer is in charge
-    I'm calling from teh helpdesk/office of the CEO/police
-  Intimidation
-    There will be bad things if you don't help
-    If you don't help me, the payroll checks won't be processed
-
-
-
-
 2
 Security +
 Social Engineering principles
@@ -171,43 +158,71 @@ One of these safeguards is called data execution prevention it’s a way to only
 
 23
 Security +
+Non-persistent (reflected) XSS attack
+  Web site allows scripts to run in user input, commonly search box
+  Attacker emailsa link that takes advantage of this vulnerability
+    Runs a script that sends credentials/session IDs/cookies to attacker
+  Script embedded in URL executes in victim's browser
+
 
 
 
 
 24
 Security +
-
+Persistent (stored) Cross-site scripting (XSS) attack
+  Attacker posts a message to a social network
+    Includes malicious payload
+  It is not "persistent"
+    Everyone who sees the post gets the payload
+  Payload is some kind of script, probably javascript.
 
 
 
 25
 Security +
-
+Code Injection - Adding yoru own information into a data stream
+  Enabled because of bad programming - The application should properly handle input and output
+  So many different data types
+    HTML, SQL, XML, LDAP, etc
 
 
 
 26
 Security +
-
+DLL injection
+  Dynamic-Link Library
+    A windows library contianing code and data
+    Many applications can use this library
+  Inject a DLL and have an application run a program
+    Runs as part of the program
 
 
 
 27
 Security +
-
+A buffer overflow attack occurs when one section of memory is able to overwrite a different section of memory. This type of overriding or spilling over of memory should not occur, and if someone is able to replicate that in a way that’s controllable, they may be able to gain access to the system or cause an application to perform the way that they would like. 
 
 
 
 28
 Security +
+A good buffer overflow for an attacker is one that they can both replicate and one that they can control. This is not a simple exploit to find, and it’s not an easy exploit for an attacker to take advantage of. It’s very difficult to find some software that would allow this buffer overflow, and then it’s very difficult to have a buffer overflow that might not cause the system to become unstable or to crash. 
+
 
 
 
 
 29
-Security +
+Python
+>>> number = 42
+>>> assert number > 0, f"number greater than 0 expected, got: {number}"
 
+>>> number = -42
+>>> assert number > 0, f"number greater than 0 expected, got: {number}"
+Traceback (most recent call last):
+    ...
+AssertionError: number greater than 0 expected, got: -42
 
 
 
