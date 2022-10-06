@@ -162,7 +162,196 @@ AssertionError: number greater than 0 expected, got: -42
 
 
 30
-Security +
+PM Terms
+The Project Management Professional (PMP)® is the world's leading project management certification. Now including predictive, agile and hybrid approaches, the PMP® proves project leadership experience and expertise in any way of working
+
+
+
+1
+PM terms
+The Project Management Institute (PMI, legally Project Management Institute, Inc.) is a U.S.-based not-for-profit professional organization for project management.[4]
+
+
+
+
+
+2
+PM Terms 
+The Project Management Body of Knowledge (PMBOK) is a set of standard terminology and guidelines (a body of knowledge) for project management. The body of knowledge evolves over time and is presented in A Guide to the Project Management Body of Knowledge (PMBOK Guide), a book whose seventh edition was released in 2021. This document results from work overseen by the Project Management Institute (PMI), which offers the CAPM and PMP certifications.
+
+
+
+3
+PM terms
+The waterfall project management approach entails a clearly defined sequence of execution with project phases that do not advance until a phase receives final approval. 
+
+
+
+
+4
+PM terms
+Scrum is a framework that helps teams work together. Much like a rugby team (where it gets its name) training for the big game, scrum encourages teams to learn through experiences, self-organize while working on a problem, and reflect on their wins and losses to continuously improve.
+
+
+
+
+
+5
+PM Terms
+Business analysts (BAs) are responsible for bridging the gap between IT and the business using data analytics to assess processes, determine requirements and deliver data-driven recommendations and reports to executives and stakeholders.
+
+
+
+
+
+6
+PM Terms
+Organizational Change Management (OCM) is a framework for managing the effect of new business processes, new technology, shifting economic landscapes, or changes in organizational structure and culture within an enterprise. Simply put, OCM addresses the people side of change. 
+
+
+
+
+
+7
+PM Terms
+The key difference is an “issue” already has occurred and a “risk” is a potential issue that may or may not happen and can impact the project positively or negatively. We plan in advance and work out mitigation plans for high-impact risks. For all issues at hand, we need to act immediately to resolve them.
+
+
+
+8
+UiPath
+
+
+
+
+9
+UiPath
+
+
+
+
+10
+UiPath
+
+
+
+
+11
+UiPath
+
+
+
+
+12
+UiPath
+
+
+
+
+13
+UiPath
+
+
+
+
+14
+UiPath
+
+
+
+
+15
+UiPath
+
+
+
+
+16
+UiPath
+
+
+
+
+17
+UiPath
+
+
+
+
+18
+UiPath
+
+
+
+
+19
+UiPath
+
+
+
+
+20
+UiPath
+
+
+
+
+21
+UiPath
+
+
+
+
+22
+UiPath
+
+
+
+
+23
+UiPath
+
+
+
+
+24
+UiPath
+
+
+
+
+25
+UiPath
+
+
+
+
+26
+UiPath
+
+
+
+
+27
+UiPath
+
+
+
+
+28
+UiPath
+
+
+
+
+29
+UiPath
+
+
+
+
+30
+UiPath
 
 
 
