@@ -458,7 +458,10 @@ Installing the Robot from UiPathStudioSetup.exe deploys the User Mode Robot by d
 
 
 18
-UiPath
+General
+ReadMe is an easy-to-use tool to help you build out documentation! Each documentation site that you publish on ReadMe is a project. Within a project there is space for documentation, interactive API reference guides, a changelog, and many more features. Each project within your account is published separately.
+
+UiPath uses ReadMe for their documentation
 
 
 
