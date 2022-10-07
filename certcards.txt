@@ -219,7 +219,254 @@ The key difference is an “issue” already has occurred and a “risk” is a 
 
 
 8
+PM Terms
+A use case is a hypothetical (but plausible) scenario showing how a product's user might interact with the product to achieve a specific goal. Product managers often employ use cases to explain how and why customers will use various parts of a product.
+
+
+
+9
 UiPath
+Main capabilities of Orchestrator
+Control and license distribution: Orchestrator also enables the creation, assignment, and maintenance of licenses, roles, permissions, groups, and folder hierarchies. 
+
+
+Running automation jobs in unattended mode: as presented earlier, it enables the creation and distribution of automation jobs in various ways, including through queues and triggers. 
+
+
+
+
+10
+UiPath
+Main Capabilities of Orchestrator
+Automation storage and distribution: Orchestrator is the environment enabling the controlled storage and distribution of automation projects, assets, and credentials, as well as large files used in automations. 
+
+
+11
+UiPath
+Main Capabilities of Orchestrator
+Monitoring: with Orchestrator, admins are able to monitor jobs and robots. It also stores logs for auditing and analytics. 
+
+Inter-connectivity: finally, Orchestrator acts as the centralized point of communication for third-party solutions or applications. 
+
+
+12
+UiPath
+RPA Developers create automation projects in Studio. Projects are published as packages to Orchestrator. Published packages paired with folders become processes.
+
+
+
+13
+UiPath
+Orchestrator sends job info to unattended robots. Unattended robots communcicate with the orchestrator through a heartbeat mechanism.
+
+
+
+14
+UiPath
+By now you are familiar with UiPath Robot, the component of the UiPath Platform. This is an execution host that runs automation processes published in Orchestrator, as jobs.
+
+In Orchestrator, a robot entity represents an image or the Robot component, controlling its connection and capabilities. The robot entity exists only if it is defined in relation to a user in Orchestrator. 
+
+
+
+15
+UiPath
+Folders enable the separation and hierarchical organization of automation entities (processes, queues, assets) and the fine-grained configuration of roles and permissions. The hierarchical structure allows up to 6 sub-folders under each first level folder. 
+
+Folders help replicate the organizational hierarchies, with the separation of automated processes between teams, segregation of process data, and access control for users. At the same time, when it makes sense, they allow sharing of the resources and assets. 
+
+
+
+16
+UiPath
+A project developed in UiPath Studio that is published to Orchestrator as a NuGet package. Multiple versions of the same project can be stored and used.
+
+Packages can also be manually uploaded to Orchestrator.
+
+Additionally, by viewing the versions for a package you can download it from Orchestrator
+
+
+
+17
+UiPath
+It is a version of a package that's been allocated to a certain folder.
+
+Given that most processes use a queue, asset, or storage bucket, the Package Requirements tab, for when adding a new process, makes it easy to identify which entities your package is using and if they are missing from your folder.
+
+
+
+18
+UiPath
+A job represents the execution of a process on a UiPath Robot. You can launch the execution of a job in either attended or unattended mode. You cannot launch a job from Orchestrator on attended robots, unless for debugging purposes using personal workspaces, and they cannot run under a locked screen. 
+
+
+
+19
+UiPath
+Attended and unattended robots send a heartbeat to Orchestrator every 30 seconds. This signals to Orchestrator that the connection is working.
+
+
+
+
+
+20
+UiPath
+Both human users and robots are uniquely identified with users in Orchestrator.
+
+
+
+
+
+21
+UiPath
+Machine (Orchestrator entity)
+–
+These are Orchestrator entities corresponding to the workstations where human users and robots work. Using API keys, they enable the connection between the physical machines and Orchestrator.
+
+
+
+22
+UiPath
+License
+–
+The right to use Studio and/or Robots, both attended and unattended, is done through licenses. Licenses exist at tenant level, from where they get distributed to users, and consumed when the machines connect to Orchestrator.
+
+
+
+23
+UiPath
+Webhook
+–
+Webhooks facilitate the communication between Orchestrator and other applications at API level. These are mapped at tenant level, which means they cannot be differentiated between folders and will provide information for the entire tenant.
+
+
+
+24
+UiPath
+Trigger
+–
+Triggers enable the execution of jobs in a structured manner. There are two types of triggers:
+
+Time triggers: with these, you can schedule the recurrent execution of a process.
+Queue triggers: these enable the execution of a process based on the new items added to a queue.
+
+
+
+25
+UiPath
+In order to access and run automations, both human users and robots need roles.
+
+
+
+26
+UiPath
+To successfully run a job with an unattended robot:
+
+Under Robot Setup, the Unattended Robot is enabled for the user or robot account.
+The workstation on which the unattended robot runs is connected to Orchestrator using a machine template.
+The user or robot and the machine template are in the same folder as the process you want to run.
+Unattended runtimes (licenses) are available on the tenant.
+
+
+
+27
+UiPath
+Robot accounts have to be created in Automation Cloud, and they behave like user accounts regarding permissions. The only differences compared to user accounts are: 
+
+Robot accounts are not allowed to have any interactive-related process configuration.
+No email address is required to create a robot account.
+
+
+
+28
+UiPath
+To simplify the attended and unattended robot creation, as well as the license provisioning, the automation robot creation can be enabled at user level, for both attended and unattended robots, and at group level for attended robots.
+
+Basically, you enable the Attended Robot or Unattended Robot toggle at the account or group level, configure the various settings (robot execution settings, machine login credentials, if applicable), and a floating robot with those attributes is created.
+
+
+
+29
+UiPath
+There are two types of machines in Orchestrator:
+
+Machine templates: this allows the connection to multiple workstations with a single API key.
+
+
+
+
+30
+UiPath
+There are two types of machines in Orchestrator:
+Standard machines: this allows the connection between Orchestrator and a single machine. This is suitable for scenarios in which robots need to run on specific machines.
+
+
+1
+UiPath
+On a regular Windows machine, only one user can run. But on a Windows server machine, multiple users can run simultaneously.
+
+Licenses are consumed as soon as a machine is connected to Orchestrator, no matter the number of users running on it.
+
+
+
+
+
+2
+UiPath
+The process, the user and the machine template need to be mapped to the folder in order to run an unattended job. The package is a tenant entity, therefore not mapped to the folder.
+
+
+
+3
+UiPath
+A point to remember right from the beginning is that unattended robots do not exist as independent entities. As we saw in the previous lesson, they are a combination between a user or robot account and a machine. From this perspective, a better name for a robot is execution slot.
+
+
+
+4
+UiPath
+One important mention here before going further. The ability to allocate more than one runtime and to execute several processes on the same machine is applicable only for Windows Server machines.
+
+
+
+
+
+5
+UiPath
+Which of the following folder entities can be configured to be accessed/executed only by a certain unattended robot?
+
+Asset
+Trigger
+Job
+not Queue
+
+
+
+6
+UiPath
+Which of the following folder entities can be configured to be accessed/executed only by a certain unattended robot?
+Trigger
+Job
+Asset
+
+
+
+
+7
+UiPath
+Which of the following entities need to be mapped to the folder in order to run an unattended job?
+User or Robot
+Process 
+Machine Template
+Not Queues
+Not Package
+
+
+
+8
+UiPath
+[FALSE] When a user is being imported from Active Directory, the automation robot creation can be configured only for the attended robot, but not for the unattended one.
+
 
 
 
