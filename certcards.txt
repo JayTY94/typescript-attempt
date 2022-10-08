@@ -466,74 +466,135 @@ UiPath uses ReadMe for their documentation
 
 
 
-19
-UiPath
 
+19
+Security+
+Replay Attack
+
+Useful information is transmitted over the network
+  A crafty hacker will take advantage of this
+Need access to raw network data
+  Network tap, ARP poisoning, Malware on the victim computer
 
 
 
 20
-UiPath
+Security+
+Replay Attack
 
+Information gathered from network can help attacker
+  Replay the data to appear as someone else
+This is not an on-path attack
+  The actual replay doesn't require the original workstation
 
 
 
 21
-UiPath
-
+Security+
+Header manipulation
+Information gathering
+  Wireshark, Kismet
+Exploits
+  Cross-site scripting
+Modify headers
+  Tamper, firesheep, scapy
+Modify cookies
+  Cookies Manager+ (Firefox add-on)
 
 
 
 22
-UiPath
-
+Security+
+Cross-site requests are common and legitimate
+  You visit Professormesser.com
+  Your browser loads text from the ProfessorMesser.com web server
+  Your browser loads a video from youtube
+  Your browser loads pictures form Instagram
+HTML on ProfessorMesser.com directs requests from your browser
+  this is normal and expected
+  Most of these are unauthenticated requests
 
 
 
 23
-UiPath
-
+Security+
+Cross-site request forgery
+One-click attack, session riding
+  XSRF, CSRF (sea surf)
+Takes advantage of the trust that a web application has for the user
+  The web stie trusts your browser
+  requests are made without your consent or knowledge
+  Attacker posts a facebook status on your account
+Significant web application development oversight
+  Usually a cryptographic token used to prevent forgery
 
 
 
 24
-UiPath
-
+Security+
+Server-side request forgery (SSRF)
+Attacker finds a vulnerable web application
+  Sends requests to a web server
+  web server performs the request on behalf of the attacker
+Caused by bad programming
+  Never trust the user input
+  Server should validate the input and the responses
+  These are rare but critical vulnerabilities 
 
 
 
 25
-UiPath
-
+Security+
+Shimming is filling a space between two objects.
+Windows has its own shim
+  Backwards compatibility with previous windows versions
+  Applications Compatibility Shim Cache
+Malware authors write their own shims
+  Get around security like UAC
+Jan 2015 Microsoft vulnerability
+  Elevated privilege
 
 
 
 26
-UiPath
-
+Security+
+An SSL stripping or HTTP downgrade attack combines an on-path attack with a downgrade attack
+Attacker must sit in the middle of the conversation
+  Must modify data between the victim and web server
+  Proxy server, ARP spoofing, rogue WIfi hotspt, etc
+Victim does not see any significant problem
+  Except browser pages are not encrypted (http vs https)
+This is a client and server problem
 
 
 
 27
-UiPath
-
+Security+
+Raceconditions can cause big problems
+Jan 2004 Mars rover "Spirit"
+  Reboot when problem identified
+  Problem was with the file system, but fs corrupted in boot process
+  Reboot loop was result
+GE - Energy Management System
+  Three power lines failed at teh same time, race condition delayed alerts
+  Caused Northeast Blackout of 2003
 
 
 
 28
-UiPath
+Security+
 
 
 
 
 29
-UiPath
+Security+
 
 
 
 
 30
-UiPath
+Security+
 
 
 
