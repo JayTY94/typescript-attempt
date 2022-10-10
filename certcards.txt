@@ -1,23 +1,4 @@
 
-
-
-
-21
-Security +
- A hash collision is when you have two very different types of plain text, but both of those plain text create exactly the same hash. This is something that should never happen.
-
-And if we’re able to find a hash collision, we may be able to take advantage of this inconsistency in the hash algorithm. With the hash collision, the attacker spends their time finding that other type of plain text that matches that hash.
-
-
-
-22
-Security +
-The operating system itself may have safeguards in place to prevent someone from taking advantage of a privileged escalation.
-
-One of these safeguards is called data execution prevention it’s a way to only allow applications to run in certain areas of memory where that particular function is allowed. Vulnerabilities that try to run an application from the data section of memory would be blocked using data execution prevention.
-
-
-
 23
 Security +
 Non-persistent (reflected) XSS attack
@@ -582,8 +563,8 @@ GE - Energy Management System
 
 
 28
-Security+
-
+General
+ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn
 
 
 
