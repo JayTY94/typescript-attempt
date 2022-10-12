@@ -1,42 +1,6 @@
 
 
 
-1
-PM terms
-The Project Management Institute (PMI, legally Project Management Institute, Inc.) is a U.S.-based not-for-profit professional organization for project management.[4]
-
-
-
-
-
-2
-PM Terms 
-The Project Management Body of Knowledge (PMBOK) is a set of standard terminology and guidelines (a body of knowledge) for project management. The body of knowledge evolves over time and is presented in A Guide to the Project Management Body of Knowledge (PMBOK Guide), a book whose seventh edition was released in 2021. This document results from work overseen by the Project Management Institute (PMI), which offers the CAPM and PMP certifications.
-
-
-
-3
-PM terms
-The waterfall project management approach entails a clearly defined sequence of execution with project phases that do not advance until a phase receives final approval. 
-
-
-
-
-4
-PM terms
-Scrum is a framework that helps teams work together. Much like a rugby team (where it gets its name) training for the big game, scrum encourages teams to learn through experiences, self-organize while working on a problem, and reflect on their wins and losses to continuously improve.
-
-
-
-
-
-5
-PM Terms
-Business analysts (BAs) are responsible for bridging the gap between IT and the business using data analytics to assess processes, determine requirements and deliver data-driven recommendations and reports to executives and stakeholders.
-
-
-
-
 
 6
 PM Terms
