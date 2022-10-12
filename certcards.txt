@@ -1,44 +1,6 @@
 
 
 
-
-6
-PM Terms
-Organizational Change Management (OCM) is a framework for managing the effect of new business processes, new technology, shifting economic landscapes, or changes in organizational structure and culture within an enterprise. Simply put, OCM addresses the people side of change. 
-
-
-
-
-
-7
-PM Terms
-The key difference is an “issue” already has occurred and a “risk” is a potential issue that may or may not happen and can impact the project positively or negatively. We plan in advance and work out mitigation plans for high-impact risks. For all issues at hand, we need to act immediately to resolve them.
-
-
-
-8
-PM Terms
-A use case is a hypothetical (but plausible) scenario showing how a product's user might interact with the product to achieve a specific goal. Product managers often employ use cases to explain how and why customers will use various parts of a product.
-
-
-
-9
-UiPath
-Main capabilities of Orchestrator
-Control and license distribution: Orchestrator also enables the creation, assignment, and maintenance of licenses, roles, permissions, groups, and folder hierarchies. 
-
-
-Running automation jobs in unattended mode: as presented earlier, it enables the creation and distribution of automation jobs in various ways, including through queues and triggers. 
-
-
-
-
-10
-UiPath
-Main Capabilities of Orchestrator
-Automation storage and distribution: Orchestrator is the environment enabling the controlled storage and distribution of automation projects, assets, and credentials, as well as large files used in automations. 
-
-
 11
 UiPath
 Main Capabilities of Orchestrator
