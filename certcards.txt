@@ -375,13 +375,196 @@ ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn
 
 
 29
-Security+
+General
+Commercial off-the-shelf or commercially available off-the-shelf (COTS) products are packaged or canned (ready-made) hardware or software, which are adapted aftermarket to the needs of the purchasing organization, rather than the commissioning of custom-made, or bespoke, solutions. A related term, Mil-COTS, refers to COTS products for use by the U.S. military.
 
 
 
 
 30
-Security+
+Tech terms 
+The Software Engineering Body of Knowledge (SWEBOK (/ˈswiːˌbɒk/ SWEE-bok[1])) is an international standard ISO/IEC TR 19759:2005[2] specifying a guide to the generally accepted software engineering body of knowledge.
+
+
+
+
+1
+Tech Terms
+SDLC is a process followed for a software project, within a software organization. It consists of a detailed plan describing how to develop, maintain, replace and alter or enhance specific software. It includes the following stages
+Planning, Analysis, Design, Implementation, Testing & Integration, Maintenance
+
+
+
+2
+Tech Terms
+
+
+
+
+3
+Tech Terms
+
+
+
+
+4
+Tech Terms
+
+
+
+
+5
+Tech Terms
+
+
+
+
+6
+Tech Terms
+
+
+
+
+7
+Tech Terms
+
+
+
+
+8
+Tech Terms
+
+
+
+
+9
+Tech Terms
+
+
+
+
+10
+Tech Terms
+
+
+
+
+11
+Tech Terms
+
+
+
+
+12
+Tech Terms
+
+
+
+
+13
+Tech Terms
+
+
+
+
+14
+Tech Terms
+
+
+
+
+15
+Tech Terms
+
+
+
+
+16
+Tech Terms
+
+
+
+
+17
+Tech Terms
+
+
+
+
+18
+Tech Terms
+
+
+
+
+19
+Tech Terms
+
+
+
+
+20
+Tech Terms
+
+
+
+
+21
+Tech Terms
+
+
+
+
+22
+Tech Terms
+
+
+
+
+23
+Tech Terms
+
+
+
+
+24
+Tech Terms
+
+
+
+
+25
+Tech Terms
+
+
+
+
+26
+Tech Terms
+
+
+
+
+27
+Tech Terms
+
+
+
+
+28
+Tech Terms
+
+
+
+
+29
+Tech Terms
+
+
+
+
+30
+Tech Terms
 
 
 
