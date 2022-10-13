@@ -1,52 +1,6 @@
 
 
 
-11
-UiPath
-Main Capabilities of Orchestrator
-Monitoring: with Orchestrator, admins are able to monitor jobs and robots. It also stores logs for auditing and analytics. 
-
-Inter-connectivity: finally, Orchestrator acts as the centralized point of communication for third-party solutions or applications. 
-
-
-12
-UiPath
-RPA Developers create automation projects in Studio. Projects are published as packages to Orchestrator. Published packages paired with folders become processes.
-
-
-
-13
-UiPath
-Orchestrator sends job info to unattended robots. Unattended robots communcicate with the orchestrator through a heartbeat mechanism.
-
-
-
-14
-UiPath
-By now you are familiar with UiPath Robot, the component of the UiPath Platform. This is an execution host that runs automation processes published in Orchestrator, as jobs.
-
-In Orchestrator, a robot entity represents an image or the Robot component, controlling its connection and capabilities. The robot entity exists only if it is defined in relation to a user in Orchestrator. 
-
-
-
-15
-UiPath
-Folders enable the separation and hierarchical organization of automation entities (processes, queues, assets) and the fine-grained configuration of roles and permissions. The hierarchical structure allows up to 6 sub-folders under each first level folder. 
-
-Folders help replicate the organizational hierarchies, with the separation of automated processes between teams, segregation of process data, and access control for users. At the same time, when it makes sense, they allow sharing of the resources and assets. 
-
-
-
-16
-UiPath
-A project developed in UiPath Studio that is published to Orchestrator as a NuGet package. Multiple versions of the same project can be stored and used.
-
-Packages can also be manually uploaded to Orchestrator.
-
-Additionally, by viewing the versions for a package you can download it from Orchestrator
-
-
-
 17
 UiPath
 It is a version of a package that's been allocated to a certain folder.
