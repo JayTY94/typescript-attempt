@@ -376,31 +376,57 @@ Time to go fox hunting
 
 13
 Security+
-
+RFID attacks
+Data capture
+	View communication or replay attack
+Spoof the reader and write your own data to the tag
+Denial of service by jamming used frequencies
+Decrypt communication - many default keys are on google
 
 
 
 14
 Security+
-
+Near field communication (NFC)
+Two-way wireless communication, related to RFID which is mostly one way
+Payment systems (phones or cards)
+Bootstraps for other wireless
+	NFC helps with bluetooth pairing like with Airpods
+Access token, identity "card"
+	short range with encryption support
 
 
 
 15
 Security+
-
+NFC security concerns
+Remote capture
+	It's a wireless network
+	10 meters for active devices
+Frequency jamming - Denial of service
+Relay/Replay attack - On-path attack
+Loss of RFC device control
+	Stolen or lost phone
 
 
 
 16
 Security+
-
+Cryptographic nonce
+Arbitrary number, used once
+	Comes from phrase "for the nonce" or "for the time being"
+A random or pseudo-random number
+	Something that can't be reasonably guessed, but can also be a counter
+Use a nonce during a login process
+	Server gives you a nonce
+	Calculate your password hash using the nonce
+	Each password hash sent to the host will be different, so a replay won't work
 
 
 
 17
 Security+
-
+A type of nonce we commonly use in encryption is an Initialization Vector, or an IV. This is a way to add randomization to the encryption scheme that’s being used. If we’re able to add this initialization vector to an encryption key that we’re using, especially a key that we’re using over and over again, it will make the overall encryption method that much stronger
 
 
 
