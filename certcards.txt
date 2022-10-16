@@ -1,48 +1,6 @@
 
 
 
-
-1
-UiPath
-On a regular Windows machine, only one user can run. But on a Windows server machine, multiple users can run simultaneously.
-
-Licenses are consumed as soon as a machine is connected to Orchestrator, no matter the number of users running on it.
-
-
-
-
-
-2
-UiPath
-The process, the user and the machine template need to be mapped to the folder in order to run an unattended job. The package is a tenant entity, therefore not mapped to the folder.
-
-
-
-3
-UiPath
-A point to remember right from the beginning is that unattended robots do not exist as independent entities. As we saw in the previous lesson, they are a combination between a user or robot account and a machine. From this perspective, a better name for a robot is execution slot.
-
-
-
-4
-UiPath
-One important mention here before going further. The ability to allocate more than one runtime and to execute several processes on the same machine is applicable only for Windows Server machines.
-
-
-
-
-
-5
-UiPath
-Which of the following folder entities can be configured to be accessed/executed only by a certain unattended robot?
-
-Asset
-Trigger
-Job
-not Queue
-
-
-
 6
 UiPath
 Which of the following folder entities can be configured to be accessed/executed only by a certain unattended robot?
