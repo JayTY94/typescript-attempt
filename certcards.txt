@@ -2,49 +2,6 @@
 
 
 
-26
-UiPath
-To successfully run a job with an unattended robot:
-
-Under Robot Setup, the Unattended Robot is enabled for the user or robot account.
-The workstation on which the unattended robot runs is connected to Orchestrator using a machine template.
-The user or robot and the machine template are in the same folder as the process you want to run.
-Unattended runtimes (licenses) are available on the tenant.
-
-
-
-27
-UiPath
-Robot accounts have to be created in Automation Cloud, and they behave like user accounts regarding permissions. The only differences compared to user accounts are: 
-
-Robot accounts are not allowed to have any interactive-related process configuration.
-No email address is required to create a robot account.
-
-
-
-28
-UiPath
-To simplify the attended and unattended robot creation, as well as the license provisioning, the automation robot creation can be enabled at user level, for both attended and unattended robots, and at group level for attended robots.
-
-Basically, you enable the Attended Robot or Unattended Robot toggle at the account or group level, configure the various settings (robot execution settings, machine login credentials, if applicable), and a floating robot with those attributes is created.
-
-
-
-29
-UiPath
-There are two types of machines in Orchestrator:
-
-Machine templates: this allows the connection to multiple workstations with a single API key.
-
-
-
-
-30
-UiPath
-There are two types of machines in Orchestrator:
-Standard machines: this allows the connection between Orchestrator and a single machine. This is suitable for scenarios in which robots need to run on specific machines.
-
-
 1
 UiPath
 On a regular Windows machine, only one user can run. But on a Windows server machine, multiple users can run simultaneously.
@@ -100,7 +57,7 @@ Asset
 UiPath
 Which of the following entities need to be mapped to the folder in order to run an unattended job?
 User or Robot
-Process 
+Process
 Machine Template
 Not Queues
 Not Package
@@ -256,7 +213,7 @@ Attacker finds a vulnerable web application
 Caused by bad programming
   Never trust the user input
   Server should validate the input and the responses
-  These are rare but critical vulnerabilities 
+  These are rare but critical vulnerabilities
 
 
 
@@ -312,7 +269,7 @@ Commercial off-the-shelf or commercially available off-the-shelf (COTS) products
 
 
 30
-Tech terms 
+Tech terms
 The Software Engineering Body of Knowledge (SWEBOK (/ˈswiːˌbɒk/ SWEE-bok[1])) is an international standard ISO/IEC TR 19759:2005[2] specifying a guide to the generally accepted software engineering body of knowledge.
 
 
@@ -495,6 +452,3 @@ Tech Terms
 
 30
 Tech Terms
-
-
-
