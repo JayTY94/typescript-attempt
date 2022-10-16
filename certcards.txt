@@ -242,67 +242,135 @@ Planning, Analysis, Design, Implementation, Testing & Integration, Maintenance
 
 2
 Security+
-
+Memory vulnerabilities
+Manipulating memory can be advantageous
+	Relatively difficult to accomplish
+Memory leak
+	Unused memory is not properly released
+	Begins to slowly grow in size
+	Eventually uses all available memory
+	System crashes
 
 
 
 3
 Security+
-
+Directory traversal/path traversal
+	Read files froma web server that are outside the website's file directory
+	Users shouldn't be able to browse the Windows folder
+Web server software vulnerability
+	Won't stop users from browsing past the web root server
+Web application code vulnerability
+	Take advantage of badly written code.
+GET https://www.example.com/show.asp?view=../../Windows/system.ini ...
 
 
 
 4
 Security+
-
+Improper error handling
+Erros happen, and you should probably know about them
+Messages should be just informational enough
+	Avoid too much detail
+	Network information
+	Memory dump
+	Stack traces
+	Database dumps
+This is an easy one to find and fix
+	A development best practice
 
 
 
 5
 Security+
-
+Resource exhaustion attack
+A specified DoS (Denial of Service) attack
+	May only require one device and low bandwidths
+ZIP bomb
+	A 42 KB .zip file uncompresses to 4.5 petabytes
+	Antivirus will ID these
+DHCP starvation
+	Attacker floods a network with IP addresss requests, different MAC every time
+	Switch configurations can rate limit DHCP requests.
 
 
 
 6
 Security+
-
+Rogue access points - An unauthorized wireless accesss point
+	May be added by an employee or an attacker
+	Not necessarily malicious
+	A significant potential backdoor
+Very easy to plug in a wireless AP
+	Or enable wireless sharing in your OS
+Schedule a periodic survey
+	Walk around your building/campus
+	Use third-party tools/ WiFi Pineapple (poses as a rouge AP)
 
 
 
 7
 Security+
-
+Wireless evil twins - look legitimate, but actually malicious
+	Wireless version of phishing
+Configure an access point to look like an existing network
+	Same or similar SSID and security settings/captive portal
+Overpower the exsting access points
+	May not require the same physical location
+WiFi hotspots (and users) are easy to fool, and they're wide open
 
 
 
 8
 Security+
-
+Bluejacking - sending unsolicited messages to another device via bluetooth
+	No mobile carrier required
+Typical functional distance is about 10 meters
+	More or less, depending on the antenna and interference
+Bluejack with an address book object
+	Instead of contact name, write a message "You are Bluejacked"
+	"You are Bluejacked! Add to contacts?"
+Generally low priority because it's generally just sending a message
 
 
 
 9
 Security+
-
+Bluesnarfing - access a BT-enabled device and transfer data
+	Contact list, calendar, email, pictures, video, etc.
+First major security weakness in BT
+	Marcel Holtmann in Sept 2003 and Adam Laurie in Nov 2003
+	Weakness was patched
+	Still need to look out for on older devices
 
 
 
 10
 Security+
-
+A Wireless deauthentication attack or a Wireless Disassociation attack is a denial of service attack that is specifically causing devices that are on the wireless network to suddenly not be able to communicate at all to the access point.
 
 
 
 11
 Security+
-
+802.11 management frames
+	Communication that makes wifi work
+	How to find APs, manage QoS, associate/disassociate with an AP
+Original wireless standards did not add protection for management frames
+	Sent in clear, no authentication or validation
 
 
 
 12
 Security+
-
+Wireless Jaming - many different types
+	Constant, random bits/Constant, legitiate frames
+	Data sent at random times - random data and legitimate frames
+	Reactive jamming - only when someone else tries to communicate
+Needs to be somewhere close
+Time to go fox hunting
+	Need right equipment
+	Directional antenna, attenuator
 
 
 
