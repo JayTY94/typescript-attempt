@@ -1,239 +1,500 @@
 
- 
-
-
-
-1
-Security +
-Social Engineering Principles
-  Authority
-    The social engineer is in charge
-    I'm calling from teh helpdesk/office of the CEO/police
-  Intimidation
-    There will be bad things if you don't help
-    If you don't help me, the payroll checks won't be processed
-
-
-
-
-2
-Security +
-Social Engineering principles
-  Scarcity
-    The situation will not be this way for long
-    Must make the change before time expires
-  Urgency
-    Works alongside scarcity
-    want you to act quickly, not think
-
-
-
-3
-Security +
-Social Engineering Principles
-  Consensus/Social Proof
-    Convicne based on what's normally expected
-    Your coworker Jill did this for me last week.
-  Familiarity/Liking
-    Someone you know, we have common friends
-
-
-4
-Security +
-Malware authors will also use websites to embed their links and have pop-up messages to entice you to click those links and download the software so that they can then run that malware on your local computer. They might also use these web pages to automatically download software to your computer and then encourage you to run that software using a technique called a drive-by download. 
-
-
-
-5
-Security +
-A virus is malware that can reproduce itself, but one of the unique characteristics of a virus is that it needs you– the end user– to click on or launch that application to start the virus replication process. This is something that differentiates a virus from a worm.
-
-
-
-6
-Security +
-If the virus is never saving itself to the storage drive, then it may be able to evade the antivirus software. Instead of existing as a file that might execute, the fileless virus operates solely in the memory of the computer. Once it’s started, all of the operations happen inside of RAM, and nothing is ever written to the storage drive on your system. 
-
-
-
-7
-Security +
-Crypto-malware uses cryptography to be able to encrypt all of your personal information and make it so that none of that information can be decrypted unless you have the proper key. The way that you obtain that key is that you send the attackers money or Bitcoin
-
-
-
-8
-Security +
-One type of software that’s commonly downloaded by this Trojan horse software is a PUP. This is a potentially unwanted program. This may not be malicious software, but it could be undesirable and may cause performance problems on your computer.
-
-
-
-9
-Security +
-A type of software that attackers might install as part of the back door is a Remote Access Trojan, or a RAT. You might also hear this referred to as a Remote Administration Tool. This is a remote access tool that gives a third party access to your computer to have nearly complete control over the operating system.
-
-
-
-10
-Security +
-A common characteristic of a rootkit is, instead of modifying files in your operating system, it’s modifying files in the kernel of the operating system. 
-
-
-
-11
-Security +
-Spyware is a bit more malicious than adware, because it’s trying to find out things about you or to gather information about you. Spyware might be looking to see where you visit on the internet. It might be trying to identify personal information about you so that it can use that for identity theft, 
-
-
-
-12
-Security +
-The bot malware on a computer is working along with other computers that are infected with the same bot malware to create a botnet. This botnet is controlled through a Command and Control server or C&C server. The C&C server is responsible for sending out commands.
-
-
-
-13
-Security +
-It’s difficult to identify if a logic bomb has been placed in a system because it doesn’t follow any known signature. It’s not possible for antivirus or anti-malware to automatically recognize that a logic bomb may exist. It also might be difficult to gather evidence after the fact, because many logic bombs will delete themselves once they’ve executed.
-
-
-
-
-
-14
-Security +
-A spraying attack avoids the results of a locked account for trying the wrong password over and over again without success. Instead, a spraying attack is going to try to use some very common passwords and only try a few of them before moving on. 
-
-
-
-15
-Security +
-With Brute Force attacks,  it’s common for the attacker to have already downloaded the password file. They can then perform an offline attack of those hashes where they can programmatically step through every possible combination and do it very quickly on their local machine.
-
-
-
-16
-Security +
-A salt is a little bit of extra random data added to the password before it is hashed. This means that if two users happen to be using exactly the same password, the hash that’s stored in the password table is going to be different between the two even though their password is exactly the same because a different type of random salt was added to each one of those user’s passwords.
-
-
-
-17
-Security +
-This looks like a perfectly normal USB cable. We would use it to plug into our computer and charge our systems, except it has some additional electronics inside. It could, in fact, tell your operating system that it is a HID, or a human interface device.
-
-
-
-18
-Security +
-A good example of poisoned training data occurred with a Microsoft AI chatter bot named Tay. Tay stands for thinking about you. And Tay was added to Twitter on March 23, 2016. It was able to hold conversations with Twitter users. But Microsoft didn’t add any type of anti-offensive behavior or anti-offensive learning algorithms to Tay.
-
-So once Tay started interacting with other users and other users realized that they could poison the learning process, they turned into a racist, sexist, and inappropriate bot. 
-
-
-
-19
-Security +
-Supply Chain attack: Target corp breach in November of 2013
-  40 million credit cards stolen
-HVAC frim in Pensylvania was infected
-  Malware delivered in an email
-  VPN credentials for HVAC techs was stolen
-HVAC vendor was the supplier
-  Attackers used a wide-open Target network to infect cash registers.
-
-
-
-20
-Security +
-Downgrade attack
-2014 TLS vulnerability Padding Oracle On Downgraded Legacy Encryption (POODLE)
-  On-path attack
-  Forces clients to fallback to SSL 3.0
-  SSL 3.0 has significant cryptographic vulnerabilities
-
-
-21
-Security +
- A hash collision is when you have two very different types of plain text, but both of those plain text create exactly the same hash. This is something that should never happen.
-
-And if we’re able to find a hash collision, we may be able to take advantage of this inconsistency in the hash algorithm. With the hash collision, the attacker spends their time finding that other type of plain text that matches that hash.
-
-
-
-22
-Security +
-The operating system itself may have safeguards in place to prevent someone from taking advantage of a privileged escalation.
-
-One of these safeguards is called data execution prevention it’s a way to only allow applications to run in certain areas of memory where that particular function is allowed. Vulnerabilities that try to run an application from the data section of memory would be blocked using data execution prevention.
-
-
-
-23
-Security +
-Non-persistent (reflected) XSS attack
-  Web site allows scripts to run in user input, commonly search box
-  Attacker emailsa link that takes advantage of this vulnerability
-    Runs a script that sends credentials/session IDs/cookies to attacker
-  Script embedded in URL executes in victim's browser
-
-
-
-
-
-24
-Security +
-Persistent (stored) Cross-site scripting (XSS) attack
-  Attacker posts a message to a social network
-    Includes malicious payload
-  It is not "persistent"
-    Everyone who sees the post gets the payload
-  Payload is some kind of script, probably javascript.
-
-
-
-25
-Security +
-Code Injection - Adding yoru own information into a data stream
-  Enabled because of bad programming - The application should properly handle input and output
-  So many different data types
-    HTML, SQL, XML, LDAP, etc
 
 
 
 26
-Security +
-DLL injection
-  Dynamic-Link Library
-    A windows library contianing code and data
-    Many applications can use this library
-  Inject a DLL and have an application run a program
-    Runs as part of the program
+UiPath
+To successfully run a job with an unattended robot:
+
+Under Robot Setup, the Unattended Robot is enabled for the user or robot account.
+The workstation on which the unattended robot runs is connected to Orchestrator using a machine template.
+The user or robot and the machine template are in the same folder as the process you want to run.
+Unattended runtimes (licenses) are available on the tenant.
 
 
 
 27
-Security +
-A buffer overflow attack occurs when one section of memory is able to overwrite a different section of memory. This type of overriding or spilling over of memory should not occur, and if someone is able to replicate that in a way that’s controllable, they may be able to gain access to the system or cause an application to perform the way that they would like. 
+UiPath
+Robot accounts have to be created in Automation Cloud, and they behave like user accounts regarding permissions. The only differences compared to user accounts are: 
+
+Robot accounts are not allowed to have any interactive-related process configuration.
+No email address is required to create a robot account.
 
 
 
 28
-Security +
-A good buffer overflow for an attacker is one that they can both replicate and one that they can control. This is not a simple exploit to find, and it’s not an easy exploit for an attacker to take advantage of. It’s very difficult to find some software that would allow this buffer overflow, and then it’s very difficult to have a buffer overflow that might not cause the system to become unstable or to crash. 
+UiPath
+To simplify the attended and unattended robot creation, as well as the license provisioning, the automation robot creation can be enabled at user level, for both attended and unattended robots, and at group level for attended robots.
 
-
+Basically, you enable the Attended Robot or Unattended Robot toggle at the account or group level, configure the various settings (robot execution settings, machine login credentials, if applicable), and a floating robot with those attributes is created.
 
 
 
 29
-Security +
+UiPath
+There are two types of machines in Orchestrator:
+
+Machine templates: this allows the connection to multiple workstations with a single API key.
 
 
 
 
 30
-Security +
+UiPath
+There are two types of machines in Orchestrator:
+Standard machines: this allows the connection between Orchestrator and a single machine. This is suitable for scenarios in which robots need to run on specific machines.
+
+
+1
+UiPath
+On a regular Windows machine, only one user can run. But on a Windows server machine, multiple users can run simultaneously.
+
+Licenses are consumed as soon as a machine is connected to Orchestrator, no matter the number of users running on it.
+
+
+
+
+
+2
+UiPath
+The process, the user and the machine template need to be mapped to the folder in order to run an unattended job. The package is a tenant entity, therefore not mapped to the folder.
+
+
+
+3
+UiPath
+A point to remember right from the beginning is that unattended robots do not exist as independent entities. As we saw in the previous lesson, they are a combination between a user or robot account and a machine. From this perspective, a better name for a robot is execution slot.
+
+
+
+4
+UiPath
+One important mention here before going further. The ability to allocate more than one runtime and to execute several processes on the same machine is applicable only for Windows Server machines.
+
+
+
+
+
+5
+UiPath
+Which of the following folder entities can be configured to be accessed/executed only by a certain unattended robot?
+
+Asset
+Trigger
+Job
+not Queue
+
+
+
+6
+UiPath
+Which of the following folder entities can be configured to be accessed/executed only by a certain unattended robot?
+Trigger
+Job
+Asset
+
+
+
+
+7
+UiPath
+Which of the following entities need to be mapped to the folder in order to run an unattended job?
+User or Robot
+Process 
+Machine Template
+Not Queues
+Not Package
+
+
+
+8
+UiPath
+[FALSE] When a user is being imported from Active Directory, the automation robot creation can be configured only for the attended robot, but not for the unattended one.
+
+
+
+
+
+9
+UiPath
+	• UiPath Robot
+The execution host that runs processes designed in UiPath Studio
+
+
+
+10
+UiPath
+	• Robot (Orchestrator object)
+Orchestrator object used to define the capabilities and privileges of a UiPath Robot such as access to folder resources, machine login credentials, etc. In this guide, it is often referred to as a robot, robot object, robot entity.
+
+
+
+11
+UiPath
+	• Machine (host machine)
+The physical or virtual machine used to host and deploy a UiPath Robot. In this guide, it is referred to as the host machine, workstation, or server, to differentiate it from the machine object in Orchestrator
+
+
+
+12
+UiPath
+	• Machine (Orchestrator object)
+Orchestrator object that works as an API key generator, authorizing the usage of a UiPath Robot on a host machine. For unattended use cases, it also allows administrators to configure the execution capacity for the associated host machine(s). For more information, see About Machines
+
+
+
+13
+UiPath
+The article "About Robots in Orchestrator" in the UiPath documentation is great.
+
+
+
+14
+UiPath
+You cannot typically start or trigger processes in Orchestrator on attended robots, and they cannot run under a locked screen. They can only be started from UiPath assistant or the Command Prompt.
+
+
+
+15
+UiPath
+An exception to the rule that attended automations must be launched from UiPath assistant or the Command prompt is process debugging, where users, generally RPA developers, can launch processes from Orchestrator on attended robots. This can be done via personal workspaces which allow launching processes in Orchestrator on attended robots by using the machine template automatically generated by virtue of being a personal workspace owner. Read more about personal workspaces.
+
+
+
+16
+UiPath
+By default, the start of the Robot Service is triggered by user sign-in when  the service is set to run at login time. If it's not set to run at login time, opening the UiPath Assistant starts it automatically.
+
+
+
+17
+UiPath
+Installing the Robot from UiPathStudioSetup.exe deploys the User Mode Robot by default. It can also be installed from UiPathStudio.msi or the command prompt.
+
+
+
+
+18
+General
+ReadMe is an easy-to-use tool to help you build out documentation! Each documentation site that you publish on ReadMe is a project. Within a project there is space for documentation, interactive API reference guides, a changelog, and many more features. Each project within your account is published separately.
+
+UiPath uses ReadMe for their documentation
+
+
+
+
+
+19
+Security+
+Replay Attack
+
+Useful information is transmitted over the network
+  A crafty hacker will take advantage of this
+Need access to raw network data
+  Network tap, ARP poisoning, Malware on the victim computer
+
+
+
+20
+Security+
+Replay Attack
+
+Information gathered from network can help attacker
+  Replay the data to appear as someone else
+This is not an on-path attack
+  The actual replay doesn't require the original workstation
+
+
+
+21
+Security+
+Header manipulation
+Information gathering
+  Wireshark, Kismet
+Exploits
+  Cross-site scripting
+Modify headers
+  Tamper, firesheep, scapy
+Modify cookies
+  Cookies Manager+ (Firefox add-on)
+
+
+
+22
+Security+
+Cross-site requests are common and legitimate
+  You visit Professormesser.com
+  Your browser loads text from the ProfessorMesser.com web server
+  Your browser loads a video from youtube
+  Your browser loads pictures form Instagram
+HTML on ProfessorMesser.com directs requests from your browser
+  this is normal and expected
+  Most of these are unauthenticated requests
+
+
+
+23
+Security+
+Cross-site request forgery
+One-click attack, session riding
+  XSRF, CSRF (sea surf)
+Takes advantage of the trust that a web application has for the user
+  The web stie trusts your browser
+  requests are made without your consent or knowledge
+  Attacker posts a facebook status on your account
+Significant web application development oversight
+  Usually a cryptographic token used to prevent forgery
+
+
+
+24
+Security+
+Server-side request forgery (SSRF)
+Attacker finds a vulnerable web application
+  Sends requests to a web server
+  web server performs the request on behalf of the attacker
+Caused by bad programming
+  Never trust the user input
+  Server should validate the input and the responses
+  These are rare but critical vulnerabilities 
+
+
+
+25
+Security+
+Shimming is filling a space between two objects.
+Windows has its own shim
+  Backwards compatibility with previous windows versions
+  Applications Compatibility Shim Cache
+Malware authors write their own shims
+  Get around security like UAC
+Jan 2015 Microsoft vulnerability
+  Elevated privilege
+
+
+
+26
+Security+
+An SSL stripping or HTTP downgrade attack combines an on-path attack with a downgrade attack
+Attacker must sit in the middle of the conversation
+  Must modify data between the victim and web server
+  Proxy server, ARP spoofing, rogue WIfi hotspt, etc
+Victim does not see any significant problem
+  Except browser pages are not encrypted (http vs https)
+This is a client and server problem
+
+
+
+27
+Security+
+Raceconditions can cause big problems
+Jan 2004 Mars rover "Spirit"
+  Reboot when problem identified
+  Problem was with the file system, but fs corrupted in boot process
+  Reboot loop was result
+GE - Energy Management System
+  Three power lines failed at teh same time, race condition delayed alerts
+  Caused Northeast Blackout of 2003
+
+
+
+28
+General
+ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn
+
+
+
+29
+General
+Commercial off-the-shelf or commercially available off-the-shelf (COTS) products are packaged or canned (ready-made) hardware or software, which are adapted aftermarket to the needs of the purchasing organization, rather than the commissioning of custom-made, or bespoke, solutions. A related term, Mil-COTS, refers to COTS products for use by the U.S. military.
+
+
+
+
+30
+Tech terms 
+The Software Engineering Body of Knowledge (SWEBOK (/ˈswiːˌbɒk/ SWEE-bok[1])) is an international standard ISO/IEC TR 19759:2005[2] specifying a guide to the generally accepted software engineering body of knowledge.
+
+
+
+
+1
+Tech Terms
+SDLC is a process followed for a software project, within a software organization. It consists of a detailed plan describing how to develop, maintain, replace and alter or enhance specific software. It includes the following stages
+Planning, Analysis, Design, Implementation, Testing & Integration, Maintenance
+
+
+
+2
+Tech Terms
+
+
+
+
+3
+Tech Terms
+
+
+
+
+4
+Tech Terms
+
+
+
+
+5
+Tech Terms
+
+
+
+
+6
+Tech Terms
+
+
+
+
+7
+Tech Terms
+
+
+
+
+8
+Tech Terms
+
+
+
+
+9
+Tech Terms
+
+
+
+
+10
+Tech Terms
+
+
+
+
+11
+Tech Terms
+
+
+
+
+12
+Tech Terms
+
+
+
+
+13
+Tech Terms
+
+
+
+
+14
+Tech Terms
+
+
+
+
+15
+Tech Terms
+
+
+
+
+16
+Tech Terms
+
+
+
+
+17
+Tech Terms
+
+
+
+
+18
+Tech Terms
+
+
+
+
+19
+Tech Terms
+
+
+
+
+20
+Tech Terms
+
+
+
+
+21
+Tech Terms
+
+
+
+
+22
+Tech Terms
+
+
+
+
+23
+Tech Terms
+
+
+
+
+24
+Tech Terms
+
+
+
+
+25
+Tech Terms
+
+
+
+
+26
+Tech Terms
+
+
+
+
+27
+Tech Terms
+
+
+
+
+28
+Tech Terms
+
+
+
+
+29
+Tech Terms
+
+
+
+
+30
+Tech Terms
 
 
 
