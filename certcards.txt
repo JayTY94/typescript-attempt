@@ -355,83 +355,287 @@ A type of nonce we commonly use in encryption is an Initialization Vector, or an
 
 
 
-18
-Security+
 
+18
+Automation Hub
+The main purpose of Automation Hub is to accelerate the adoption of RPA across an organization.
 
 
 
 19
-Security+
-
+Automation Hub
+The ROI calculator is meant to offer a consistent, controlled, and data-driven selection process for RPA candidates
 
 
 
 20
-Security+
-
+Automation Hub
+The reusable component repository ensures the quality of the code delivered in production
 
 
 
 21
-Security+
-
+Automation Hub
+The pipeline manager offers transparency to all users over the automation program
 
 
 
 22
-Security+
-
+Automation Hub
+The automation opportunity identifier ensures that everyone in the organization can contribute to the RPA program, thus ensuring its adoption;
 
 
 
 23
-Security+
-
+Automation Hub
+The Enterprise community offers many ways of contributing to the RPA program outside the automation idea submission
 
 
 
 24
-Security+
-
+Automation Hub
+The automation initiatives are at the core of any RPA program. In Automation Hub they are called automation ideas, because this is how they originate. And even as they advance through their lifecycle by being assessed, qualified and finally implemented, we continue calling them automation ideas.
 
 
 
 25
-Security+
+Automation Hub
+Reusable Components
+
+Simply put, these are reusable parts of the automations being developed, such as custom activities, templates or connectors. Having these available in a single place drives effectiveness, by avoiding duplication of efforts, as well as code quality. That's exactly what Automation Hub offers through the component gallery feature.
+
 
 
 
 
 26
-Security+
+Automation Hub
+People
+
+Automation Hub is the place for all the employees that want to contribute to and benefit from automation. They submit ideas and components, they collaborate in the lifecycle of an automation, or simply engage with the other users or ideas that they are interested in.
+
 
 
 
 
 27
-Security+
+Automation Hub
+Automations*
+
+These are attended automation projects developed by Citizen Developers, shared for consumption through Automation Hub. Users may explore and request them. Once provided, they can be used in the daily work.
+
+
+
+28
+Automation Hub
+Standard User role - They have access to explore the existing automations, to submit new ideas, manage their components, or download components available on the platform. All users have this permission assigned by default after their account is created. Other permissions can be added on top of it
+
+
+
+29
+Automation Hub
+Idea Approver role - Responsible for pushing forward ideas by identifying duplicates, approving and rejecting ideas submitted by the standard users.
+
+
+
+30
+Automation Hub
+	• Authorized User role - This user role offers access to the Submit an idea - CoE-driven functionality, which allows for an idea to be submitted with the detailed assessment filled in.
+
+
+
+
+
+1
+Automation Hub
+	• Program Manager role - This user role is usually assigned to the Center of Excellence leader and allows them to manage the pipeline and access the dashboards and reports to make decisions on the automation program
+
+
+
+
+2
+Automation Hub
+	• Component Curator role - This role has limited access to the Admin Console in order to manage reusable components queued for curation.
+
+
+
+
+3
+Automation Hub
+	• System Admin role - The System Admin has access to managing the tenant users and customizing the platform. They use the Admin Console to set up the platform tenant according to the organization's needs.
+
+
+
+
+4
+Automation Hub
+	• Account Owner role - The Account Owner role is assigned automatically to the first user of the tenant. This role allows, on top of those available for System Admins, additional configuration options. These include enabling features, such as file upload, but also date formatting and changing the logo.
+
+
+
+
+5
+Automation Hub
+	• RPA Sponsor - RPA Sponsors have read-only rights for viewing all the information around the automation ideas and the reusable components, as well as access to the built-in Dashboards and Reports.
+
+
+
+
+6
+Automation Hub
+	• About page  of an automation profile in automation hub
+This page offers an  overview of the automation idea, as well as the automation score. It also displays media files, similar automations, benefits, challenges, and lessons learned. Depending on the submission path and the phase and status, it may also contain the detailed assessment.
+
+
+
+7
+Automation Hub
+	• Cost Benefit Analysis page of the an automation profile in automation hub 
+The Cost-Benefit Analysis page shows the estimated benefits and costs with implementing and running the automation, projected on a 2-year period. The Cost-Benefit Analysis is performed in the later phases of the idea lifecycle, thus not all ideas will have this page.
+
+
+
+8
+Automation Hub
+	• Documentation page of  an automation profile in automation hub
+The documentation page contains the document templates, the documents related to the processes "as is", and the documents filled in throughout the automation idea lifecycle. These include, for example, the Process Definition Document, the Solution Design Document, and the Development Specification Document, as well as the Task Capture output files.
+
+
+
+9
+Automation Hub
+	• Components page of an automation profile in automation hub 
+The Components page of an automation idea contains the reusable components that were used in the implementation phases.
+
+
+
+10
+Automation Hub
+	• Collaborators page of an automation profile in automation hub
+The Collaborators page contains all the users that were added on the idea with different roles, together with the Submitter. When new users are added, collaborator roles are being assigned to them and tasks are automatically created.
+
+
+
+11
+Automation Hub
+Assign Process Owner
+
+In this last section of the form, type to search and select a Process Owner for the automation. This action sends an invite to the selected person to fill in a more detailed assessment for the automation idea.
+
+
+
+
+
+12
+Automation Hub
+
+
+
+
+13
+Automation Hub
+
+
+
+
+14
+Automation Hub
+
+
+
+
+15
+Automation Hub
+
+
+
+
+16
+Automation Hub
+
+
+
+
+17
+Automation Hub
+
+
+
+
+18
+Automation Hub
+
+
+
+
+19
+Automation Hub
+
+
+
+
+20
+Automation Hub
+
+
+
+
+21
+Automation Hub
+
+
+
+
+22
+Automation Hub
+
+
+
+
+23
+Automation Hub
+
+
+
+
+24
+Automation Hub
+
+
+
+
+25
+Automation Hub
+
+
+
+
+26
+Automation Hub
+
+
+
+
+27
+Automation Hub
 
 
 
 
 28
-Security+
+Automation Hub
 
 
 
 
 29
-Security+
+Automation Hub
 
 
 
 
 30
-Security+
+Automation Hub
 
 
 
-
-
-Process finished with exit code 0
