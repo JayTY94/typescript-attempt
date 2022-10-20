@@ -1,29 +1,6 @@
 
 
 
-16
-UiPath
-By default, the start of the Robot Service is triggered by user sign-in when  the service is set to run at login time. If it's not set to run at login time, opening the UiPath Assistant starts it automatically.
-
-
-
-17
-UiPath
-Installing the Robot from UiPathStudioSetup.exe deploys the User Mode Robot by default. It can also be installed from UiPathStudio.msi or the command prompt.
-
-
-
-
-18
-General
-ReadMe is an easy-to-use tool to help you build out documentation! Each documentation site that you publish on ReadMe is a project. Within a project there is space for documentation, interactive API reference guides, a changelog, and many more features. Each project within your account is published separately.
-
-UiPath uses ReadMe for their documentation
-
-
-
-
-
 19
 Security+
 Replay Attack
