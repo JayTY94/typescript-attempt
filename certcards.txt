@@ -1,28 +1,6 @@
 
 
 
-19
-Security+
-Replay Attack
-
-Useful information is transmitted over the network
-  A crafty hacker will take advantage of this
-Need access to raw network data
-  Network tap, ARP poisoning, Malware on the victim computer
-
-
-
-20
-Security+
-Replay Attack
-
-Information gathered from network can help attacker
-  Replay the data to appear as someone else
-This is not an on-path attack
-  The actual replay doesn't require the original workstation
-
-
-
 21
 Security+
 Header manipulation
