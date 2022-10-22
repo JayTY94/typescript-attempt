@@ -417,38 +417,70 @@ In this last section of the form, type to search and select a Process Owner for 
 
 12
 Security+
-
+On-Path browser attack
+What if the middleman was on the same computer as the victim?
+	Malware/Trojan does all of the proxy work
+	Formerly known as man-in-the-browser
+Huge advantages for the attackers
+	Relatively easy to proxy encrypted traffic
+	Everything looks normal to the victim
 
 
 
 13
 Security+
-
+Lan switching
+Forward or drop frames 
+	Based on the destination MAC address
+Switches gather a constantly updating list of MAC addresses
+	Builds the list based on teh source MAC address of incoming traffic
+	These age out periodically, often in 5 minutes 
+Maintain a loop-free environment
+	Using Spanning Tree Protocol (STP)
 
 
 
 14
 Security+
-
+MAC flooding
+The MAC table on a switch is only so big
+Attacker starts sending traffic with different MAC addressses
+	Forces out he legitimate MAC addresses
+The table fills up
+	Switch begins flooding server traffic to all interfaces
 
 
 
 15
 Security+
-
+Mac flooding
+Effectively turns a switch into a hub
+	All traffic is transmitted to all interfaces
+	No interruption in traffic flows
+Attacker can easily capture all network traffic
+Flooding can be restricted in the switch's port security setting
 
 
 
 16
 Security+
+MAC cloning/MAC spoofing
+An attacker changes their MAC address to match the MAC of an existing device
+This allows them to circumvent filters
+	Wireless or wired MAC filters
+	Identify a valid MAC address and copy it
 
 
 
 
 17
 Security+
-
-
+MAC cloning/MAC spoofing
+Create a Denial of Service (DoS)
+	Intercept and thus deny all communication the legitimate device receives
+Easily manipulated through software
+	Usually a device driver option
+[DNS Attacks - SY0-601 CompTIA Security+ : 1.4 next]
 
 
 18
