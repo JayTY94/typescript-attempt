@@ -2,51 +2,6 @@
 
 
 
-26
-Security+
-An SSL stripping or HTTP downgrade attack combines an on-path attack with a downgrade attack
-Attacker must sit in the middle of the conversation
-  Must modify data between the victim and web server
-  Proxy server, ARP spoofing, rogue WIfi hotspt, etc
-Victim does not see any significant problem
-  Except browser pages are not encrypted (http vs https)
-This is a client and server problem
-
-
-
-27
-Security+
-Raceconditions can cause big problems
-Jan 2004 Mars rover "Spirit"
-  Reboot when problem identified
-  Problem was with the file system, but fs corrupted in boot process
-  Reboot loop was result
-GE - Energy Management System
-  Three power lines failed at teh same time, race condition delayed alerts
-  Caused Northeast Blackout of 2003
-
-
-
-28
-General
-ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn
-
-
-
-29
-General
-Commercial off-the-shelf or commercially available off-the-shelf (COTS) products are packaged or canned (ready-made) hardware or software, which are adapted aftermarket to the needs of the purchasing organization, rather than the commissioning of custom-made, or bespoke, solutions. A related term, Mil-COTS, refers to COTS products for use by the U.S. military.
-
-
-
-
-30
-Tech terms
-The Software Engineering Body of Knowledge (SWEBOK (/ˈswiːˌbɒk/ SWEE-bok[1])) is an international standard ISO/IEC TR 19759:2005[2] specifying a guide to the generally accepted software engineering body of knowledge.
-
-
-
-
 1
 Tech Terms
 SDLC is a process followed for a software project, within a software organization. It consists of a detailed plan describing how to develop, maintain, replace and alter or enhance specific software. It includes the following stages
@@ -379,7 +334,7 @@ This page offers an  overview of the automation idea, as well as the automation 
 
 7
 Automation Hub
-	• Cost Benefit Analysis page of the an automation profile in automation hub 
+	• Cost Benefit Analysis page of the an automation profile in automation hub
 The Cost-Benefit Analysis page shows the estimated benefits and costs with implementing and running the automation, projected on a 2-year period. The Cost-Benefit Analysis is performed in the later phases of the idea lifecycle, thus not all ideas will have this page.
 
 
@@ -393,7 +348,7 @@ The documentation page contains the document templates, the documents related to
 
 9
 Automation Hub
-	• Components page of an automation profile in automation hub 
+	• Components page of an automation profile in automation hub
 The Components page of an automation idea contains the reusable components that were used in the implementation phases.
 
 
@@ -430,11 +385,11 @@ Huge advantages for the attackers
 13
 Security+
 Lan switching
-Forward or drop frames 
+Forward or drop frames
 	Based on the destination MAC address
 Switches gather a constantly updating list of MAC addresses
 	Builds the list based on teh source MAC address of incoming traffic
-	These age out periodically, often in 5 minutes 
+	These age out periodically, often in 5 minutes
 Maintain a loop-free environment
 	Using Spanning Tree Protocol (STP)
 
@@ -557,6 +512,3 @@ Security+
 
 30
 Security+
-
-
-
