@@ -1,27 +1,6 @@
 
 
 
-
-1
-Tech Terms
-SDLC is a process followed for a software project, within a software organization. It consists of a detailed plan describing how to develop, maintain, replace and alter or enhance specific software. It includes the following stages
-Planning, Analysis, Design, Implementation, Testing & Integration, Maintenance
-
-
-
-2
-Security+
-Memory vulnerabilities
-Manipulating memory can be advantageous
-	Relatively difficult to accomplish
-Memory leak
-	Unused memory is not properly released
-	Begins to slowly grow in size
-	Eventually uses all available memory
-	System crashes
-
-
-
 3
 Security+
 Directory traversal/path traversal
@@ -438,77 +417,83 @@ Easily manipulated through software
 [DNS Attacks - SY0-601 CompTIA Security+ : 1.4 next]
 
 
+
+
+
 18
-Security+
+UiPath
 
 
 
 
 19
-Security+
+UiPath
 
 
 
 
 20
-Security+
+UiPath
 
 
 
 
 21
-Security+
+UiPath
 
 
 
 
 22
-Security+
+UiPath
 
 
 
 
 23
-Security+
+UiPath
 
 
 
 
 24
-Security+
+UiPath
 
 
 
 
 25
-Security+
+UiPath
 
 
 
 
 26
-Security+
+UiPath
 
 
 
 
 27
-Security+
+UiPath
 
 
 
 
 28
-Security+
+UiPath
 
 
 
 
 29
-Security+
+UiPath
 
 
 
 
 30
-Security+
+UiPath
+
+
+
