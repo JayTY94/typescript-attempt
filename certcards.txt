@@ -432,25 +432,25 @@ UiPath Automation Hub
 
 19
 UiPath
-
+UiPath Process Mining analyzes data from your line of business applications to continuously understand and optimize end-to-end processes.
 
 
 
 20
 UiPath
-
+UiPath Task Mining analyzes the work people do to find everyday, repetitive tasks to automate.
 
 
 
 21
 UiPath
-
+UiPath Task Capture Automatically captures and documents processes as you work.
 
 
 
 22
 UiPath
-
+UiPath Automation Hub crowdsources ideas from your employees.
 
 
 
