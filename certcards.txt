@@ -422,7 +422,11 @@ Easily manipulated through software
 
 18
 UiPath
-
+UiPath's Discovery portfolio helps uncover improvement and automation opportunities that have the highest impact on Key Performance Indicators (KPIs). The UiPath Discovery portfolio is currently made of four products:
+	• UiPath Process Mining
+	• UiPath Task Mining
+	• UiPath Task Capture
+UiPath Automation Hub
 
 
 
