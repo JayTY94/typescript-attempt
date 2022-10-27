@@ -383,20 +383,20 @@ Eda the Owl Lady is played by Wendie Malick. She starred as Judith Tupper Stone 
 
 
 27
-UiPath
-
+Accuity
+A trial balance is a worksheet with two columns, one for debits and one for credits, that ensures a company’s bookkeeping is mathematically correct. The debits and credits include all business transactions for a company over a certain period, including the sum of such accounts as assets, expenses, liabilities, and revenues. 
 
 
 
 28
-UiPath
-
+Accuity
+In computing, Open Database Connectivity (ODBC) is a standard application programming interface (API) for accessing database management systems (DBMS). The designers of ODBC aimed to make it independent of database systems and operating systems.
 
 
 
 29
 UiPath
-
+At the start of each Process Mining implementation, we need to load the data. UiPath Process Mining supports different methods to load the data. The most common ones are establishing an ODBC connection, reading from a flat file (csv, xlsx), or making a direct connection with SAP.
 
 
 
