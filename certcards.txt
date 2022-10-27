@@ -218,7 +218,7 @@ Create a Denial of Service (DoS)
 	Intercept and thus deny all communication the legitimate device receives
 Easily manipulated through software
 	Usually a device driver option
-[DNS Attacks - SY0-601 CompTIA Security+ : 1.4 next]
+
 
 
 
@@ -299,6 +299,219 @@ In computing, Open Database Connectivity (ODBC) is a standard application progra
 29
 UiPath
 At the start of each Process Mining implementation, we need to load the data. UiPath Process Mining supports different methods to load the data. The most common ones are establishing an ODBC connection, reading from a flat file (csv, xlsx), or making a direct connection with SAP.
+
+
+
+30
+Security +
+DNS Poisoning
+Modify the DNS server
+	Requires some crafty hacking
+Can instead modify the client's host file
+	Host file takes precedent over DNS queries 
+
+
+
+
+1
+Security +
+DNS Poisoning
+Could a fake response to a valid DNS request 
+	Requires a redirection of the original request or the resulting response (on-path attack)
+
+
+2
+Security +
+Domain hijacking
+Get access to the domain registration and you have control over where the traffic flows
+	You don't need to touch the actual servers
+	Determines the DNS names and DNS IP addresses.
+
+
+
+3
+Security +
+Domain hijacking
+There are many ways to get into the account that controls a domain
+	Brute force the password
+	Social engineer the password
+	Gain access to the email address that manages the account with the registrar
+	The usual things
+
+
+
+4
+UiPath
+Domain Hijacking example
+Saturday, Oct 22, 2016
+Domain name registrations of 36 domains were changed
+	Owned by a Brazillian bank
+Under hacker control for 6 hours
+5 million customers, $27 billion in assets
+	Results of the hack have not been publicly released
+
+
+
+5
+Security +
+URL Hijacking
+Making money from your mistakes (typos)
+	Just directing you to a page that has adds
+Might to go to a phishing site
+	Looks like the real site; please login
+Might also infect with a drive-by download
+
+
+
+6
+Security +
+URL Hijacking
+Might sell the badly spelled domain to the owner of the site they're attacking
+Might also redirect to a compnetitor
+	Not as common and has legal issues
+
+
+
+
+7
+Security +
+Domain repulation
+Infected web servers are noticed by search engines
+	Your domain can be flagged or removed
+Will put a big "This site contains malware" page up before directing people to your site
+Malware might be removed quickly, but recovery of reputation takes much longer.
+[Denial of Service - SY0-601 CompTIA Security+ : 1.4]
+
+
+8
+UiPath
+
+
+
+
+9
+UiPath
+
+
+
+
+10
+UiPath
+
+
+
+
+11
+UiPath
+
+
+
+
+12
+UiPath
+
+
+
+
+13
+UiPath
+
+
+
+
+14
+UiPath
+
+
+
+
+15
+UiPath
+
+
+
+
+16
+UiPath
+
+
+
+
+17
+UiPath
+
+
+
+
+18
+UiPath
+
+
+
+
+19
+UiPath
+
+
+
+
+20
+UiPath
+
+
+
+
+21
+UiPath
+
+
+
+
+22
+UiPath
+
+
+
+
+23
+UiPath
+
+
+
+
+24
+UiPath
+
+
+
+
+25
+UiPath
+
+
+
+
+26
+UiPath
+
+
+
+
+27
+UiPath
+
+
+
+
+28
+UiPath
+
+
+
+
+29
+UiPath
+
 
 
 
