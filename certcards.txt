@@ -397,133 +397,167 @@ works like a charm for me.
 
 
 9
-UiPath
-
+UiPath Process Mining
+Case
+–
+A case can be described as the tracked lifecycle of a process transaction. Cases are referenced by a unique case ID and contain all the steps and events that occur for the transaction from start to end. For eg: in the Invoicing process, the case is an invoice.
 
 
 
 10
-UiPath
-
+UiPath Process Mining
+Activity
+–
+An activity is a step or task performed in a process.
 
 
 
 11
-UiPath
-
+UiPath Process Mining
+Event
+–
+Activities performed on each case at a given time.
 
 
 
 12
-UiPath
-
+UiPath Process Mining
+Variant
+–
+A unique combination of ways/sequences in which the activities are performed.
 
 
 
 13
-UiPath
-
+UiPath Process Mining
+Attribute
+–
+Attributes are additional details about cases. They usually are extracted from the raw system data. Examples of attributes are caseID, case owner, supplier name, customer name, etc.
 
 
 
 14
-UiPath
-
+UiPath Process Mining
+Throughput time
+–
+Average time spent by a case in the system.
 
 
 
 15
-UiPath
-
+UiPath Process Mining
+KPIs
+–
+KPIs (Key Performance Indicators) are measurable values used to gauge performance of specific properties over time.
 
 
 
 16
-UiPath
-
+UiPath Process Mining
+Tags
+–
+Tags are additional business rules or KPIs (Key Performance Indicators) specific to a process. Adding tags helps us visualize how much the process complies with rules or standards set by the business.
 
 
 
 17
-UiPath
-
+UiPath Process Mining
+Purchase-to-Pay (P2P)
+–
+Purchase-to-Pay (P2P) is an aggregate Finance process, the end-to-end purchasing process, from acquiring goods to paying for them.
 
 
 
 18
-UiPath
-
+UiPath Process Mining
+Order-to-Cash (O2C)
+–
+Order-to-Cash involves the set of business processes from receiving and processing sales orders for goods and services to payment.
 
 
 
 19
-UiPath
-
+UiPath Process Mining
+Maverick buying
+–
+Maverick buying is defined as the number of purchase order items that were processed outside the regular Purchase-to-Pay process without the involvement of the Procurement department.
 
 
 
 20
-UiPath
-
-
+Security +
+DDos amplification
+Turns your small attack into a big attack
+	Often reflected off another device or service
+An increasingly common network DDOS technique
+	Turns internet services against victim
 
 
 21
-UiPath
-
+Security +
+DDos amplification 
+Uses protocols with little (if any) authentication or checks
+	NTP, DNS, ICMP
+	A common example of protocol abuse
 
 
 
 22
-UiPath
+Security +
+Operational Technology (OT) DoS
+The hardware and software for infrastructure or industrial equipment
+	Electric grids, traffic control, manufacturing plants, etc
+This is more dire than a web server failing
+Requires a different approach; a much more critical security posture
+[Malicious Scripts - SY0-601 CompTIA Security+ : 1.4]
 
 
 
 
 23
-UiPath
+UiPath Process Mining
 
 
 
 
 24
-UiPath
+UiPath Process Mining
 
 
 
 
 25
-UiPath
+UiPath Process Mining
 
 
 
 
 26
-UiPath
+UiPath Process Mining
 
 
 
 
 27
-UiPath
+UiPath Process Mining
 
 
 
 
 28
-UiPath
+UiPath Process Mining
 
 
 
 
 29
-UiPath
+UiPath Process Mining
 
 
 
 
 30
-UiPath
+UiPath Process Mining
 
 
 
