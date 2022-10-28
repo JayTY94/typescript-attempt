@@ -384,7 +384,14 @@ Malware might be removed quickly, but recovery of reputation takes much longer.
 
 
 8
-UiPath
+General
+JS to speed up video playback if the player does not have a control for it
+you could open the browser console (ctrl+shift+i), click on console. Then execute following 
+
+	document.querySelector('video').playbackRate = 1.5
+
+works like a charm for me.
+-SignificancePure1228
 
 
 
