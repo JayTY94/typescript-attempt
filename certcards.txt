@@ -2,41 +2,6 @@
 
 
 
-1
-Automation Hub
-	• Program Manager role - This user role is usually assigned to the Center of Excellence leader and allows them to manage the pipeline and access the dashboards and reports to make decisions on the automation program
-
-
-
-
-2
-Automation Hub
-	• Component Curator role - This role has limited access to the Admin Console in order to manage reusable components queued for curation.
-
-
-
-
-3
-Automation Hub
-	• System Admin role - The System Admin has access to managing the tenant users and customizing the platform. They use the Admin Console to set up the platform tenant according to the organization's needs.
-
-
-
-
-4
-Automation Hub
-	• Account Owner role - The Account Owner role is assigned automatically to the first user of the tenant. This role allows, on top of those available for System Admins, additional configuration options. These include enabling features, such as file upload, but also date formatting and changing the logo.
-
-
-
-
-5
-Automation Hub
-	• RPA Sponsor - RPA Sponsors have read-only rights for viewing all the information around the automation ideas and the reusable components, as well as access to the built-in Dashboards and Reports.
-
-
-
-
 6
 Automation Hub
 	• About page  of an automation profile in automation hub
@@ -215,7 +180,7 @@ Eda the Owl Lady is played by Wendie Malick. She starred as Judith Tupper Stone 
 
 27
 Accuity
-A trial balance is a worksheet with two columns, one for debits and one for credits, that ensures a company’s bookkeeping is mathematically correct. The debits and credits include all business transactions for a company over a certain period, including the sum of such accounts as assets, expenses, liabilities, and revenues. 
+A trial balance is a worksheet with two columns, one for debits and one for credits, that ensures a company’s bookkeeping is mathematically correct. The debits and credits include all business transactions for a company over a certain period, including the sum of such accounts as assets, expenses, liabilities, and revenues.
 
 
 
@@ -237,7 +202,7 @@ DNS Poisoning
 Modify the DNS server
 	Requires some crafty hacking
 Can instead modify the client's host file
-	Host file takes precedent over DNS queries 
+	Host file takes precedent over DNS queries
 
 
 
@@ -245,7 +210,7 @@ Can instead modify the client's host file
 1
 Security +
 DNS Poisoning
-Could a fake response to a valid DNS request 
+Could a fake response to a valid DNS request
 	Requires a redirection of the original request or the resulting response (on-path attack)
 
 
@@ -315,7 +280,7 @@ Malware might be removed quickly, but recovery of reputation takes much longer.
 8
 General
 JS to speed up video playback if the player does not have a control for it
-you could open the browser console (ctrl+shift+i), click on console. Then execute following 
+you could open the browser console (ctrl+shift+i), click on console. Then execute following
 
 	document.querySelector('video').playbackRate = 1.5
 
@@ -424,7 +389,7 @@ An increasingly common network DDOS technique
 
 21
 Security +
-DDos amplification 
+DDos amplification
 Uses protocols with little (if any) authentication or checks
 	NTP, DNS, ICMP
 	A common example of protocol abuse
@@ -487,6 +452,3 @@ UiPath Process Mining
 
 30
 UiPath Process Mining
-
-
-
