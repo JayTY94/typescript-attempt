@@ -408,47 +408,64 @@ Requires a different approach; a much more critical security posture
 
 
 
-23
-UiPath Process Mining
 
+23
+UiPath Task Mining
+In Task Mining, there are two main personas using the product:
+
+	• Task Mining Admin: responsible for the set-up of Task Mining projects and configuring them in the UiPath Automation Cloud
 
 
 
 24
-UiPath Process Mining
+UiPath Task Mining
+In Task Mining, there are two main personas using the product:
 
+	User: The employee who performs the task that will be analyzed with the help of Task Mining
 
 
 
 25
-UiPath Process Mining
+UiPath Task Mining
+Throughout a Task Mining project, some other roles might get involved to support during some stages of the process.
+	• The automation Center of Excellence Lead: They can be involved in the initial phase of a project when we need to identify the business lines, processes, and users that are going to be part of the Task Mining project.
+		○ The Automation COE leads can also sometimes coincide with the Task Mining Admin
 
 
 
 
 26
-UiPath Process Mining
+UiPath Task Mining
+Throughout a Task Mining project, some other roles might get involved to support during some stages of the process.
+	• The Subject Matter Expert: users with lots of expertise in performing the task. After the data has been recorded and analyzed  using an ML package, the SME, the Admin, and the Business Analyst can work together to understand which task variation is the desired one and where is the biggest potential for automation.
 
 
 
 
 27
-UiPath Process Mining
+UiPath Task Mining
+Throughout a Task Mining project, some other roles might get involved to support during some stages of the process.
+	• The Business Analyst: they can join the SMEs and Admins in understanding how a task was performed, identifying opportunities for process improvement, and choosing the tasks with the highest automation potential.
 
 
 
 
 28
-UiPath Process Mining
+UiPath Task Mining
+Throughout a Task Mining project, some other roles might get involved to support during some stages of the process.
+	• The Automation Developer: they usually come at the end of the analysis. Starting from process design documents and .xaml file exports, they build the automation project for the selected tasks.
 
 
 
 
 29
-UiPath Process Mining
+UiPath Task Mining
 
 
 
 
 30
-UiPath Process Mining
+UiPath Task Mining
+
+
+
