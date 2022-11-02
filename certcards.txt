@@ -2,41 +2,6 @@
 
 
 
-6
-Automation Hub
-	• About page  of an automation profile in automation hub
-This page offers an  overview of the automation idea, as well as the automation score. It also displays media files, similar automations, benefits, challenges, and lessons learned. Depending on the submission path and the phase and status, it may also contain the detailed assessment.
-
-
-
-7
-Automation Hub
-	• Cost Benefit Analysis page of the an automation profile in automation hub
-The Cost-Benefit Analysis page shows the estimated benefits and costs with implementing and running the automation, projected on a 2-year period. The Cost-Benefit Analysis is performed in the later phases of the idea lifecycle, thus not all ideas will have this page.
-
-
-
-8
-Automation Hub
-	• Documentation page of  an automation profile in automation hub
-The documentation page contains the document templates, the documents related to the processes "as is", and the documents filled in throughout the automation idea lifecycle. These include, for example, the Process Definition Document, the Solution Design Document, and the Development Specification Document, as well as the Task Capture output files.
-
-
-
-9
-Automation Hub
-	• Components page of an automation profile in automation hub
-The Components page of an automation idea contains the reusable components that were used in the implementation phases.
-
-
-
-10
-Automation Hub
-	• Collaborators page of an automation profile in automation hub
-The Collaborators page contains all the users that were added on the idea with different roles, together with the Submitter. When new users are added, collaborator roles are being assigned to them and tasks are automatically created.
-
-
-
 11
 Automation Hub
 Assign Process Owner
