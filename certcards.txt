@@ -674,44 +674,55 @@ Indicators of compromise (IOC)
 [Threat Research - SY0-601 CompTIA Security+ : 1.5]
 
 
-24
-Security+
 
+
+24
+UiPath Task Mining
+Export option: Process Definition Document (PDD)
+
+This will provide detailed steps, along with a screenshot of each action performed by the business user
 
 
 
 25
-Security+
+UiPath Task Mining
+Export option: .XAML 
 
+This is a workflow skeleton file that can be used as a start point for developer. This file can be opened in Uipath Studio and modified/updated to continue the development
 
 
 
 26
-Security+
+UiPath Task Mining
+What are the recommended number of users and duration for the Collect Data stage of a Task Mining project?
 
-
+2-3 users for 2 weeks or 3-5 users for 1 week for each project 
 
 
 27
-Security+
+UiPath Task Mining
+What are the options available to the user role in Task Mining?
 
+	Pause recording
+	See applications recorded
+	Propose new applications to be recorded
 
 
 
 28
-Security+
+UiPath Task Mining
 
 
 
 
 29
-Security+
+UiPath Task Mining
 
 
 
 
 30
-Security+
+UiPath Task Mining
 
 
 
